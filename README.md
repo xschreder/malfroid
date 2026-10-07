@@ -32,7 +32,14 @@ textes par défaut diffèrent. Elles reprennent le rendu de la section « Produc
 - **Typographie du texte** : police, taille, graisse, interligne, couleur.
 - **Section** : jeu de couleurs, marges haut / bas.
 
-### Installation (2 minutes)
+### État de l'installation
+
+Les 3 sections sont installées sur le thème **« Malfroid x NFBS - 1.0 + sections description »**
+(copie du thème publié « Malfroid x NFBS - 1.0 (fix pointure 4,5) », créée le 7 octobre 2026).
+L'API Shopify interdit l'écriture directe sur le thème publié : pour mettre en ligne, soit publier
+cette copie, soit recopier les 3 fichiers dans le thème publié (voir ci-dessous).
+
+### Installation manuelle (2 minutes)
 
 1. Shopify admin → **Boutique en ligne → Thèmes** → sur le thème voulu, **… → Modifier le code**.
 2. Dans le dossier **sections**, cliquer **Ajouter une nouvelle section**, choisir le type
