@@ -54,15 +54,25 @@ cette copie, soit recopier les 3 fichiers dans le thème publié (voir ci-dessou
 > Le snippet `snippets/spacing-style.liquid` est déjà présent dans le thème ; aucun autre fichier
 > n'est nécessaire.
 
-### Contenu différent par produit
+### Contenu différent par produit (métachamps)
 
 Par défaut, le contenu saisi dans l'éditeur est le même pour tous les produits du template.
-Pour un texte / une image propre à chaque produit :
+Neuf définitions de métachamps produit ont été créées (espace de noms `content`, épinglées sur
+la fiche produit dans l'admin) :
 
-1. Créer des métachamps produit (Paramètres → Données personnalisées → Produits), par exemple
-   `custom.modele_image` (fichier), `custom.modele_titre` (texte) et `custom.modele_texte`
-   (texte enrichi) — et de même pour le cuir et la semelle.
-2. Dans l'éditeur de thème, sur chaque réglage Image / Titre / Texte, cliquer l'icône
-   **Connecter une source dynamique** et choisir le métachamp correspondant.
+| Section | Image (fichier image) | Titre (texte) | Texte (texte enrichi) |
+| --- | --- | --- | --- |
+| Description — Modèle | `content.modele_image` | `content.modele_titre` | `content.modele_texte` |
+| Description — Cuir | `content.cuir_image` | `content.cuir_titre` | `content.cuir_texte` |
+| Description — Semelle | `content.semelle_image` | `content.semelle_titre` | `content.semelle_texte` |
 
-La section est masquée automatiquement sur la boutique si l'image, le titre et le texte sont vides.
+Pour les brancher :
+
+1. Dans l'admin, sur chaque produit, remplir les champs « Modèle — Image », « Modèle — Titre »,
+   « Modèle — Texte », etc. (section Métachamps en bas de la fiche produit).
+2. Dans l'éditeur de thème, sur chaque section, cliquer l'icône **Connecter une source dynamique**
+   (petit cylindre) à côté de Image, Titre et Texte, puis choisir le métachamp correspondant.
+   À faire une seule fois : le branchement est enregistré dans le template et vaut pour tous les produits.
+
+La section est masquée automatiquement sur la boutique si l'image, le titre et le texte sont vides,
+donc un produit sans métachamps renseignés n'affiche pas de bloc vide.
