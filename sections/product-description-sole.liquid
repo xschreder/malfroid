@@ -1,0 +1,771 @@
+{%- comment -%}
+  Section « Description — Semelle » — Malfroid x NFBS
+  Image + encart texte en superposition, entièrement éditable depuis l'éditeur de thème.
+  Image, titre et texte acceptent une source dynamique (métachamp produit) via l'icône
+  « Connecter une source dynamique » pour un contenu différent par produit.
+{%- endcomment -%}
+
+{%- liquid
+  assign s = section.settings
+
+  assign fs_image   = s.image
+  assign fs_heading = s.heading
+  assign fs_body    = s.body
+
+  assign has_content = false
+  if fs_image != blank or fs_heading != blank or fs_body != blank
+    assign has_content = true
+  endif
+
+  assign ov_opacity = s.overlay_opacity | divided_by: 100.0
+  assign ov_bg      = s.overlay_color | color_modify: 'alpha', ov_opacity
+
+  assign ov_mob_opacity = s.overlay_opacity_mobile | divided_by: 100.0
+  assign ov_mob_bg      = s.overlay_color | color_modify: 'alpha', ov_mob_opacity
+
+  case s.overlay_horizontal
+    when 'left'
+      assign ov_left  = s.overlay_offset_x | append: '%'
+      assign ov_right = 'auto'
+      assign ov_h_t   = ''
+    when 'right'
+      assign ov_left  = 'auto'
+      assign ov_right = s.overlay_offset_x | append: '%'
+      assign ov_h_t   = ''
+    else
+      assign ov_left  = '50%'
+      assign ov_right = 'auto'
+      assign ov_h_t   = 'translateX(-50%)'
+  endcase
+
+  case s.overlay_vertical
+    when 'top'
+      assign ov_top    = s.overlay_offset_y | append: '%'
+      assign ov_bottom = 'auto'
+      assign ov_v_t    = ''
+    when 'center'
+      assign ov_top    = '50%'
+      assign ov_bottom = 'auto'
+      assign ov_v_t    = 'translateY(-50%)'
+    else
+      assign ov_top    = 'auto'
+      assign ov_bottom = s.overlay_offset_y | append: '%'
+      assign ov_v_t    = ''
+  endcase
+
+  if ov_h_t != blank and ov_v_t != blank
+    assign ov_transform = 'translate(-50%, -50%)'
+  elsif ov_h_t != blank
+    assign ov_transform = ov_h_t
+  elsif ov_v_t != blank
+    assign ov_transform = ov_v_t
+  else
+    assign ov_transform = 'none'
+  endif
+
+  if s.layout_mode == 'cover'
+    assign img_sizes = '100vw'
+  else
+    assign img_sizes = '(min-width: 750px) ' | append: s.image_width | append: ', 100vw'
+  endif
+-%}
+
+{%- if has_content or request.design_mode -%}
+  <div
+    class="feature-story color-{{ s.color_scheme }} spacing-style{% if s.layout_mode == 'cover' %} feature-story--cover{% endif %}{% if s.image_position == 'right' %} feature-story--image-right{% endif %}"
+    style="
+      {%- render 'spacing-style', settings: s -%}
+      --fs-row-height: {{ s.row_height }};
+      --fs-img-col: {{ s.image_width }};
+      --fs-img-fit: {{ s.image_fit }};
+      --fs-img-pos: {{ s.image_object_position }};
+      --fs-mob-ratio: {{ s.mobile_image_ratio }};
+      --fs-ov-bg: {{ ov_bg }};
+      --fs-ov-bg-mobile: {{ ov_mob_bg }};
+      --fs-ov-width: {{ s.overlay_width }}%;
+      --fs-ov-left: {{ ov_left }};
+      --fs-ov-right: {{ ov_right }};
+      --fs-ov-top: {{ ov_top }};
+      --fs-ov-bottom: {{ ov_bottom }};
+      --fs-ov-transform: {{ ov_transform }};
+      --fs-ov-pad-x: {{ s.overlay_padding_x }}px;
+      --fs-ov-pad-y: {{ s.overlay_padding_y }}px;
+      --fs-ov-radius: {{ s.overlay_radius }}px;
+      --fs-ov-blur: {{ s.overlay_blur }}px;
+      --fs-text-align: {{ s.text_align }};
+      --fs-h-font: {{ s.heading_font }};
+      --fs-h-size: {{ s.heading_size }};
+      --fs-h-weight: {{ s.heading_weight }};
+      --fs-h-style: {{ s.heading_style }};
+      --fs-h-transform: {{ s.heading_transform }};
+      --fs-h-spacing: {{ s.heading_letter_spacing }};
+      --fs-h-color: {{ s.heading_color }};
+      --fs-h-mb: {{ s.heading_margin_bottom }}px;
+      --fs-b-font: {{ s.body_font }};
+      --fs-b-size: {{ s.body_size }};
+      --fs-b-weight: {{ s.body_weight }};
+      --fs-b-lh: {{ s.body_line_height }};
+      --fs-b-color: {{ s.body_color }};
+    "
+  >
+    <div class="feature-story__row">
+
+      <div class="feature-story__media">
+        {%- if fs_image != blank -%}
+          {{- fs_image | image_url: width: 1800 | image_tag:
+            loading: 'lazy',
+            class: 'feature-story__img',
+            widths: '600, 900, 1200, 1600, 1800',
+            sizes: img_sizes
+          -}}
+        {%- else -%}
+          {{ 'image' | placeholder_svg_tag: 'feature-story__img feature-story__img--placeholder' }}
+        {%- endif -%}
+      </div>
+
+      {%- if fs_heading != blank or fs_body != blank -%}
+        <div class="feature-story__text">
+          {%- if fs_heading != blank -%}
+            <{{ s.heading_tag }} class="feature-story__heading">{{ section.settings.heading | escape }}</{{ s.heading_tag }}>
+          {%- endif -%}
+          {%- if fs_body != blank -%}
+            <div class="feature-story__body">{{ section.settings.body }}</div>
+          {%- endif -%}
+        </div>
+      {%- endif -%}
+
+    </div>
+  </div>
+{%- endif -%}
+
+{% stylesheet %}
+  /* ── Mobile : empilé (image puis texte) ── */
+  .feature-story__row {
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+  }
+
+  .feature-story__media {
+    width: 100%;
+    overflow: hidden;
+    flex-shrink: 0;
+  }
+
+  .feature-story__img {
+    width: 100%;
+    aspect-ratio: var(--fs-mob-ratio, 4/3);
+    object-fit: var(--fs-img-fit, cover);
+    object-position: var(--fs-img-pos, center);
+    display: block;
+  }
+
+  .feature-story__img--placeholder {
+    background: rgba(128, 128, 128, 0.15);
+  }
+
+  .feature-story__text {
+    background-color: var(--fs-ov-bg-mobile, rgba(0, 0, 0, 0.55));
+    padding: var(--fs-ov-pad-y, 28px) var(--fs-ov-pad-x, 20px);
+    text-align: var(--fs-text-align, center);
+    border-radius: var(--fs-ov-radius, 0);
+  }
+
+  /* ── Desktop : rangée à hauteur fixe avec encart en superposition ── */
+  @media screen and (min-width: 750px) {
+    .feature-story__row {
+      position: relative;
+      display: grid;
+      grid-template-columns: var(--fs-img-col, 55%) 1fr;
+      height: var(--fs-row-height, 70svh);
+      min-height: 400px;
+      overflow: hidden;
+    }
+
+    .feature-story--image-right .feature-story__row {
+      grid-template-columns: 1fr var(--fs-img-col, 55%);
+    }
+
+    .feature-story__media {
+      grid-column: 1;
+      grid-row: 1;
+      height: 100%;
+    }
+
+    .feature-story--image-right .feature-story__media {
+      grid-column: 2;
+    }
+
+    /* Mode « pleine largeur » : l'image occupe toute la rangée */
+    .feature-story--cover .feature-story__row,
+    .feature-story--cover.feature-story--image-right .feature-story__row {
+      grid-template-columns: 1fr;
+    }
+    .feature-story--cover .feature-story__media,
+    .feature-story--cover.feature-story--image-right .feature-story__media {
+      grid-column: 1;
+    }
+
+    .feature-story__img {
+      aspect-ratio: unset;
+      width: 100%;
+      height: 100%;
+      object-fit: var(--fs-img-fit, cover);
+    }
+
+    /* Encart texte */
+    .feature-story__text {
+      position: absolute;
+      top: var(--fs-ov-top, auto);
+      bottom: var(--fs-ov-bottom, 10%);
+      left: var(--fs-ov-left, 50%);
+      right: var(--fs-ov-right, auto);
+      transform: var(--fs-ov-transform, translateX(-50%));
+      width: var(--fs-ov-width, 44%);
+      min-width: 240px;
+      max-width: 96%;
+      padding: var(--fs-ov-pad-y, 36px) var(--fs-ov-pad-x, 44px);
+      background-color: var(--fs-ov-bg, rgba(0, 0, 0, 0.55));
+      -webkit-backdrop-filter: blur(var(--fs-ov-blur, 0px));
+      backdrop-filter: blur(var(--fs-ov-blur, 0px));
+      z-index: 1;
+    }
+  }
+
+  /* ── Titre ── */
+  .feature-story__heading {
+    font-family: var(--fs-h-font, var(--font-primary--family));
+    font-size: var(--fs-h-size, 1.3rem);
+    font-weight: var(--fs-h-weight, 700);
+    font-style: var(--fs-h-style, normal);
+    text-transform: var(--fs-h-transform, none);
+    letter-spacing: var(--fs-h-spacing, 0em);
+    color: var(--fs-h-color, #fff);
+    margin: 0 0 var(--fs-h-mb, 12px);
+    line-height: 1.25;
+  }
+
+  /* ── Texte ── */
+  .feature-story__body,
+  .feature-story__body > * {
+    font-family: var(--fs-b-font, var(--font-body--family));
+    font-size: var(--fs-b-size, 0.9rem);
+    font-weight: var(--fs-b-weight, 400);
+    line-height: var(--fs-b-lh, 1.65);
+    color: var(--fs-b-color, #fff);
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+
+  .feature-story__body > * + * {
+    margin-top: 8px;
+  }
+
+  .feature-story__body h1,
+  .feature-story__body h2,
+  .feature-story__body h3,
+  .feature-story__body h4,
+  .feature-story__body h5,
+  .feature-story__body h6 {
+    font-family: var(--fs-h-font, var(--font-primary--family));
+    color: var(--fs-h-color, #fff);
+    font-weight: var(--fs-h-weight, 700);
+    line-height: 1.25;
+  }
+
+  .feature-story__body ul,
+  .feature-story__body ol {
+    padding-inline-start: 1.25em;
+    text-align: left;
+  }
+
+  .feature-story__body li + li {
+    margin-top: 4px;
+  }
+
+  .feature-story__body a      { color: var(--fs-b-color, #fff); text-decoration: underline; text-underline-offset: 0.15em; }
+  .feature-story__body em     { font-style: italic; }
+  .feature-story__body strong { font-weight: 600; }
+{% endstylesheet %}
+
+{% schema %}
+{
+  "name": "Description — Semelle",
+  "tag": "section",
+  "class": "section-feature-story",
+  "settings": [
+    {
+      "type": "paragraph",
+      "content": "Image, titre et texte peuvent être connectés à un métachamp produit (icône « source dynamique ») pour varier le contenu selon le produit."
+    },
+    {
+      "type": "header",
+      "content": "Contenu"
+    },
+    {
+      "type": "image_picker",
+      "id": "image",
+      "label": "Image"
+    },
+    {
+      "type": "text",
+      "id": "heading",
+      "label": "Titre",
+      "default": "Semelle cuir, pour les puristes"
+    },
+    {
+      "type": "select",
+      "id": "heading_tag",
+      "label": "Balise du titre (SEO)",
+      "options": [
+        { "value": "h2", "label": "H2" },
+        { "value": "h3", "label": "H3" },
+        { "value": "h4", "label": "H4" },
+        { "value": "p",  "label": "Paragraphe (sans impact SEO)" }
+      ],
+      "default": "h2"
+    },
+    {
+      "type": "richtext",
+      "id": "body",
+      "label": "Texte",
+      "info": "Gras, italique, liens, listes et paragraphes sont pris en charge.",
+      "default": "<p>Oui les semelles gommes ont le vent en poupe. Mais un aussi beau modèle se doit d'être monté sur une semelle cuir fine et élégante. Le cousu Goodyear garantira une résistance à toute épreuve.</p><p>Les + :</p><ul><li>Solidité</li><li>Stabilité dans le temps</li><li>Possibilité de ressemeler</li></ul>"
+    },
+    {
+      "type": "header",
+      "content": "Mise en page"
+    },
+    {
+      "type": "select",
+      "id": "image_position",
+      "label": "Position de l'image",
+      "options": [
+        { "value": "left",  "label": "Image à gauche" },
+        { "value": "right", "label": "Image à droite" }
+      ],
+      "default": "left"
+    },
+    {
+      "type": "select",
+      "id": "layout_mode",
+      "label": "Largeur de l'image",
+      "options": [
+        { "value": "split", "label": "Colonne — image d'un côté" },
+        { "value": "cover", "label": "Pleine largeur — image sur toute la rangée" }
+      ],
+      "default": "split"
+    },
+    {
+      "type": "select",
+      "id": "image_width",
+      "label": "Largeur de la colonne image",
+      "info": "S'applique uniquement au mode Colonne",
+      "options": [
+        { "value": "35%", "label": "35 % — portrait étroit" },
+        { "value": "40%", "label": "40 %" },
+        { "value": "45%", "label": "45 %" },
+        { "value": "50%", "label": "50 % — moitié" },
+        { "value": "55%", "label": "55 %" },
+        { "value": "60%", "label": "60 %" },
+        { "value": "65%", "label": "65 %" },
+        { "value": "70%", "label": "70 % — large" },
+        { "value": "75%", "label": "75 %" },
+        { "value": "80%", "label": "80 %" }
+      ],
+      "default": "55%"
+    },
+    {
+      "type": "select",
+      "id": "row_height",
+      "label": "Hauteur de la rangée",
+      "options": [
+        { "value": "40svh",  "label": "40 % de l'écran" },
+        { "value": "50svh",  "label": "50 % de l'écran" },
+        { "value": "60svh",  "label": "60 % de l'écran" },
+        { "value": "70svh",  "label": "70 % de l'écran" },
+        { "value": "80svh",  "label": "80 % de l'écran" },
+        { "value": "90svh",  "label": "90 % de l'écran" },
+        { "value": "100svh", "label": "Plein écran" }
+      ],
+      "default": "70svh"
+    },
+    {
+      "type": "header",
+      "content": "Image"
+    },
+    {
+      "type": "select",
+      "id": "image_fit",
+      "label": "Ajustement de l'image",
+      "options": [
+        { "value": "cover",   "label": "Couvrir — remplit la zone, peut rogner" },
+        { "value": "contain", "label": "Contenir — image entière visible" }
+      ],
+      "default": "cover"
+    },
+    {
+      "type": "select",
+      "id": "image_object_position",
+      "label": "Point de focus de l'image",
+      "info": "Zone conservée lors du rognage en mode Couvrir",
+      "options": [
+        { "value": "center",        "label": "Centre" },
+        { "value": "top",           "label": "Haut" },
+        { "value": "bottom",        "label": "Bas" },
+        { "value": "left center",   "label": "Gauche" },
+        { "value": "right center",  "label": "Droite" },
+        { "value": "left top",      "label": "Haut gauche" },
+        { "value": "right top",     "label": "Haut droite" },
+        { "value": "left bottom",   "label": "Bas gauche" },
+        { "value": "right bottom",  "label": "Bas droite" }
+      ],
+      "default": "center"
+    },
+    {
+      "type": "select",
+      "id": "mobile_image_ratio",
+      "label": "Ratio de l'image sur mobile",
+      "options": [
+        { "value": "16/9", "label": "Paysage (16:9)" },
+        { "value": "4/3",  "label": "Paysage (4:3)" },
+        { "value": "1/1",  "label": "Carré (1:1)" },
+        { "value": "3/4",  "label": "Portrait (3:4)" },
+        { "value": "2/3",  "label": "Portrait haut (2:3)" }
+      ],
+      "default": "4/3"
+    },
+    {
+      "type": "header",
+      "content": "Encart texte — position"
+    },
+    {
+      "type": "text_alignment",
+      "id": "overlay_horizontal",
+      "label": "Position horizontale",
+      "default": "center"
+    },
+    {
+      "type": "select",
+      "id": "overlay_vertical",
+      "label": "Position verticale",
+      "options": [
+        { "value": "top",    "label": "Haut" },
+        { "value": "center", "label": "Centre" },
+        { "value": "bottom", "label": "Bas" }
+      ],
+      "default": "bottom"
+    },
+    {
+      "type": "range",
+      "id": "overlay_offset_x",
+      "label": "Décalage horizontal depuis le bord",
+      "info": "Utilisé quand la position horizontale n'est pas Centre",
+      "min": 0,
+      "max": 40,
+      "step": 1,
+      "unit": "%",
+      "default": 10
+    },
+    {
+      "type": "range",
+      "id": "overlay_offset_y",
+      "label": "Décalage vertical depuis le bord",
+      "info": "Utilisé quand la position verticale n'est pas Centre",
+      "min": 0,
+      "max": 40,
+      "step": 1,
+      "unit": "%",
+      "default": 10
+    },
+    {
+      "type": "range",
+      "id": "overlay_width",
+      "label": "Largeur de l'encart",
+      "min": 20,
+      "max": 90,
+      "step": 2,
+      "unit": "%",
+      "default": 44
+    },
+    {
+      "type": "header",
+      "content": "Encart texte — apparence"
+    },
+    {
+      "type": "color",
+      "id": "overlay_color",
+      "label": "Couleur de fond",
+      "default": "#000000"
+    },
+    {
+      "type": "range",
+      "id": "overlay_opacity",
+      "label": "Opacité du fond",
+      "min": 0,
+      "max": 100,
+      "step": 5,
+      "unit": "%",
+      "default": 55
+    },
+    {
+      "type": "range",
+      "id": "overlay_opacity_mobile",
+      "label": "Opacité du fond sur mobile",
+      "info": "Sur mobile le texte est affiché sous l'image, une opacité plus forte améliore la lisibilité.",
+      "min": 0,
+      "max": 100,
+      "step": 5,
+      "unit": "%",
+      "default": 90
+    },
+    {
+      "type": "range",
+      "id": "overlay_blur",
+      "label": "Flou d'arrière-plan",
+      "info": "Effet verre dépoli derrière l'encart (ordinateur)",
+      "min": 0,
+      "max": 20,
+      "step": 1,
+      "unit": "px",
+      "default": 0
+    },
+    {
+      "type": "range",
+      "id": "overlay_padding_x",
+      "label": "Marge interne horizontale",
+      "min": 12,
+      "max": 80,
+      "step": 4,
+      "unit": "px",
+      "default": 44
+    },
+    {
+      "type": "range",
+      "id": "overlay_padding_y",
+      "label": "Marge interne verticale",
+      "min": 12,
+      "max": 64,
+      "step": 4,
+      "unit": "px",
+      "default": 28
+    },
+    {
+      "type": "range",
+      "id": "overlay_radius",
+      "label": "Arrondi des angles",
+      "min": 0,
+      "max": 32,
+      "step": 2,
+      "unit": "px",
+      "default": 0
+    },
+    {
+      "type": "header",
+      "content": "Alignement du texte"
+    },
+    {
+      "type": "text_alignment",
+      "id": "text_align",
+      "label": "Alignement",
+      "default": "center"
+    },
+    {
+      "type": "header",
+      "content": "Titre — typographie"
+    },
+    {
+      "type": "select",
+      "id": "heading_font",
+      "label": "Police",
+      "options": [
+        { "value": "var(--font-primary--family)", "label": "Police principale (titres)" },
+        { "value": "var(--font-body--family)",    "label": "Police de texte" },
+        { "value": "var(--font-accent--family)",  "label": "Police d'accent" }
+      ],
+      "default": "var(--font-body--family)"
+    },
+    {
+      "type": "select",
+      "id": "heading_size",
+      "label": "Taille",
+      "options": [
+        { "value": "0.85rem", "label": "XS" },
+        { "value": "1rem",    "label": "S" },
+        { "value": "1.15rem", "label": "M" },
+        { "value": "1.3rem",  "label": "L" },
+        { "value": "1.5rem",  "label": "XL" },
+        { "value": "1.75rem", "label": "XXL" },
+        { "value": "2rem",    "label": "XXXL" },
+        { "value": "2.5rem",  "label": "Géant" }
+      ],
+      "default": "1.3rem"
+    },
+    {
+      "type": "select",
+      "id": "heading_weight",
+      "label": "Graisse",
+      "options": [
+        { "value": "300", "label": "Fin (300)" },
+        { "value": "400", "label": "Normal (400)" },
+        { "value": "500", "label": "Medium (500)" },
+        { "value": "600", "label": "Demi-gras (600)" },
+        { "value": "700", "label": "Gras (700)" },
+        { "value": "800", "label": "Extra-gras (800)" }
+      ],
+      "default": "700"
+    },
+    {
+      "type": "select",
+      "id": "heading_style",
+      "label": "Style",
+      "options": [
+        { "value": "normal", "label": "Normal" },
+        { "value": "italic", "label": "Italique" }
+      ],
+      "default": "normal"
+    },
+    {
+      "type": "select",
+      "id": "heading_transform",
+      "label": "Casse",
+      "options": [
+        { "value": "none",       "label": "Aucune" },
+        { "value": "uppercase",  "label": "MAJUSCULES" },
+        { "value": "capitalize", "label": "Première Lettre En Majuscule" },
+        { "value": "lowercase",  "label": "minuscules" }
+      ],
+      "default": "none"
+    },
+    {
+      "type": "select",
+      "id": "heading_letter_spacing",
+      "label": "Espacement des lettres",
+      "options": [
+        { "value": "-0.02em", "label": "Serré" },
+        { "value": "0em",     "label": "Normal" },
+        { "value": "0.05em",  "label": "Large" },
+        { "value": "0.1em",   "label": "Plus large" },
+        { "value": "0.2em",   "label": "Très large" }
+      ],
+      "default": "0em"
+    },
+    {
+      "type": "range",
+      "id": "heading_margin_bottom",
+      "label": "Espace sous le titre",
+      "min": 0,
+      "max": 40,
+      "step": 2,
+      "unit": "px",
+      "default": 12
+    },
+    {
+      "type": "color",
+      "id": "heading_color",
+      "label": "Couleur",
+      "default": "#ffffff"
+    },
+    {
+      "type": "header",
+      "content": "Texte — typographie"
+    },
+    {
+      "type": "select",
+      "id": "body_font",
+      "label": "Police",
+      "options": [
+        { "value": "var(--font-primary--family)", "label": "Police principale (titres)" },
+        { "value": "var(--font-body--family)",    "label": "Police de texte" },
+        { "value": "var(--font-accent--family)",  "label": "Police d'accent" }
+      ],
+      "default": "var(--font-accent--family)"
+    },
+    {
+      "type": "select",
+      "id": "body_size",
+      "label": "Taille",
+      "options": [
+        { "value": "0.75rem", "label": "XS" },
+        { "value": "0.85rem", "label": "S" },
+        { "value": "0.9rem",  "label": "M" },
+        { "value": "1rem",    "label": "L" },
+        { "value": "1.1rem",  "label": "XL" },
+        { "value": "1.25rem", "label": "XXL" }
+      ],
+      "default": "0.9rem"
+    },
+    {
+      "type": "select",
+      "id": "body_weight",
+      "label": "Graisse",
+      "options": [
+        { "value": "300", "label": "Fin (300)" },
+        { "value": "400", "label": "Normal (400)" },
+        { "value": "500", "label": "Medium (500)" },
+        { "value": "600", "label": "Demi-gras (600)" }
+      ],
+      "default": "400"
+    },
+    {
+      "type": "select",
+      "id": "body_line_height",
+      "label": "Interligne",
+      "options": [
+        { "value": "1.3",  "label": "Serré (1.3)" },
+        { "value": "1.5",  "label": "Normal (1.5)" },
+        { "value": "1.65", "label": "Aéré (1.65)" },
+        { "value": "1.8",  "label": "Large (1.8)" },
+        { "value": "2.0",  "label": "Double (2.0)" }
+      ],
+      "default": "1.65"
+    },
+    {
+      "type": "color",
+      "id": "body_color",
+      "label": "Couleur",
+      "default": "#ffffff"
+    },
+    {
+      "type": "header",
+      "content": "Section"
+    },
+    {
+      "type": "color_scheme",
+      "id": "color_scheme",
+      "label": "Jeu de couleurs",
+      "default": "scheme-1"
+    },
+    {
+      "type": "header",
+      "content": "Marges de la section"
+    },
+    {
+      "type": "range",
+      "id": "padding-block-start",
+      "label": "Haut",
+      "min": 0,
+      "max": 100,
+      "step": 4,
+      "unit": "px",
+      "default": 0
+    },
+    {
+      "type": "range",
+      "id": "padding-block-end",
+      "label": "Bas",
+      "min": 0,
+      "max": 100,
+      "step": 4,
+      "unit": "px",
+      "default": 0
+    }
+  ],
+  "presets": [
+    {
+      "name": "Description — Semelle",
+      "category": "Produit"
+    }
+  ]
+}
+{% endschema %}
