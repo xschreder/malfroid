@@ -65,6 +65,7 @@ la fiche produit dans l'admin) :
 | Description — Modèle | `content.modele_image` | `content.modele_titre` | `content.modele_texte` |
 | Description — Cuir | `content.cuir_image` | `content.cuir_titre` | `content.cuir_texte` |
 | Description — Semelle | `content.semelle_image` | `content.semelle_titre` | `content.semelle_texte` |
+| Détails (libre, par produit) | `content.details_image` | `content.details_titre` | `content.details_texte` |
 
 Pour les brancher :
 
@@ -76,3 +77,11 @@ Pour les brancher :
 
 La section est masquée automatiquement sur la boutique si l'image, le titre et le texte sont vides,
 donc un produit sans métachamps renseignés n'affiche pas de bloc vide.
+
+### Guide d'entretien (5000 caractères)
+
+Le champ standard Shopify `descriptors.care_guide` (« Guide d'entretien ») est limité à 500 caractères
+et cette limite n'est pas modifiable. Il a été remplacé par le champ personnalisé
+`content.guide_entretien` (« Guide d'entretien (5000 car.) », texte multiligne, 5000 caractères max.,
+épinglé sur la fiche produit). L'ancien champ reste en place mais n'est plus épinglé. Si un bloc du
+thème pointait vers l'ancien champ, le rebrancher sur `content.guide_entretien` via la source dynamique.
