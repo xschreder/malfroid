@@ -85,3 +85,22 @@ et cette limite n'est pas modifiable. Il a été remplacé par le champ personna
 `content.guide_entretien` (« Guide d'entretien (5000 car.) », texte multiligne, 5000 caractères max.,
 épinglé sur la fiche produit). L'ancien champ reste en place mais n'est plus épinglé. Si un bloc du
 thème pointait vers l'ancien champ, le rebrancher sur `content.guide_entretien` via la source dynamique.
+
+## Pages « La cordonnerie du Bon Marché » et « Films » (brief DA du 13/10/2026)
+
+Montées sur le thème brouillon **« Malfroid x NFBS - 1.0 + cordonnerie & films »** (copie du thème publié).
+Templates versionnés dans `templates/` :
+
+| Fichier | Rôle |
+| --- | --- |
+| `templates/page.la-cordonnerie-du-bon-marche.json` | Page Cordonnerie : hero pleine largeur, titre + sous-titre (bloc Rich text MTO), 4 blocs « Editorial image » en 2 × 2, logo Le Bon Marché centré, adresse centrée |
+| `templates/page.mto.json` | Page MTO sans les blocs situés sous le bouton « Je veux mon modèle » |
+| `templates/blog.films.json` | Sommaire du blog Films (format Les Portraits, titre seul) |
+| `templates/article.film.json` | Article Film : titre « FILMS » centré, titre du film en navy, vidéo YouTube pleine largeur |
+
+Contenus créés dans Shopify : page `la-cordonnerie-du-bon-marche` (template `la-cordonnerie-du-bon-marche`),
+blog `films` (template `films`), fichier `le-bon-marche-rive-gauche-logo.png` (225 px, à remplacer par un HD).
+Les articles du blog Films se créent avec le suffixe de template `film` et un iframe YouTube dans le corps.
+
+À faire après publication du thème : pointer les entrées de menu « La cordonnerie du Bon Marché par Malfroid »
+(Services → Entretien) et « Films » (Notre univers) vers la page et le blog.
