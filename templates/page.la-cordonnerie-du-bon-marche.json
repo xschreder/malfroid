@@ -564,7 +564,7 @@
           "settings": {
             "image": "shopify://shop_images/le-bon-marche-rive-gauche-logo.png",
             "link": "",
-            "image_ratio": "portrait",
+            "image_ratio": "adapt",
             "width": "custom",
             "custom_width": 18,
             "width_mobile": "custom",
