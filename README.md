@@ -102,5 +102,5 @@ Contenus créés dans Shopify : page `la-cordonnerie-du-bon-marche` (template `l
 blog `films` (template `films`), fichier `le-bon-marche-rive-gauche-logo.png` (225 px, à remplacer par un HD).
 Les articles du blog Films se créent avec le suffixe de template `film` et un iframe YouTube dans le corps.
 
-À faire après publication du thème : pointer les entrées de menu « La cordonnerie du Bon Marché par Malfroid »
-(Services → Entretien) et « Films » (Notre univers) vers la page et le blog.
+Thème publié le 13/10/2026. Les entrées de menu « La cordonnerie du Bon Marché par Malfroid » (Services → Entretien)
+et « Films » (Notre univers) pointent vers la page et le blog.
