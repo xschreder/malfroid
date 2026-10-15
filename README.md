@@ -104,3 +104,6 @@ Les articles du blog Films se créent avec le suffixe de template `film` et un i
 
 Thème publié le 13/10/2026. Les entrées de menu « La cordonnerie du Bon Marché par Malfroid » (Services → Entretien)
 et « Films » (Notre univers) pointent vers la page et le blog.
+
+Blog Films alimenté le 15/10/2026 avec les 5 vidéos de la chaîne YouTube « Malfroid Shoes »
+(chaîne `UCy-b_k_74eLJX9v8btEdKUw`), un article par vidéo (template `film`, vignette YouTube, date = date de la vidéo).
