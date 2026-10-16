@@ -107,3 +107,23 @@ et « Films » (Notre univers) pointent vers la page et le blog.
 
 Blog Films alimenté le 15/10/2026 avec les 5 vidéos de la chaîne YouTube « Malfroid Shoes »
 (chaîne `UCy-b_k_74eLJX9v8btEdKUw`), un article par vidéo (template `film`, vignette YouTube, date = date de la vidéo).
+
+## Nettoyage du catalogue en masse (16/10/2026)
+
+Script `scripts/catalogue/process.py` : à partir d'un export `bulkOperationRunQuery` (JSONL produits + médias,
+avec `descriptionHtml`, `seo { title }`, le métachamp `content.colorReference` et les médias), il produit
+`product_updates.jsonl` (entrées `productUpdate`) et `file_updates.jsonl` (entrées `fileUpdate`).
+Le connecteur Shopify bloquant `bulkOperationRunMutation`, les fichiers ont été envoyés en mutations
+groupées par alias (15 produits ou 100 images par appel).
+
+Résultat appliqué sur la boutique :
+
+| Chantier | Volume | Règle |
+| --- | --- | --- |
+| Descriptions (Technique n°2) | 100 fiches | Suppression des mentions « Permanent / Limited / Édition limitée / Collection permanente » alignées à droite, des boutons « Lire Plus / Lire Moins » (`wpsm-*`, `show_more`) et des `<div>` orphelins WordPress ; texte inchangé |
+| Titres SEO (Technique n°13) | 116 fiches | `Titre – Coloris` quand plusieurs fiches partagent le même titre et qu'aucun titre SEO n'existait |
+| Textes alternatifs (Technique n°14) | 874 images | `Titre – Coloris`, ou titre seul sans coloris ; les images ayant déjà un alt n'ont pas été touchées |
+| Filtres (Site n°24) | 2 valeurs | Métaobjets `collection_filters` : Seasonal → Saisonnier, Special series → Série spéciale |
+
+Limites connues : la fiche « Mocassin Newport Superleggera – Veau velours chocolat » garde sa mention
+« Limited » (paragraphe avec attribut `dir="ltr"`, non reconnu par l'expression régulière) ; à retirer à la main si souhaité.
