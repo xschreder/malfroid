@@ -16,13 +16,13 @@ exclusions L.221-28, médiation CMAP, plateforme ODR, RGPD). À coller dans Shop
 
 Politique de confidentialité : garder le modèle Shopify déjà en place mais corriger, dans le texte,
 « Malfroid-fr » → « MALFROID SAS », l'e-mail `xavier.schreder@gmail.com` → `contact@malfroid.com`,
-ajouter le téléphone 09 66 93 87 25 et vérifier l'adresse (63 rue des Vignoles 75020 = adresse de
-facturation du compte Shopify ; siège social des CGV 2020 = 7 rue Villebois-Mareuil 75017).
+ajouter le téléphone 09 66 93 87 25 et l'adresse du siège : 7 rue Villebois-Mareuil, 75017 Paris
+(confirmée par Malfroid le 17/10/2026 ; 63 rue des Vignoles 75020 n'est que l'adresse de facturation du compte Shopify).
 
 ## Points à vérifier avant mise en ligne
-- Siège social, capital (1 000 €) et SIRET 840 710 644 00013 repris des CGV 2020 ; numéro de TVA FR24 840 710 644 calculé
-  à partir du SIREN, à confirmer.
-- Nom du directeur de la publication (placeholder dans les mentions légales).
+- Siège social confirmé (7 rue Villebois-Mareuil, 75017 Paris) et directeur de la publication renseigné
+  (Victor Bastié) le 17/10/2026. Capital (1 000 €) et SIRET 840 710 644 00013 repris des CGV 2020 ;
+  numéro de TVA FR24 840 710 644 calculé à partir du SIREN, à confirmer.
 - Adhésion toujours active au médiateur CMAP.
 - Délais de livraison (France 2–3 j, UE 4–6 j après expédition) et pays livrés : aligner sur les zones configurées
   (Technique n° 11, Site n° 28).
