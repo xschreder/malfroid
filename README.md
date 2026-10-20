@@ -127,3 +127,30 @@ Résultat appliqué sur la boutique :
 
 Limites connues : la fiche « Mocassin Newport Superleggera – Veau velours chocolat » garde sa mention
 « Limited » (paragraphe avec attribut `dir="ltr"`, non reconnu par l'expression régulière) ; à retirer à la main si souhaité.
+
+## Marchés et prix export (19/10/2026)
+
+Reco appliquée : France + UE au même prix TTC, et un marché **Export** (hors UE) avec
+prix plus élevé pour absorber frais de port, douane et SAV à distance.
+
+### Ce qui est en ligne
+
+- Profil de livraison général, zone UE : tarif « Standard Europe » passé à **25 €**
+  (France inchangée).
+
+### Ce qui est préparé mais **non activé** (statut Brouillon)
+
+| Objet Shopify | Valeur |
+|---|---|
+| Marché `Export` (ex-INTER) | GB, CH, US, CA, JP, AU, SG, HK, statut **DRAFT** |
+| Catalogue « Export » | lié au marché Export |
+| Liste de prix « Export » | EUR, ajustement parent **+5 %**, prix barrés neutralisés |
+| Publication du catalogue | vide par défaut, **chaussures uniquement** (111 produits actifs, hors accessoires / entretien / services / carte cadeau) |
+| Prix fixes par variante | `arrondi(prix_FR_TTC × 1,05 / 5) × 5` (≈ HT + 25 %), appliqué par variante pour conserver les suppléments de pointure |
+
+Activation : Shopify admin > Paramètres > Marchés > Export > **Activer**. Avant d'activer,
+décider du pourcentage export définitif (5 % TTC arrondi est une base, La Botte Gardiane
+était plus haut) et vérifier l'affichage droits/taxes (Marchés > Export > Droits et taxes).
+
+Limites : les mutations `priceListFixedPricesAdd` acceptent 250 variantes par appel ;
+`publishablePublish` est envoyé par lots de 37 produits (coût API max 1000 par requête).
