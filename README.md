@@ -146,11 +146,13 @@ prix plus élevé pour absorber frais de port, douane et SAV à distance.
 | Catalogue « Export » | lié au marché Export |
 | Liste de prix « Export » | EUR, ajustement parent **+5 %**, prix barrés neutralisés |
 | Publication du catalogue | vide par défaut, **chaussures uniquement** (111 produits actifs, hors accessoires / entretien / services / carte cadeau) |
-| Prix fixes par variante | `arrondi(prix_FR_TTC × 1,05 / 5) × 5` (≈ HT + 25 %), appliqué par variante pour conserver les suppléments de pointure |
+| Prix fixes par variante | `arrondi(prix_FR_TTC × 1,05 / 5) × 5` (≈ HT + 25 %), posés le 20/10 sur les 1 542 variantes des 111 chaussures, suppléments de pointure conservés ; table complète dans `content/markets/prix-export-2026-10-20.tsv` |
 
 Activation : Shopify admin > Paramètres > Marchés > Export > **Activer**. Avant d'activer,
 décider du pourcentage export définitif (5 % TTC arrondi est une base, La Botte Gardiane
 était plus haut) et vérifier l'affichage droits/taxes (Marchés > Export > Droits et taxes).
+
+Pour changer le pourcentage : les prix fixes priment sur l'ajustement +5 % de la liste ; il faut les recalculer et les reposer (`priceListFixedPricesByProductUpdate` pour les 62 produits à prix unique, `priceListFixedPricesAdd` pour les 49 produits avec supplément de pointure).
 
 Limites : les mutations `priceListFixedPricesAdd` acceptent 250 variantes par appel ;
 `publishablePublish` est envoyé par lots de 37 produits (coût API max 1000 par requête).
