@@ -49,6 +49,18 @@ source visible, car la balise masquée reçoit `preload="none"`.
 - Téléversement dans Contenu > Fichiers, puis sélection dans le réglage « Vidéo mobile » de la
   section depuis l'éditeur de thème.
 
+## État au 23/10
+
+- La section **héro** (Horizon natif) a déjà sa vidéo mobile : réglage « Média mobile
+  personnalisé » avec `Campagne FW26-27_mobile.mp4`. Rien à coder.
+- Le **bloc vidéo** de la section suivante (film `Malfroid-film-short_V2.mp4`, 16/9 pleine
+  largeur) n'avait pas de source mobile : le fichier `blocks/video.liquid` de ce dépôt ajoute le
+  réglage « Vidéo mobile (portrait, facultative) » et bascule sous 750 px. Il est installé sur la
+  copie **« Malfroid x NFBS - 1.1 (validations 23/10) »** ; à reporter sur le thème principal
+  (copier le fichier dans l'éditeur de code) ou publier cette copie.
+- Reste à fournir par Malfroid : le film court en version portrait, puis le sélectionner dans
+  le bloc vidéo de l'accueil.
+
 ## Mise en place
 
 1. Modifier la section sur une copie du thème principal (l'API refuse l'écriture sur le thème
