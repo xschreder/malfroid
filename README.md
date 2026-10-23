@@ -171,6 +171,7 @@ Malfroid les 21-23/10, vérifié) ; les 172 textes traduits par NF-BS le 19/10 s
 | `layout/theme.liquid` | copie « + langue » | Site n° 5 : logo et icônes noirs sur l'en-tête transparent mobile ; largeur des pages politiques |
 | `snippets/localization-form.liquid` | copie « + langue » | Site n° 26 / 38 : sélecteur de langue FR / EN |
 | `sections/header-group.json` | copie « + langue » | Site n° 4 : en-tête non transparent sur fiches produit et collections |
+| `config/settings_data.json` (5 valeurs) | copie « + langue » | Logo sombre par défaut, logo blanc en inverse (va avec l'en-tête non transparent) ; bouton principal : contour navy sur le schéma 1, fond navy sur le schéma 2 (Site n° 9). Le reste des réglages est celui du thème publié. |
 
 Non repris de « + langue » : `locales/en.default.json` (la version du thème publié contient des
 clés checkout plus récentes) et `templates/index.json` / `templates/product.json` (le thème
