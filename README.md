@@ -156,3 +156,26 @@ Pour changer le pourcentage : les prix fixes priment sur l'ajustement +5 % de la
 
 Limites : les mutations `priceListFixedPricesAdd` acceptent 250 variantes par appel ;
 `publishablePublish` est envoyé par lots de 37 produits (coût API max 1000 par requête).
+
+## Thème « Malfroid x NFBS - 1.1 (validations 23/10) »
+
+Copie du thème publié (« 1.0 + cordonnerie & films ») créée le 23/10/2026 par l'API pour
+regrouper les corrections validées, l'API interdisant l'écriture sur le thème publié.
+Elle hérite des traductions Translate & Adapt du thème publié (272 textes de thème traduits par
+Malfroid les 21-23/10, vérifié) ; les 172 textes traduits par NF-BS le 19/10 sur la copie
+« + langue » y sont tous déjà couverts.
+
+| Fichier | Origine | Point de recette |
+|---|---|---|
+| `blocks/video.liquid` | ce dépôt | Site n° 2 : vidéo mobile distincte dans le bloc vidéo |
+| `layout/theme.liquid` | copie « + langue » | Site n° 5 : logo et icônes noirs sur l'en-tête transparent mobile ; largeur des pages politiques |
+| `snippets/localization-form.liquid` | copie « + langue » | Site n° 26 / 38 : sélecteur de langue FR / EN |
+| `sections/header-group.json` | copie « + langue » | Site n° 4 : en-tête non transparent sur fiches produit et collections |
+
+Non repris de « + langue » : `locales/en.default.json` (la version du thème publié contient des
+clés checkout plus récentes) et `templates/index.json` / `templates/product.json` (le thème
+publié a évolué depuis la copie, ses versions font foi).
+
+Mise en ligne : Boutique en ligne > Thèmes > « 1.1 (validations 23/10) » > Aperçu sur mobile,
+puis Publier. Les réglages faits entre-temps dans l'éditeur du thème publié ne sont pas dans la
+copie : refaire la copie juste avant publication si des réglages ont changé.
