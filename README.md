@@ -180,3 +180,29 @@ publié a évolué depuis la copie, ses versions font foi).
 Mise en ligne : Boutique en ligne > Thèmes > « 1.1 (validations 23/10) » > Aperçu sur mobile,
 puis Publier. Les réglages faits entre-temps dans l'éditeur du thème publié ne sont pas dans la
 copie : refaire la copie juste avant publication si des réglages ont changé.
+
+## Traductions anglaises reprises de l'ancien site (23/10/2026)
+
+Décision Malfroid du 23/10 : préférer les textes anglais rédigés de l'ancien site WooCommerce
+(malfroid.com/en) à la traduction automatique Translate & Adapt du 13/10.
+
+Source : API publique WooCommerce Store (`/wp-json/wc/store/v1/products`, 396 fiches dont
+209 en anglais), sans export ni Matrixify. Correspondance Shopify ↔ ancien site par le
+handle (= slug WooCommerce FR), puis FR ↔ EN par le SKU ou, à défaut, par le lien
+`hreflang="en"` de la page FR. L'import n'a été fait que pour les fiches dont le texte FR
+actuel de Shopify est encore celui de l'ancien site (similarité ≥ 85 %).
+
+| Champ Shopify (locale en) | Source WooCommerce EN | Volume |
+|---|---|---|
+| Description produit (`body_html`) | texte éditorial (`short_description`), nettoyé des balises WordPress comme en FR | 148 |
+| Titre (`title`) | nom EN, seulement si le titre EN était encore automatique ; les 65 titres corrigés à la main le 22/10 sont conservés | 69 |
+| Métachamp `content.description` (fiche technique) | `description`, si la valeur FR correspond encore à l'ancien site | 130 |
+
+Non repris : 12 produits sans fiche anglaise (services cordonnerie, ceintures Junot, chaussettes,
+porte-clés, carte cadeau, Defender City II, Vauban copie, Newport Superleggera à patiner), la
+Bottine Explorer II (texte FR réécrit) et 5 fiches techniques vides ou réécrites.
+Table de contrôle : `content/translations/import-anglais-2026-10-23.tsv`.
+
+Reste à traduire à la main dans Translate & Adapt : les compléments FR ajoutés par Paul après
+l'ancien site (blocs « Caractéristiques techniques » et « Le mot du chausseur » sur quelques
+fiches), visibles comme traductions « obsolètes » si le FR change à nouveau.
