@@ -1,0 +1,1083 @@
+Redirect from,Redirect to,Type,Note
+/blog,/blogs/journal,post,
+/g-comme-gnoli,/blogs/journal/g-comme-gnoli,post,
+/en/react-dazzle-build-a-custom-drag-and-drop-dashboard-guide,/en/blogs/journal,post,article non repris
+/en/sonner-react-toasts-setup-hooks-advanced-customization,/en/blogs/journal,post,article non repris
+/le-soulier-en-questions-y-a-t-il-encore-des-tanneries-en-france,/blogs/journal/le-soulier-en-questions-y-a-t-il-encore-des-tanneries-en-france,post,
+/le-soulier-en-questions-quelle-est-la-difference-entre-tannage-vegetal-et-tannage-au-chrome,/blogs/journal/le-soulier-en-questions-quelle-est-la-difference-entre-tannage-vegetal-et-tannage-au-chrome,post,
+/en/portrait-of-charly-martin-the-trunk-expert,/en/blogs/journal/portrait-of-charly-martin-the-trunk-expert,post,
+/malfroid-reserve,/blogs/journal/malfroid-reserve,post,
+/310-saint-honore-vue-par-le-blog-jamais-vulgaire,/blogs/journal,post,article non repris
+/la-patine-malfroid-un-oeil-sur-la-couleur,/blogs/journal/la-patine-malfroid-un-oeil-sur-la-couleur,post,
+/chelsea-boot-une-histoire-un-heritage,/blogs/journal/chelsea-boot-une-histoire-un-heritage,post,
+/le-cuir-graine,/blogs/journal/le-cuir-graine,post,
+/entrevue-les-rhabilleurs-x-malfroid-sur-lart-de-la-patine,/blogs/journal,post,article non repris
+/guide-vuitton-2020,/blogs/journal/guide-vuitton-2020,post,
+/dandy-magazine,/blogs/journal/dandy-magazine,post,
+/air-france-magazine,/blogs/journal/air-france-magazine,post,
+/monsieur-magazine,/blogs/journal/monsieur-magazine,post,
+/very-good-lord,/blogs/journal/very-good-lord,post,
+/cordonnerie-malfroid,/blogs/journal/cordonnerie-malfroid,post,
+/entretien/la-cordonnerie-malfroid-au-bon-marche-rive-gauche,/pages/la-cordonnerie-du-bon-marche,page,
+/mto-commandes-speciales,/pages/mto-commandes-speciales,page,
+/en/loafers-2,/en/collections/loafers,page,
+/mocassins,/collections/mocassins,page,
+/en/boots-2,/en/collections/boots,page,
+/bottines-2,/collections/bottines,page,
+/en/derbies-2,/en/collections/derby,page,
+/derbies,/collections/derby,page,
+/en/home,/en,page,
+/nos-boutiques,/pages/nos-boutiques,page,
+/richelieus,/collections/richelieus,page,
+/conditions-smart-summer,/,page,
+/boucles,/collections/boucles,page,
+/tarifs-cordonnerie,/collections/cordonnerie,page,
+/en/oxfords,/en/collections/oxfords,page,
+/conditions-generales-de-vente,/policies/terms-of-service,page,
+/en/sneakers-4,/en/collections/sneakers,page,
+/sneakers-3,/collections/sneakers,page,
+/guide-dentretien-de-vos-souliers,/pages/guide-dentretien-de-vos-souliers,page,
+/le-manifeste,/pages/le-manifeste,page,
+/en/manifesto,/en/pages/manifesto,page,
+/en/blog-2,/en/blogs/journal,page,
+/en/our-stores,/en/pages/our-stores,page,
+/en/contact-us,/en/pages/contact,page,
+/contact,/pages/contact,page,
+/en/cart,/en/cart,page,
+/en/my-account,/en/account,page,
+/en/monk-straps,/en/collections/monk-straps,page,
+/travaillons-ensemble,/pages/travaillons-ensemble,page,
+/en/size-guide-4,/en/pages/guide-de-pointures,page,
+/en/terms-of-sale,/en/policies/terms-of-service,page,
+/collection-femme,/collections/malfroid-femme,page,
+/sneakers-2,/collections/sneakers,page,
+/en/richelieu-2,/en/collections/oxfords,page,
+/en/womens-collection,/en/collections/malfroid-women,page,
+/les-creations-de-karl-collas,/blogs/journal,page,
+/en/care-for-your-malfroid-shoes,/en/pages/guide-dentretien-de-vos-souliers,page,
+/guide-de-pointures,/pages/guide-de-pointures,page,
+/entretien/soin-du-cuir,/collections/soin-du-cuir,page,
+/entretien/cordonnerie,/collections/cordonnerie,page,
+/mariage,/collections/mariage,page,
+/portfolio,/pages/patines,page,
+/souliers,/collections/souliers,page,
+/en/shoes,/en/collections/shoes,page,
+/sneakers,/collections/sneakers,page,
+/newsletter,/,page,
+/fabrication,/pages/fabrication,page,
+/compare,/,page,
+/shop,/collections/souliers,page,
+/loafers-mocassins,/collections/mocassins,page,
+/bottines,/collections/bottines,page,
+/richelieu,/collections/richelieus,page,
+/accessoires/petite-maroquinnerie,/collections/petite-maroquinerie,page,
+/derby,/collections/derby,page,
+/ceintures,/collections/ceintures,page,
+/entretien,/collections/entretien,page,
+/monk,/collections/boucles,page,
+/nouveautes,/collections/nouveautes,page,
+/casquettes,/collections/accessoires,page,
+/en/caps,/en/collections/accessories,page,
+/gants,/collections/gants,page,
+/about-us-3,/pages/le-manifeste,page,
+/accessoires,/collections/accessoires,page,
+/en/shoecare,/en/collections/shoe-care,page,
+/en/accessories,/en/collections/accessories,page,
+/en/fabrication-en,/en/pages/craftsmanship,page,
+/en/boots,/en/collections/boots,page,
+/en/new-models,/en/collections/new-arrivals,page,
+/en/sneakers-en,/en/collections/sneakers,page,
+/braceletsdemontres,/collections/accessoires,page,
+/en/clasps,/en/collections/monk-straps,page,
+/en/all-products,/en/collections/shoes,page,
+/en/checkout-2,/en/cart,page,
+/en/accessories/wallets,/en/collections/small-leather-goods,page,
+/en/for-patina,/en/collections/for-patina,page,
+/en/the-collection,/en/collections/shoes,page,
+/en/gloves,/en/collections/gloves,page,
+/en/derby-2,/en/collections/derby,page,
+/en/belts,/en/collections/belts,page,
+/en/watch-straps,/en/collections/accessories,page,
+/equivalences-de-tailles,/pages/guide-de-pointures,page,
+/modeles-a-patiner,/collections/a-patiner,page,
+/livraison,/policies/shipping-policy,page,
+/portfolio/b0504,/pages/patines,patine,
+/portfolio/affogato-brown-2,/pages/patines,patine,
+/portfolio/affogato-brown-3,/pages/patines,patine,
+/portfolio/affogato-brown-1,/pages/patines,patine,
+/portfolio/organic-lovat-green-3,/pages/patines,patine,
+/portfolio/organic-lovat-green-2,/pages/patines,patine,
+/portfolio/organic-lovat-green,/pages/patines,patine,
+/portfolio/mwh0204-5,/pages/patines,patine,
+/portfolio/bx0109,/pages/patines,patine,
+/portfolio/wh5180,/pages/patines,patine,
+/portfolio/ck0840,/pages/patines,patine,
+/portfolio/bx080423,/pages/patines,patine,
+/portfolio/mw8040,/pages/patines,patine,
+/portfolio/mc0404-and-wh6810,/pages/patines,patine,
+/portfolio/mch0708,/pages/patines,patine,
+/portfolio/mw0504,/pages/patines,patine,
+/portfolio/wh9900,/pages/patines,patine,
+/portfolio/wh3207,/pages/patines,patine,
+/portfolio/wh2912,/pages/patines,patine,
+/portfolio/wh2901,/pages/patines,patine,
+/portfolio/wh2828,/pages/patines,patine,
+/portfolio/wh2812,/pages/patines,patine,
+/portfolio/wh2805-2,/pages/patines,patine,
+/portfolio/wh2805,/pages/patines,patine,
+/portfolio/wh2702,/pages/patines,patine,
+/portfolio/wh2503-3,/pages/patines,patine,
+/portfolio/wh2503-2,/pages/patines,patine,
+/portfolio/wh2503,/pages/patines,patine,
+/portfolio/wh2301-2,/pages/patines,patine,
+/portfolio/wh2201,/pages/patines,patine,
+/portfolio/wh2101,/pages/patines,patine,
+/portfolio/wh2003,/pages/patines,patine,
+/portfolio/wh2001,/pages/patines,patine,
+/portfolio/wh1812,/pages/patines,patine,
+/portfolio/wh1809d,/pages/patines,patine,
+/portfolio/wh1809,/pages/patines,patine,
+/portfolio/wh1808,/pages/patines,patine,
+/portfolio/wh1712,/pages/patines,patine,
+/portfolio/wh1701,/pages/patines,patine,
+/portfolio/wh1612,/pages/patines,patine,
+/portfolio/wh1511,/pages/patines,patine,
+/portfolio/wh1409,/pages/patines,patine,
+/portfolio/wh1406,/pages/patines,patine,
+/portfolio/wh1405,/pages/patines,patine,
+/portfolio/wh1309,/pages/patines,patine,
+/portfolio/wh1308,/pages/patines,patine,
+/portfolio/wh1209,/pages/patines,patine,
+/portfolio/wh1111,/pages/patines,patine,
+/portfolio/wh1004,/pages/patines,patine,
+/portfolio/wh1003,/pages/patines,patine,
+/portfolio/wh1002,/pages/patines,patine,
+/portfolio/wh0808,/pages/patines,patine,
+/portfolio/wh0501,/pages/patines,patine,
+/portfolio/wh0401,/pages/patines,patine,
+/portfolio/wh0201,/pages/patines,patine,
+/portfolio/mwh0204-4,/pages/patines,patine,
+/portfolio/mwh0107,/pages/patines,patine,
+/portfolio/mw1302,/pages/patines,patine,
+/portfolio/mw0505,/pages/patines,patine,
+/portfolio/mcho2207-2,/pages/patines,patine,
+/portfolio/mc1,/pages/patines,patine,
+/portfolio/cho2705-2,/pages/patines,patine,
+/portfolio/cho1207-2,/pages/patines,patine,
+/portfolio/arm2207-2,/pages/patines,patine,
+/portfolio/crdvn-064-dark-2,/pages/patines,patine,
+/portfolio/bx2801,/pages/patines,patine,
+/portfolio/brd3302,/pages/patines,patine,
+/portfolio/brd3107,/pages/patines,patine,
+/portfolio/brd2901,/pages/patines,patine,
+/portfolio/brd2805-2,/pages/patines,patine,
+/portfolio/brd2805,/pages/patines,patine,
+/portfolio/brd2706,/pages/patines,patine,
+/portfolio/brd2506-2,/pages/patines,patine,
+/portfolio/brd2506,/pages/patines,patine,
+/portfolio/brd2101,/pages/patines,patine,
+/portfolio/brd1908,/pages/patines,patine,
+/portfolio/brd1402-2,/pages/patines,patine,
+/portfolio/brd1306-2,/pages/patines,patine,
+/portfolio/brd1306,/pages/patines,patine,
+/portfolio/brd1010-2,/pages/patines,patine,
+/portfolio/brd0707,/pages/patines,patine,
+/portfolio/b2901-2,/pages/patines,patine,
+/portfolio/arm3306-2,/pages/patines,patine,
+/portfolio/arm3208-2,/pages/patines,patine,
+/portfolio/arm3101-2,/pages/patines,patine,
+/portfolio/mwh0204-3,/pages/patines,patine,
+/portfolio/crdvn-064-dark,/pages/patines,patine,
+/portfolio/brd1402,/pages/patines,patine,
+/portfolio/brd1010,/pages/patines,patine,
+/portfolio/arm3306,/pages/patines,patine,
+/portfolio/arm3208,/pages/patines,patine,
+/portfolio/arm3105,/pages/patines,patine,
+/portfolio/arm3101,/pages/patines,patine,
+/portfolio/arm2602,/pages/patines,patine,
+/portfolio/arm2301,/pages/patines,patine,
+/portfolio/arm2207,/pages/patines,patine,
+/portfolio/arm2205,/pages/patines,patine,
+/portfolio/arm1108,/pages/patines,patine,
+/portfolio/arm0907,/pages/patines,patine,
+/portfolio/v220728,/pages/patines,patine,
+/portfolio/v3712,/pages/patines,patine,
+/portfolio/v3412,/pages/patines,patine,
+/portfolio/v3301,/pages/patines,patine,
+/portfolio/v3001,/pages/patines,patine,
+/portfolio/v2101,/pages/patines,patine,
+/portfolio/v2001,/pages/patines,patine,
+/portfolio/v1609-2,/pages/patines,patine,
+/portfolio/v1511,/pages/patines,patine,
+/portfolio/v1308,/pages/patines,patine,
+/portfolio/v1111,/pages/patines,patine,
+/portfolio/v1007-2,/pages/patines,patine,
+/portfolio/v1007,/pages/patines,patine,
+/portfolio/v0707,/pages/patines,patine,
+/portfolio/mwh0204-2,/pages/patines,patine,
+/portfolio/monet-22-2,/pages/patines,patine,
+/portfolio/gv2207-3,/pages/patines,patine,
+/portfolio/chogv2508-3,/pages/patines,patine,
+/portfolio/wh2301,/pages/patines,patine,
+/portfolio/mwh0204,/pages/patines,patine,
+/portfolio/mcho2207,/pages/patines,patine,
+/portfolio/mc0701,/pages/patines,patine,
+/portfolio/gv2207-2,/pages/patines,patine,
+/portfolio/g2307-2,/pages/patines,patine,
+/portfolio/chogv2508-2,/pages/patines,patine,
+/portfolio/choc2505,/pages/patines,patine,
+/portfolio/cho5707,/pages/patines,patine,
+/portfolio/cho3201,/pages/patines,patine,
+/portfolio/cho2805-2,/pages/patines,patine,
+/portfolio/cho2805,/pages/patines,patine,
+/portfolio/cho2705,/pages/patines,patine,
+/portfolio/cho2601,/pages/patines,patine,
+/portfolio/cho2401,/pages/patines,patine,
+/portfolio/cho2301-2,/pages/patines,patine,
+/portfolio/cho2301,/pages/patines,patine,
+/portfolio/cho2101,/pages/patines,patine,
+/portfolio/b1208,/pages/patines,patine,
+/portfolio/bl0807,/pages/patines,patine,
+/portfolio/monet-22,/pages/patines,patine,
+/portfolio/chogv2508,/pages/patines,patine,
+/portfolio/g1106,/pages/patines,patine,
+/portfolio/g2307,/pages/patines,patine,
+/portfolio/cho1101,/pages/patines,patine,
+/portfolio/cho1207,/pages/patines,patine,
+/portfolio/cho1000,/pages/patines,patine,
+/portfolio/cho1507,/pages/patines,patine,
+/portfolio/cho1808,/pages/patines,patine,
+/portfolio/cho1409,/pages/patines,patine,
+/portfolio/cho1407,/pages/patines,patine,
+/portfolio/cho1308,/pages/patines,patine,
+/portfolio/cho1307,/pages/patines,patine,
+/portfolio/cho1301,/pages/patines,patine,
+/portfolio/cho1201,/pages/patines,patine,
+/portfolio/cho1108,/pages/patines,patine,
+/portfolio/cho0708,/pages/patines,patine,
+/portfolio/cho110,/pages/patines,patine,
+/portfolio/ch024,/pages/patines,patine,
+/portfolio/v1609,/pages/patines,patine,
+/portfolio/top0110,/pages/patines,patine,
+/portfolio/gv2207,/pages/patines,patine,
+/portfolio/gr3101,/pages/patines,patine,
+/portfolio/gr2225,/pages/patines,patine,
+/portfolio/gr2109,/pages/patines,patine,
+/portfolio/gr1107,/pages/patines,patine,
+/portfolio/g3901,/pages/patines,patine,
+/portfolio/g3801,/pages/patines,patine,
+/portfolio/g3702,/pages/patines,patine,
+/portfolio/g3610,/pages/patines,patine,
+/portfolio/g3609,/pages/patines,patine,
+/portfolio/g3501,/pages/patines,patine,
+/portfolio/g3412,/pages/patines,patine,
+/portfolio/g3302,/pages/patines,patine,
+/portfolio/g3209,/pages/patines,patine,
+/portfolio/g3105,/pages/patines,patine,
+/portfolio/g2805,/pages/patines,patine,
+/portfolio/g2804,/pages/patines,patine,
+/portfolio/g2801,/pages/patines,patine,
+/portfolio/g2601,/pages/patines,patine,
+/portfolio/g2306,/pages/patines,patine,
+/portfolio/g2203,/pages/patines,patine,
+/portfolio/g2101,/pages/patines,patine,
+/portfolio/g2002,/pages/patines,patine,
+/portfolio/g1402,/pages/patines,patine,
+/portfolio/g1304,/pages/patines,patine,
+/portfolio/g1212,/pages/patines,patine,
+/portfolio/g1206,/pages/patines,patine,
+/portfolio/g1010,/pages/patines,patine,
+/portfolio/b2203-chardon-charbon-2,/pages/patines,patine,
+/portfolio/b2929,/pages/patines,patine,
+/portfolio/b2902,/pages/patines,patine,
+/portfolio/b2901,/pages/patines,patine,
+/portfolio/b2801,/pages/patines,patine,
+/portfolio/b2301,/pages/patines,patine,
+/portfolio/b2203-chardon-charbon,/pages/patines,patine,
+/portfolio/b2202,/pages/patines,patine,
+/portfolio/b2121,/pages/patines,patine,
+/portfolio/b2101,/pages/patines,patine,
+/portfolio/b1812,/pages/patines,patine,
+/portfolio/b1404,/pages/patines,patine,
+/portfolio/b1402,/pages/patines,patine,
+/portfolio/b1302,/pages/patines,patine,
+/portfolio/b1205,/pages/patines,patine,
+/portfolio/b1202,/pages/patines,patine,
+/portfolio/b1112,/pages/patines,patine,
+/category/divers,/blogs/journal,categorie blog,
+/category/presse,/blogs/journal,categorie blog,
+/en/category/news,/en/blogs/journal,categorie blog,
+/category/m-comme-malfroid,/blogs/journal,categorie blog,
+/category/le-soulier-en-questions,/blogs/journal,categorie blog,
+/project-cat/bleu,/pages/patines,patine,
+/project-cat/marron-chocolat,/pages/patines,patine,
+/project-cat/gris,/pages/patines,patine,
+/project-cat/marron-whiskey,/pages/patines,patine,
+/project-cat/vert,/pages/patines,patine,
+/project-cat/bordeaux,/pages/patines,patine,
+/project-cat/marron-armagnac,/pages/patines,patine,
+/product-category/richelieu,/collections/richelieus,categorie produit,
+/product-category/derby,/collections/derby,categorie produit,
+/product-category/bottines,/collections/bottines,categorie produit,
+/product-category/boucles,/collections/boucles,categorie produit,
+/product-category/loafers-mocassins,/collections/mocassins,categorie produit,
+/product-category/accessoires,/collections/accessoires,categorie produit,
+/product-category/nouveautes,/collections/nouveautes,categorie produit,
+/product-category/richelieu/ronde,/collections/richelieus,categorie produit,
+/product-category/richelieu/fine,/collections/richelieus,categorie produit,
+/product-category/boucles/ronde-monk,/collections/boucles,categorie produit,
+/product-category/boucles/fine-monk,/collections/boucles,categorie produit,
+/product-category/derby/ronde-derby,/collections/derby,categorie produit,
+/product-category/bottines/ronde-boots,/collections/bottines,categorie produit,
+/product-category/loafers-mocassins/rond,/collections/mocassins,categorie produit,
+/product-category/richelieu/a-patiner-richelieu,/collections/a-patiner,categorie produit,
+/product-category/loafers-mocassins/a-patiner-mocassin,/collections/a-patiner,categorie produit,
+/product-category/boucles/a-patiner-monk,/collections/a-patiner,categorie produit,
+/product-category/bottines/a-patiner-boots,/collections/a-patiner,categorie produit,
+/product-category/entretien,/collections/entretien,categorie produit,
+/product-category/accessoires/ceintures,/collections/ceintures,categorie produit,
+/product-category/accessoires/petite-maroquinerie,/collections/petite-maroquinerie,categorie produit,
+/product-category/accessoires/gants,/collections/gants,categorie produit,
+/product-category/a-patiner,/collections/a-patiner,categorie produit,
+/en/product-category/boots-en,/en/collections/boots,categorie produit,
+/en/product-category/accessories,/en/collections/accessories,categorie produit,
+/en/product-category/shoe-care,/en/collections/shoe-care,categorie produit,
+/en/product-category/accessories/belts,/en/collections/belts,categorie produit,
+/en/product-category/accessories/gloves,/en/collections/gloves,categorie produit,
+/en/product-category/accessories/small-leather-goods,/en/collections/small-leather-goods,categorie produit,
+/en/product-category/boots-en/for-patina-boots,/en/collections/for-patina,categorie produit,
+/en/product-category/boots-en/round-boots,/en/collections/boots,categorie produit,
+/en/product-category/clasps,/en/collections/monk-straps,categorie produit,
+/en/product-category/clasps/for-patina-clasps,/en/collections/for-patina,categorie produit,
+/en/product-category/clasps/thin-clasp,/en/collections/monk-straps,categorie produit,
+/en/product-category/clasps/round-clasp,/en/collections/monk-straps,categorie produit,
+/en/product-category/derby-en,/en/collections/derby,categorie produit,
+/en/product-category/derby-en/round-derby-en,/en/collections/derby,categorie produit,
+/en/product-category/richelieu-en/for-patina-richelieu,/en/collections/for-patina,categorie produit,
+/en/product-category/loafers,/en/collections/loafers,categorie produit,
+/en/product-category/loafers/for-patina-loafers,/en/collections/for-patina,categorie produit,
+/en/product-category/for-patina-en,/en/collections/for-patina,categorie produit,
+/en/product-category/loafers/round-loafers,/en/collections/loafers,categorie produit,
+/en/product-category/new-models,/en/collections/new-arrivals,categorie produit,
+/en/product-category/discounts,/en/collections/archives,categorie produit,
+/en/product-category/richelieu-en,/en/collections/oxfords,categorie produit,
+/en/product-category/richelieu-en/round-richelieu,/en/collections/oxfords,categorie produit,
+/product-category/sneakers,/collections/sneakers,categorie produit,
+/en/product-category/sneakers-en,/en/collections/sneakers,categorie produit,
+/product-category/accessoires/chaussettes,/collections/chaussettes,categorie produit,
+/en/product-category/accessories/socks,/en/collections/socks,categorie produit,
+/en/product-category/accessories/knives,/en/collections/accessories,categorie produit,
+/product-category/malfroid-reserve,/collections/malfroid-reserve,categorie produit,
+/en/product-category/malfroid-reserve-en,/en/collections/malfroid-reserve,categorie produit,
+/product-category/entretien/cordonnerie,/collections/cordonnerie,categorie produit,
+/product-category/entretien/embauchoirs,/collections/embauchoirs,categorie produit,
+/en/product-category/shoe-care/shoe-trees,/en/collections/shoe-trees,categorie produit,
+/en/product-category/shoe-care/shoe-repair,/en/collections/shoe-repair,categorie produit,
+/en/product-category/shoe-care/leather-care,/en/collections/leather-care,categorie produit,
+/product-category/mariage,/collections/mariage,categorie produit,
+/product-category/entretien/soin-du-cuir,/collections/soin-du-cuir,categorie produit,
+/product-category/accessoires/sacs,/collections/sacs,categorie produit,
+/product-category/malfroid-loft,/collections/malfroid-loft,categorie produit,
+/product-category/malfroid-femme,/collections/malfroid-femme,categorie produit,
+/en/product-category/malfroid-women,/en/collections/malfroid-women,categorie produit,
+/en/product-category/offer-en,/en/collections/archives,categorie produit,
+/product-category/outlet,/collections/outlet,categorie produit,
+/en/product-category/outlet-en,/en/collections/archives,categorie produit,
+/en/product-category/malfroid-loft-en,/en/collections/malfroid-loft,categorie produit,
+/en/product-category/wedding,/en/collections/wedding,categorie produit,
+/en/product-tag/cuir,/en/collections/shoes,etiquette,
+/product-tag/cuir-fr,/collections/souliers,etiquette,
+/couleur/noir,/collections/souliers,attribut,
+/couleur/marron-fonce,/collections/souliers,attribut,
+/couleur/marron-moyen,/collections/souliers,attribut,
+/en/couleur/mahogany,/en/collections/shoes,attribut,
+/en/couleur/cognac-en,/en/collections/shoes,attribut,
+/en/couleur/dark-brown,/en/collections/shoes,attribut,
+/en/couleur/medium-brown,/en/collections/shoes,attribut,
+/en/couleur/black,/en/collections/shoes,attribut,
+/taille-ceinture/90cm,/collections/ceintures,attribut,
+/taille-ceinture/115cm,/collections/ceintures,attribut,
+/shop/loafers-mocassins/rond/mocassin-vauban-ultra-light-vibram,/collections/mocassins,produit retire,vers collection
+/en/shop/boots-en/round-boots/boots-defender-highland-2,/en/collections/boots,produit retire,vers collection
+/shop/bottines/ronde-boots/bottine-defender-highland-2,/collections/bottines,produit retire,vers collection
+/shop/loafers-mocassins/rond/mocassin-vauban,/collections/mocassins,produit retire,vers collection
+/shop/loafers-mocassins/rond/mocassin-vauban-ultra-light-vibram-graine-marron,/collections/souliers,produit retire,vers collection
+/shop/derby/ronde-derby/derby-explorer-ii-low-graine-chocolat,/products/derby-explorer-ii-low-graine-chocolat,produit,
+/en/shop/shoe-care/leather-care/suede-protector-spray,/en/products/impermeabilisant-veau-velours-saphir,produit,
+/en/shop/loafers/round-loafers/penny-loafer-newport-3,/en/products/mocassin-newport-3,produit,
+/shop/loafers-mocassins/rond/mocassin-newport-3,/products/mocassin-newport-3,produit,
+/en/shop/shoe-care/leather-care/leather-lotion,/en/products/lotion,produit,
+/en/shop/boots-en/round-boots/boots-berriere-ii-black,/en/products/bottine-berriere-ii-noir,produit,
+/shop/bottines/ronde-boots/bottine-berriere-ii-noir,/products/bottine-berriere-ii-noir,produit,
+/en/shop/clasps/round-clasp/double-clasp-scapin-box-black-form-361,/en/products/double-boucle-scapin-box-noir-forme-361,produit,
+/en/shop/boots-en/round-boots/boots-berriere-ii-grained-black-last-333,/en/products/bottines-berriere-ii-graine-noir-forme-333,produit,
+/shop/bottines/ronde-boots/bottines-berriere-ii-graine-noir-forme-333,/products/bottines-berriere-ii-graine-noir-forme-333,produit,
+/shop/bottines/ronde-boots/bottine-berriere-ii-marron-chocolat,/products/bottine-berriere-ii-marron-chocolat,produit,
+/en/shop/boots-en/round-boots/boots-berriere-dark-brown-last-369,/en/products/bottines-berriere-marron-chocolat-forme-369,produit,
+/en/shop/derby-en/round-derby-en/derby-brogue-master-2,/en/products/derby-brogue-master,produit,
+/en/shop/boots-en/round-boots/boots-explorer-ii-black-grained-leather,/en/products/bottine-explorer-ii-graine-noir,produit,
+/en/shop/boots-en/round-boots/boots-explorer-ii-chocolate-grained-leather,/en/products/bottine-explorer-ii-graine-chocolat,produit,
+/en/shop/loafers/round-loafers/penny-loafer-newport-superleggera-3,/en/products/mocassin-newport-superleggera-2,produit,
+/en/shop/loafers/round-loafers/penny-loafer-newport-superleggera-chocolate-last-275,/en/collections/loafers,produit retire,vers collection
+/shop/loafers-mocassins/rond/new-mocassin-newport-veau-noir-forme-275,/products/new-mocassin-newport-veau-noir-forme-275,produit,
+/en/shop/loafers/round-loafers/penny-loafer-newport-black-box-calf-last-275,/en/products/new-mocassin-newport-veau-noir-forme-275,produit,
+/shop/loafers-mocassins/rond/new-mocassin-newport-en-cuir-graine-forme-275,/products/new-mocassin-newport-en-cuir-graine-forme-275,produit,
+/en/shop/loafers/round-loafers/penny-loafer-newport-grained-calf-last-275,/en/products/new-mocassin-newport-en-cuir-graine-forme-275,produit,
+/en/shop/loafers/round-loafers/penny-loafer-tilsitt-2,/en/products/mocassin-tilsitt-3,produit,
+/shop/loafers-mocassins/rond/mocassin-goodwood-superleggera,/products/mocassin-goodwood-superleggera,produit,
+/en/shop/loafers/round-loafers/tassel-loafer-goodwood-superleggera,/en/products/mocassin-goodwood-superleggera,produit,
+/shop/bottines/ronde-boots/desert-boots-izoard-loft,/products/desert-boots-izoard-loft,produit,
+/en/shop/boots-en/round-boots/desert-boots-izoard-loft-2,/en/products/desert-boots-izoard-loft,produit,
+/en/shop/boots-en/round-boots/boots-explorer-ii-oliva,/en/products/bottine-explorer-ii-4,produit,
+/shop/bottines/ronde-boots/bottine-explorer-ii-4,/products/bottine-explorer-ii-4,produit,
+/shop/entretien/soin-du-cuir/coffret-cirage-saphir-bois-de-rose,/products/coffret-cirage-saphir-bois-de-rose,produit,
+/shop/richelieu/ronde/richelieu-lannistair-box-noir-forme-361,/products/richelieu-lannistair-box-noir-forme-361,produit,
+/en/shop/richelieu-en/round-richelieu/richelieu-lannistair-box-leather-black-form-361,/en/products/richelieu-lannistair-box-noir-forme-361,produit,
+/en/shop/derby-en/round-derby-en/derby-defender-norwegian-welt-dark-brown-grained-calf-last-333,/en/products/derby-defender-cousu-norvegien-en-cuir-graine-forme-333,produit,
+/en/shop/loafers/round-loafers/penny-loafer-newport-4,/en/products/mocassin-newport-4,produit,
+/en/shop/derby-en/derby-defender-2,/en/products/derby-defender-city,produit,
+/en/shop/derby-en/round-derby-en/derby-explorer-ii-low-chocolate-grained-leather,/en/products/derby-explorer-ii-low-graine-chocolat,produit,
+/shop/loafers-mocassins/rond/mocassin-tilsitt,/products/mocassin-tilsitt,produit,
+/shop/bottines/ronde-boots/bottine-explorer-ii-graine-noir,/products/bottine-explorer-ii-graine-noir,produit,
+/en/shop/derby-en/round-derby-en/derby-defender-city-ii-black,/en/collections/derby,produit retire,vers collection
+/en/shop/loafers/round-loafers/penny-loafer-tilsitt,/en/products/mocassin-tilsitt,produit,
+/shop/bottines/ronde-boots/bottine-explorer-ii-graine-chocolat,/products/bottine-explorer-ii-graine-chocolat,produit,
+/en/shop/boots-en/round-boots/boots-berriere-ii-2,/en/products/bottine-berriere-ii-2,produit,
+/shop/bottines/ronde-boots/bottines-berriere-veau-noir-forme-369,/products/bottines-berriere-veau-noir-forme-369,produit,
+/en/shop/boots-en/round-boots/boots-berriere-black-last-361,/en/products/bottines-berriere-veau-noir-forme-369,produit,
+/shop/bottines/ronde-boots/bottines-berriere-marron-chocolat-forme-369,/products/bottines-berriere-marron-chocolat-forme-369,produit,
+/shop/loafers-mocassins/rond/mocassin-newport-4,/products/mocassin-newport-4,produit,
+/shop/derby/ronde-derby/derby-defender-cousu-norvegien-en-cuir-graine-forme-333,/products/derby-defender-cousu-norvegien-en-cuir-graine-forme-333,produit,
+/en/shop/derby-en/round-derby-en/derby-explorer-ii-low-5,/en/products/derby-explorer-ii-low-4,produit,
+/shop/derby/ronde-derby/derby-explorer-ii-low-4,/products/derby-explorer-ii-low-4,produit,
+/en/shop/loafers/round-loafers/penny-loafer-newport,/en/products/mocassin-newport-2,produit,
+/shop/derby/ronde-derby/derby-brogue-master-3,/products/derby-brogue-master-3,produit,
+/shop/loafers-mocassins/rond/mocassin-newport-2,/products/mocassin-newport-2,produit,
+/shop/richelieu/ronde/mocassin-villalys-superleggera-3,/products/mocassin-villalys-superleggera-3,produit,
+/en/shop/clasps/for-patina-clasps/double-clasp-scapin-for-patina-form-361,/en/products/double-boucle-scapin-a-patiner-forme-361,produit,
+/en/shop/boots-en/round-boots/boots-explorer-ii-2,/en/products/bottine-explorer-ii-3,produit,
+/en/shop/loafers/round-loafers/penny-loafer-newport-brown-box-calf-last-275,/en/products/new-mocassin-newport-veau-marron-forme-275,produit,
+/shop/boucles/ronde-monk/double-boucle-scapin-box-noir-forme-361,/products/double-boucle-scapin-box-noir-forme-361,produit,
+/shop/loafers-mocassins/rond/new-mocassin-newport-veau-marron-forme-275,/products/new-mocassin-newport-veau-marron-forme-275,produit,
+/shop/derby/ronde-derby/derby-defender-city-ii-3,/collections/derby,produit retire,vers collection
+/en/shop/boots-en/round-boots/boots-berriere,/en/products/bottine-berriere,produit,
+/en/shop/derby-en/derby-defender-city-3,/en/products/derby-defender-city-2,produit,
+/shop/bottines/ronde-boots/bottine-explorer-ii-2,/products/bottine-explorer-ii-2,produit,
+/en/shop/boots-en/round-boots/boots-explorer-ii,/en/products/bottine-explorer-ii-2,produit,
+/en/shop/loafers/round-loafers/penny-loafer-newport-5,/en/products/mocassin-newport-5,produit,
+/shop/loafers-mocassins/rond/mocassin-newport-5,/products/mocassin-newport-5,produit,
+/shop/richelieu/ronde/richelieu-lannistair-veau-marron-fonce-forme-361,/products/richelieu-lannistair-veau-marron-fonce-forme-361,produit,
+/shop/boucles/ronde-monk/double-boucle-scapin-marron-cafe,/products/double-boucle-scapin-marron-cafe,produit,
+/en/shop/clasps/round-clasp/scapin-double-clasp-coffee-brown-form-361,/en/products/double-boucle-scapin-marron-cafe,produit,
+/en/shop/boots-en/round-boots/boots-berriere-ii-sage-waxed-leather,/en/products/bottine-berriere-ii-cuir-gras-sauge,produit,
+/shop/derby/ronde-derby/derby-defender-city-ii-4,/collections/derby,produit retire,vers collection
+/en/shop/derby-en/round-derby-en/derby-defender-city-ii-brown-suede,/en/collections/derby,produit retire,vers collection
+/en/shop/derby-en/round-derby-en/defender-selvedge-reserve-series-x-cesure-2,/en/products/defender-selvedge-reserve-series-x-cesure,produit,
+/shop/derby/ronde-derby/defender-selvedge-reserve-series-x-cesure,/products/defender-selvedge-reserve-series-x-cesure,produit,
+/en/shop/shoe-care/leather-care/special-leathers-shoe-cream,/en/products/creme-saphir-medaille-dor-cuirs-speciaux,produit,
+/shop/richelieu/a-patiner-richelieu/richelieu-lannistair-a-patiner-forme-361,/products/richelieu-lannistair-a-patiner-forme-361,produit,
+/shop/malfroid-femme/collection-femme-bottine-berriere-ii-5,/products/collection-femme-bottine-berriere-ii-5,produit,
+/shop/bottines/ronde-boots/bottine-berriere,/products/bottine-berriere,produit,
+/en/shop/loafers/round-loafers/loafer-goodwood-chocolate-grained-leather-rubber-sole,/en/products/goodwood-graine-chocolat-semelle-gomme,produit,
+/en/shop/derby-en/round-derby-en/derby-defender-black-last-333,/en/products/derby-defender-marron-cafe-forme-333,produit,
+/shop/bottines/ronde-boots/bottine-defender-highland-cuir-gras-noir,/products/bottine-defender-highland-cuir-gras-noir,produit,
+/en/shop/boots-en/round-boots/boots-defender-highland-black-waxed-leather,/en/products/bottine-defender-highland-cuir-gras-noir,produit,
+/shop/derby/ronde-derby/derby-defender-marron-cafe-forme-333,/products/derby-defender-marron-cafe-forme-333,produit,
+/shop/derby/ronde-derby/derby-defender,/products/derby-defender,produit,
+/en/shop/derby-en/round-derby-en/derby-defender-2023-version,/en/products/derby-defender,produit,
+/en/shop/clasps/round-clasp/double-monk-strap-scapin-cooper,/en/products/double-boucle-scapin-cooper,produit,
+/shop/boucles/ronde-monk/double-boucle-scapin-cooper,/products/double-boucle-scapin-cooper,produit,
+/shop/loafers-mocassins/rond/tilsitt-chocolat,/products/tilsitt-chocolat,produit,
+/shop/loafers-mocassins/rond/goodwood-graine-chocolat-semelle-gomme,/products/goodwood-graine-chocolat-semelle-gomme,produit,
+/shop/loafers-mocassins/rond/goodwood-graine-noir-semelle-gomme,/products/goodwood-graine-noir-semelle-gomme,produit,
+/en/shop/loafers/round-loafers/loafer-goodwood-black-grained-leather-rubber-sole,/en/products/goodwood-graine-noir-semelle-gomme,produit,
+/shop/derby/derby-explorer-ii-low-3,/products/derby-explorer-ii-low-3,produit,
+/shop/richelieu/ronde/richelieu-bristol-marron-cafe-forme-361,/products/richelieu-bristol-marron-cafe-forme-361,produit,
+/en/shop/richelieu-en/round-richelieu/oxford-lannistair-cooper-black,/en/products/richelieu-lannistair-cooper-noir,produit,
+/en/shop/derby-en/round-derby-en/derby-explorer-ii-oliva,/en/products/derby-explorer-ii-low-oliva,produit,
+/shop/derby/ronde-derby/derby-explorer-ii-low-oliva,/products/derby-explorer-ii-low-oliva,produit,
+/en/shop/sneakers-en/triple-black-n510,/en/collections/sneakers,produit retire,vers collection
+/en/shop/richelieu-en/richelieu-one-cut-mareuil-box-leather-black-form-533,/en/products/richelieu-one-cut-mareuil-box-noir-forme-533,produit,
+/shop/derby/derby-explorer-ii-low-2,/products/derby-explorer-ii-low-2,produit,
+/shop/bottines/ronde-boots/bottine-brogue-master-boot,/products/bottine-brogue-master-boot,produit,
+/en/shop/loafers/round-loafers/goodwood-black-tassel-loafer-form-275,/en/products/mocassin-a-pampilles-goodwood-noir-forme-275,produit,
+/shop/derby/ronde-derby/derby-brogue-master-marron-chocolat,/products/derby-brogue-master-marron-chocolat,produit,
+/shop/loafers-mocassins/rond/mocassin-a-pampilles-goodwood-noir-forme-275,/products/mocassin-a-pampilles-goodwood-noir-forme-275,produit,
+/en/shop/derby-en/round-derby-en/derby-brogue-master-chocolate-brown,/en/products/derby-brogue-master-marron-chocolat,produit,
+/shop/richelieu/fine/richelieu-one-cut-mareuil-marron-cafe-forme-533,/products/richelieu-one-cut-mareuil-marron-cafe-forme-533,produit,
+/en/shop/accessories/belts/belt-aston-2,/en/products/ceinture-aston,produit,
+/shop/bottines/ronde-boots/bottine-berriere-ii-cuir-gras-sauge,/products/bottine-berriere-ii-cuir-gras-sauge,produit,
+/shop/loafers-mocassins/rond/mocassin-a-pampilles-goodwood-velours-marron-forme-275-2,/products/mocassin-a-pampilles-goodwood-velours-marron-forme-275-2,produit,
+/en/shop/loafers/round-loafers/goodwood-brown-velvet-tassel-loafer-last-275,/en/products/mocassin-a-pampilles-goodwood-velours-marron-forme-275-2,produit,
+/en/shop/accessories/belts/belt-aston,/en/products/ceinture-aston-2,produit,
+/en/shop/loafers/round-loafers/penny-loafer-newport-2,/en/products/mocassin-newport,produit,
+/shop/loafers-mocassins/rond/mocassin-newport,/products/mocassin-newport,produit,
+/shop/loafers-mocassins/rond/mocassin-vauban-3,/products/mocassin-vauban-3,produit,
+/shop/derby/derby-defender-city-2,/products/derby-defender-city-2,produit,
+/en/shop/boots-en/round-boots/desert-boots-izoadr-loft,/en/collections/malfroid-loft,produit retire,vers collection
+/shop/derby/derby-explorer-ii-low,/products/derby-explorer-ii-low,produit,
+/shop/derby/ronde-derby/derby-brogue-master-noir,/products/derby-brogue-master-noir,produit,
+/en/shop/derby-en/round-derby-en/derby-brogue-master-black,/en/products/derby-brogue-master-noir,produit,
+/shop/boucles/ronde-monk/double-boucle-scapin-bordeaux-forme-361,/products/double-boucle-scapin-bordeaux-forme-361,produit,
+/en/shop/clasps/round-clasp/double-clasp-scapin-burgundy-form-361,/en/products/double-boucle-scapin-bordeaux-forme-361,produit,
+/shop/sneakers/sneakers-n510-triple-black,/collections/sneakers,produit retire,vers collection
+/en/shop/boots-en/for-patina-boots/berriere-boots-for-patina-form-369,/en/products/bottine-berriere-a-patiner-forme-369,produit,
+/shop/bottines/ronde-boots/bottine-berriere-a-patiner-forme-369,/products/bottine-berriere-a-patiner-forme-369,produit,
+/en/shop/sneakers-en/pre-order-sneakers-n421-khaki-suede,/en/collections/sneakers,produit retire,vers collection
+/shop/loafers-mocassins/rond/mocassin-vauban-commando,/products/mocassin-vauban-commando,produit,
+/en/shop/richelieu-en/richelieu-one-cut-mareuil-coffee-brown-form-533,/en/products/richelieu-one-cut-mareuil-marron-cafe-forme-533,produit,
+/en/shop/boots-en/round-boots/boots-berriere-ii-3,/en/products/bottine-berriere-ii-3,produit,
+/shop/bottines/ronde-boots/bottine-berriere-ii-3,/products/bottine-berriere-ii-3,produit,
+/shop/loafers-mocassins/rond/mocassin-newport-superleggera-cuir-lisse-a-patiner-%F0%9F%96%8C-forme-275,/products/mocassin-newport-superleggera-cuir-lisse-a-patiner-f0-9f-96-8c-forme-275,produit,URL avec emoji encodée
+/en/shop/loafers/for-patina-loafers/penny-loafer-newport-superleggera-for-patina-last-275-2,/en/collections/loafers,produit retire,vers collection
+/shop/loafers-mocassins/rond/mocassin-passy-ultra-light,/products/mocassin-passy-ultra-light,produit,
+/en/shop/boots-en/round-boots/desert-boots-izoard-loft-6,/en/products/desert-boots-izoard-loft-5,produit,
+/shop/richelieu/ronde/richelieu-rosewood-ii-3,/products/richelieu-rosewood-ii-3,produit,
+/en/shop/richelieu-en/for-patina-richelieu/richelieu-mareuil-for-patina-form-533,/en/products/richelieu-mareuil-a-patiner-forme-533,produit,
+/shop/bottines/ronde-boots/desert-boots-izoard-loft-5,/products/desert-boots-izoard-loft-5,produit,
+/shop/bottines/ronde-boots/bottines-stelvio-veau-graine-marron-fonce-forme-361,/products/bottines-stelvio-veau-graine-marron-fonce-forme-361,produit,
+/en/shop/sneakers-en/sneakers-n610-club-2,/en/products/sneakers-n610-court-blanc,produit,
+/en/shop/loafers/round-loafers/penny-loafer-tilsitt-3,/en/products/mocassin-tilsitt-2,produit,
+/en/shop/loafers/round-loafers/horsebit-loafer-passy-2,/en/collections/loafers,produit retire,vers collection
+/en/shop/loafers/round-loafers/horsebit-loafer-passy,/en/collections/loafers,produit retire,vers collection
+/shop/loafers-mocassins/rond/mocassin-villalys-superleggera-2,/products/mocassin-villalys-superleggera-2,produit,
+/shop/richelieu/a-patiner-richelieu/richelieu-bristol-a-patiner-patiner-forme-361,/products/richelieu-bristol-a-patiner-patiner-forme-361,produit,
+/en/shop/richelieu-en/round-richelieu/richelieu-bristol-box-leather-black-form-361,/en/products/richelieu-bristol-box-noir-forme-361,produit,
+/en/shop/richelieu-en/round-richelieu/richelieu-astoria-black-grained-calf-form-361,/en/products/richelieu-astoria-graine-noir-forme-361,produit,
+/en/shop/accessories/belts/belt-furka,/en/products/ceinture-furka,produit,
+/en/shop/boots-en/round-boots/boots-explorer-ii-in-waxed-buffalo-ebony,/en/collections/boots,produit retire,vers collection
+/shop/loafers-mocassins/rond/mocassin-passy-2,/collections/mocassins,produit retire,vers collection
+/shop/bottines/ronde-boots/bottine-explorer-ii,/collections/bottines,produit retire,vers collection
+/shop/malfroid-femme/collection-femme-bottine-berriere-ii-2,/products/collection-femme-bottine-berriere-ii-2,produit,
+/shop/malfroid-femme/collection-femme-bottine-berriere-ii,/products/collection-femme-bottine-berriere-ii,produit,
+/shop/malfroid-femme/collection-femme-bottine-berriere-ii-4,/products/collection-femme-bottine-berriere-ii-4,produit,
+/shop/malfroid-femme/collection-femme-bottine-berriere-ii-3,/products/collection-femme-bottine-berriere-ii-3,produit,
+/shop/derby/derby-defender-city,/products/derby-defender-city,produit,
+/shop/derby/ronde-derby/derby-brogue-master,/products/derby-brogue-master,produit,
+/en/shop/clasps/for-patina-clasps/jacques-reserve-series-for-patina,/en/products/jacques-reserve-series-a-patiner,produit,
+/en/shop/richelieu-en/round-richelieu/1930-reserve-series-3,/en/products/1930-reserve-series,produit,
+/en/shop/richelieu-en/for-patina-richelieu/1930-reserve-series-for-patina,/en/products/1930-reserve-series-2,produit,
+/en/shop/loafers/round-loafers/loafer-tilsitt-loft-3,/en/collections/malfroid-loft,produit retire,vers collection
+/en/shop/loafers/round-loafers/loafer-tilsitt-loft-2,/en/collections/malfroid-loft,produit retire,vers collection
+/shop/loafers-mocassins/rond/mocassin-passy,/collections/mocassins,produit retire,vers collection
+/shop/loafers-mocassins/rond/mocassin-tilsitt-2,/products/mocassin-tilsitt-2,produit,
+/shop/richelieu/ronde/richelieu-rosewood-forme-cooper-velours-terre-de-sienne-forme-333,/collections/richelieus,produit retire,vers collection
+/en/shop/richelieu-en/round-richelieu/oxford-rosewood-last-cooper-suede,/en/collections/oxfords,produit retire,vers collection
+/en/shop/derby-en/round-derby-en/derby-defender-blacklast-333,/en/products/derby-defender-noir-forme-333,produit,
+/shop/loafers-mocassins/rond/mocassin-tilsitt-2-veau-velours-praline-forme-444,/collections/mocassins,produit retire,vers collection
+/en/shop/loafers/round-loafers/penny-loafer-tilsitt-praline-suede-commando-sole-last-444,/en/collections/loafers,produit retire,vers collection
+/en/shop/sneakers-en/sneakers-n320-kaki-suede,/en/collections/sneakers,produit retire,vers collection
+/shop/bottines/ronde-boots/desert-boots-izoard-loft-3,/products/desert-boots-izoard-loft-3,produit,
+/shop/bottines/ronde-boots/bottine-explorer-cuir-de-grand-koudou-forme-333,/collections/bottines,produit retire,vers collection
+/shop/derby/ronde-derby/derby-defender-noir-forme-333,/products/derby-defender-noir-forme-333,produit,
+/en/shop/loafers/round-loafers/tassel-loafer-goodwood,/en/collections/loafers,produit retire,vers collection
+/shop/loafers-mocassins/rond/mocassin-villalys-superleggera-velours-chocolat-forme-275,/products/mocassin-villalys-superleggera-velours-chocolat-forme-275,produit,
+/en/shop/loafers/round-loafers/loafer-villalys-superleggera,/en/products/mocassin-villalys-superleggera,produit,
+/shop/richelieu/ronde/richelieu-bristol-box-noir-forme-361,/products/richelieu-bristol-box-noir-forme-361,produit,
+/shop/richelieu/ronde/richelieu-lannistair-cooper-noir,/products/richelieu-lannistair-cooper-noir,produit,
+/en/shop/loafers/round-loafers/chocolate-brown-goodwood-tassel-loafer-form-275,/en/products/mocassin-a-pampilles-goodwood-marron-chocolat-forme-275,produit,
+/shop/boucles/fine-monk/simple-boucle-jacques-velours-chocolat-forme-533,/collections/boucles,produit retire,vers collection
+/shop/boucles/ronde-monk/double-boucle-scapin-a-patiner-forme-361,/products/double-boucle-scapin-a-patiner-forme-361,produit,
+/en/shop/for-patina-en/sneakers-n320-for-patina-on-demand,/en/collections/sneakers,produit retire,vers collection
+/en/shop/richelieu-en/round-richelieu/richelieu-bristol-coffee-brown-form-361,/en/products/richelieu-bristol-marron-cafe-forme-361,produit,
+/en/shop/sneakers-en/sneakers-n320-navy-suede,/en/collections/sneakers,produit retire,vers collection
+/en/shop/loafers/for-patina-loafers/goodwood-tassel-loafer-with-patina-shape-275,/en/products/mocassin-a-pampilles-goodwood-a-patiner-forme-275,produit,
+/shop/loafers-mocassins/a-patiner-mocassin/mocassin-a-pampilles-goodwood-a-patiner-forme-275,/products/mocassin-a-pampilles-goodwood-a-patiner-forme-275,produit,
+/shop/loafers-mocassins/rond/mocassin-a-pampilles-goodwood-marron-chocolat-forme-275,/products/mocassin-a-pampilles-goodwood-marron-chocolat-forme-275,produit,
+/en/shop/sneakers-en/sneakers-n320-dark-grey-suede,/en/collections/sneakers,produit retire,vers collection
+/en/shop/loafers/round-loafers/penny-loafer-tilsitt-black-suede-commando-sole-last-444-2,/en/collections/loafers,produit retire,vers collection
+/shop/richelieu/fine/richelieu-mareuil-a-patiner-forme-533,/products/richelieu-mareuil-a-patiner-forme-533,produit,
+/en/shop/loafers/for-patina-loafers/penny-loafer-villalys-superleggera-grained-calf-for-patina-last-275,/en/collections/loafers,produit retire,vers collection
+/en/shop/for-patina-en/sneakers-n310-for-patina,/en/collections/for-patina,produit retire,vers collection
+/en/shop/boots-en/round-boots/desert-boots-izoard-loft-4,/en/products/desert-boots-izoard-loft-3,produit,
+/en/shop/loafers/round-loafers/tassel-loafer-goodwood-2,/en/collections/loafers,produit retire,vers collection
+/shop/loafers-mocassins/rond/mocassin-tilsitt-2-velours-noir-forme-444,/collections/mocassins,produit retire,vers collection
+/en/shop/loafers/round-loafers/penny-loafer-tilsitt-black-suede-commando-sole-last-444,/en/collections/loafers,produit retire,vers collection
+/shop/loafers-mocassins/rond/mocassin-tilsitt-2-velours-marron-forme-444,/collections/mocassins,produit retire,vers collection
+/en/shop/loafers/round-loafers/penny-loafer-tilsitt-dark-brown-suede-commando-sole-last-444,/en/collections/loafers,produit retire,vers collection
+/shop/boucles/ronde-monk/new-double-boucle-scapin-version-cooper-graine-noir-et-semelle-gomme-forme-333,/products/new-double-boucle-scapin-version-cooper-graine-noir-et-semelle-gomme-forme-333,produit,
+/en/shop/clasps/round-clasp/double-monk-strap-scapin-cooper-version-black-calf-last-333,/en/products/new-double-boucle-scapin-version-cooper-graine-noir-et-semelle-gomme-forme-333,produit,
+/en/shop/clasps/round-clasp/double-monk-strap-scapin-cooper-version-dark-brown-calf-last-333,/en/products/new-double-boucle-scapin-version-cooper-graine-marron-fonce-et-semelle-gomme-forme-333,produit,
+/shop/boucles/ronde-monk/new-double-boucle-scapin-version-cooper-graine-marron-fonce-et-semelle-gomme-forme-333,/products/new-double-boucle-scapin-version-cooper-graine-marron-fonce-et-semelle-gomme-forme-333,produit,
+/en/shop/boots-en/round-boots/boots-stelvio-dark-brown-grained-calf-last-361,/en/products/bottines-stelvio-veau-graine-marron-fonce-forme-361,produit,
+/en/shop/sneakers-en/__trashed-4,/en/collections/sneakers,produit retire,vers collection
+/shop/richelieu/ronde/richelieu-astoria-graine-noir-forme-361,/products/richelieu-astoria-graine-noir-forme-361,produit,
+/en/shop/clasps/thin-clasp/single-clasp-jacques-chocolate-velvet-form-533,/en/collections/monk-straps,produit retire,vers collection
+/en/shop/boots-en/round-boots/boots-berriere-ii-chcolate-brown,/en/products/bottine-berriere-ii-marron-chocolat,produit,
+/shop/loafers-mocassins/rond/mocassin-tilsitt-3,/products/mocassin-tilsitt-3,produit,
+/en/shop/richelieu-en/for-patina-richelieu/richelieu-lannistair-for-patina-form-361,/en/products/richelieu-lannistair-a-patiner-forme-361,produit,
+/en/shop/richelieu-en/for-patina-richelieu/richelieu-astoria-nut-suede-form-361,/en/collections/oxfords,produit retire,vers collection
+/shop/loafers-mocassins/rond/mocassin-vauban-ultra-light-vibram-2,/products/mocassin-vauban-ultra-light-vibram-2,produit,
+/en/shop/derby-en/derby-explorer-ii-low-2-2,/en/products/derby-explorer-ii-low-3,produit,
+/shop/entretien/soin-du-cuir/creme-pommadier-saphir-medaille-dor,/products/creme-pommadier-saphir-medaille-dor,produit,
+/shop/loafers-mocassins/rond/mocassin-a-picots-driver,/products/mocassin-a-picots-driver,produit,
+/en/shop/derby-en/explorer-ii-low,/en/products/derby-explorer-ii-low-2,produit,
+/en/shop/derby-en/round-derby-en/derby-brogue-master-4,/en/products/derby-brogue-master-3,produit,
+/shop/loafers-mocassins/rond/mocassin-villalys-semelle-superleggera-cuir-graine-a-patiner-%F0%9F%96%8C-forme-275-2,/collections/a-patiner,produit retire,URL avec emoji encodée
+/shop/boucles/fine-monk/jacques-reserve-series-a-patiner,/products/jacques-reserve-series-a-patiner,produit,
+/shop/sneakers/sneakers-n610-court,/products/sneakers-n610-court,produit,
+/en/shop/sneakers-en/sneakers-n610-court-2,/en/products/sneakers-n610-court,produit,
+/shop/richelieu/ronde/richelieu-rosewood-ii,/products/richelieu-rosewood-ii,produit,
+/shop/loafers-mocassins/rond/mocassin-passy-mk2-2,/products/mocassin-passy-mk2-2,produit,
+/shop/loafers-mocassins/rond/mocassin-vauban-4,/products/mocassin-vauban-4,produit,
+/shop/bottines/ronde-boots/bottine-explorer-ii-3,/products/bottine-explorer-ii-3,produit,
+/en/shop/loafers/round-loafers/loafer-villalys-superleggera-2,/en/products/mocassin-villalys-superleggera-2,produit,
+/shop/loafers-mocassins/rond/mocassin-vauban-commando-2,/products/mocassin-vauban-commando-2,produit,
+/shop/sneakers/sneakers-n610-court-blanc,/products/sneakers-n610-court-blanc,produit,
+/shop/bottines/ronde-boots/bottine-brogue-master-boot-2,/products/bottine-brogue-master-boot-2,produit,
+/shop/bottines/ronde-boots/bottine-berriere-ii-2,/products/bottine-berriere-ii-2,produit,
+/shop/loafers-mocassins/rond/mocassin-newport-superleggera-2,/products/mocassin-newport-superleggera-2,produit,
+/shop/loafers-mocassins/rond/mocassin-newport-superleggera,/products/mocassin-newport-superleggera,produit,
+/shop/loafers-mocassins/rond/mocassin-newport-6,/products/mocassin-newport-6,produit,
+/shop/richelieu/ronde/new-richelieu-astoria-graine-marron-forme-361,/products/new-richelieu-astoria-graine-marron-forme-361,produit,
+/shop/richelieu/ronde/new-richelieu-lannistair-version-cooper-veau-velours-marron-fonce-forme-333,/products/new-richelieu-lannistair-version-cooper-veau-velours-marron-fonce-forme-333,produit,
+/en/shop/richelieu-en/round-richelieu/oxford-lannistair-dark-brown-suede-last-533,/en/products/new-richelieu-lannistair-version-cooper-veau-velours-marron-fonce-forme-333,produit,
+/en/shop/boots-en/round-boots/boots-berriere-ii,/en/collections/boots,produit retire,vers collection
+/shop/entretien/soin-du-cuir/cirage,/products/cirage,produit,
+/shop/sneakers/sneakers-n320-veau-velours-marine,/collections/sneakers,produit retire,vers collection
+/en/shop/richelieu-en/round-richelieu/rosewood-ii,/en/products/richelieu-rosewood-ii,produit,
+/shop/sneakers/sneaker-n421-cuir-graine-blanc,/collections/sneakers,produit retire,vers collection
+/en/shop/loafers/round-loafers/penny-loafer-newport-6,/en/products/mocassin-newport-6,produit,
+/shop/bottines/ronde-boots/bottine-stelvio-cooper-last,/products/bottine-stelvio-cooper-last,produit,
+/shop/sneakers/sneakers-n320-veau-velours-kaki,/collections/sneakers,produit retire,vers collection
+/en/shop/loafers/round-loafers/penny-loafer-newport-superleggera-2,/en/products/mocassin-newport-superleggera,produit,
+/shop/loafers-mocassins/rond/mto-commande-speciale-soulier-bas,/collections/mocassins,produit retire,vers collection
+/shop/a-patiner/sneakers-n320-cuir-a-patiner-a-la-demande,/collections/sneakers,produit retire,vers collection
+/shop/richelieu/fine/richelieu-one-cut-mareuil-box-noir-forme-533,/products/richelieu-one-cut-mareuil-box-noir-forme-533,produit,
+/shop/accessoires/ceintures/ceinture-aston-2,/products/ceinture-aston-2,produit,
+/en/shop/loafers/round-loafers/penny-loafer-newport-superleggera-for-patina-last-275,/en/collections/loafers,produit retire,vers collection
+/shop/accessoires/ceintures/ceinture-cuir-noir-2,/products/ceinture-cuir-noir-2,produit,
+/shop/loafers-mocassins/rond/mocassin-a-picots-driver-2,/products/mocassin-a-picots-driver-2,produit,
+/shop/loafers-mocassins/rond/mocassin-a-picots-driver-3,/products/mocassin-a-picots-driver-3,produit,
+/shop/entretien/cordonnerie/pose-de-patins-et-fers-classique,/products/pose-de-patins-et-fers-classique,produit,
+/en/shop/sneakers-en/pre-order-sneakers-n421-grained-navy,/en/collections/sneakers,produit retire,vers collection
+/shop/accessoires/ceintures/ceinture-aston,/products/ceinture-aston,produit,
+/en/shop/boots-en/round-boots/boots-stelvio-cooper,/en/products/bottine-stelvio-cooper-last,produit,
+/shop/sneakers/sneaker-n421-cuir-graine-marine,/collections/sneakers,produit retire,vers collection
+/shop/richelieu/ronde/1930-reserve-series,/products/1930-reserve-series,produit,
+/shop/loafers-mocassins/rond/mocassin-villalys-superleggera,/products/mocassin-villalys-superleggera,produit,
+/shop/entretien/soin-du-cuir/creme-saphir-medaille-dor-cuirs-speciaux,/products/creme-saphir-medaille-dor-cuirs-speciaux,produit,
+/shop/entretien/soin-du-cuir/coffret-groom-saphir,/products/coffret-groom-saphir,produit,
+/en/shop/boots-en/round-boots/boots-brogue-master,/en/products/bottine-brogue-master-boot,produit,
+/shop/loafers-mocassins/rond/mocassin-goodwood-cordovan-forme-275,/collections/malfroid-reserve,produit retire,vers collection
+/en/shop/loafers/round-loafers/penny-loafer-newport-shell-cordovan-last-275-copy,/en/collections/malfroid-reserve,produit retire,vers collection
+/shop/entretien/soin-du-cuir/coffret-ecrin-saphir,/products/coffret-ecrin-saphir,produit,
+/en/shop/loafers/round-loafers/loafer-tilsitt-loft,/en/collections/malfroid-loft,produit retire,vers collection
+/shop/sneakers/sneaker-n421-velours-kaki,/collections/sneakers,produit retire,vers collection
+/shop/sneakers/sneakers-n320-veau-velours-gris,/collections/sneakers,produit retire,vers collection
+/shop/richelieu/ronde/1930-reserve-series-2,/products/1930-reserve-series-2,produit,
+/en/shop/loafers/round-loafers/penny-loafer-villalys-superleggera-chocolate-last-275,/en/products/mocassin-villalys-superleggera-velours-chocolat-forme-275,produit,
+/shop/entretien/soin-du-cuir/coffret-esthete-saphir,/products/coffret-esthete-saphir,produit,
+/shop/accessoires/ceintures/ceinture-furka-2,/products/ceinture-furka-2,produit,
+/shop/accessoires/ceintures/ceinture-furka,/products/ceinture-furka,produit,
+/en/shop/accessories/socks/vintage-socks-m,/en/collections/socks,produit retire,vers collection
+/shop/entretien/cordonnerie/pose-de-vibram-et-fer-triumph-laiton,/products/pose-de-vibram-et-fer-triumph-laiton,produit,
+/shop/entretien/cordonnerie/patin-seul,/products/patin-seul,produit,
+/shop/entretien/cordonnerie/pose-de-semelle-commando-vibram,/products/pose-de-semelle-commando-vibram,produit,
+/en/shop/shoe-care/leather-care/creme-1925-pommadier-cream,/en/products/creme-pommadier-saphir-medaille-dor,produit,
+/shop/entretien/cordonnerie/pose-de-patin-et-fer-facon-bottier-joker,/products/pose-de-patin-et-fer-facon-bottier-joker,produit,
+/en/shop/richelieu-en/round-richelieu/richelieu-astoria-black-grained-calf-form-361-copy,/en/products/new-richelieu-astoria-graine-marron-forme-361,produit,
+/en/shop/derby-en/boots-explorer-ii-low,/en/products/derby-explorer-ii-low,produit,
+/en/shop/boots-en/round-boots/boots-brogue-master-2,/en/products/bottine-brogue-master-boot-2,produit,
+/shop/loafers-mocassins/rond/mocassin-newport-cordovan-forme-275,/collections/malfroid-reserve,produit retire,vers collection
+/en/shop/sneakers-en/pre-order-sneakers-n421-grained-white,/en/collections/sneakers,produit retire,vers collection
+/shop/entretien/soin-du-cuir/impermeabilisant-veau-velours-saphir,/products/impermeabilisant-veau-velours-saphir,produit,
+/shop/entretien/soin-du-cuir/lotion,/products/lotion,produit,
+/en/shop/loafers/round-loafers/penny-loafer-newport-superleggera-last-275-2,/en/collections/loafers,produit retire,vers collection
+/en/shop/clasps/for-patina-clasps/simple-clasp-jacques-to-skate-form-533,/en/collections/monk-straps,produit retire,vers collection
+/en/shop/shoe-care/shoe-trees/shoes-horn,/en/collections/shoe-trees,produit retire,vers collection
+/en/shop/shoe-care/shoe-trees/the-real-shoehorn,/en/collections/shoe-trees,produit retire,vers collection
+/en/shop/loafers/round-loafers/penny-loafer-newport-shell-cordovan-last-275,/en/collections/malfroid-reserve,produit retire,vers collection
+/shop/derby/ronde-derby/derby-defender-reserve,/collections/malfroid-reserve,produit retire,vers collection
+/shop/entretien/soin-du-cuir/brosse-en-crin-de-cheval,/products/brosse-en-crin-de-cheval,produit,
+/en/shop/discounts/desert-boots-izoard-dark-brown-velvet-form-361-2,/en/collections/archives,produit retire,vers collection
+/shop/entretien/soin-du-cuir/brosse-a-veau-velours,/products/brosse-a-veau-velours,produit,
+/en/shop/richelieu-en/for-patina-richelieu/richelieu-bristol-for-patina-form-361,/en/collections/oxfords,produit retire,vers collection
+/en/shop/discounts/penny-loafer-newport-unlined-sage-suede-last-275,/en/collections/archives,produit retire,vers collection
+/en/shop/loafers/round-loafers/penny-loafer-villalys-superleggera-last-275,/en/collections/loafers,produit retire,vers collection
+/en/shop/derby-en/round-derby-en/brogue-master-grained-chocolate-calf-last-437,/en/collections/derby,produit retire,vers collection
+/en/shop/richelieu-en/round-richelieu/richelieu-astoria-navy-grained-calf-form-361,/en/collections/oxfords,produit retire,vers collection
+/shop/entretien/soin-du-cuir/pack-dentretien-pour-veau-velours,/products/pack-dentretien-pour-veau-velours,produit,
+/en/shop/loafers/round-loafers/loafer-vauban-2,/en/collections/loafers,produit retire,vers collection
+/en/shop/richelieu-en/round-richelieu/oxford-lannistair-brown-last-361,/en/products/richelieu-lannistair-veau-marron-fonce-forme-361,produit,
+/shop/entretien/soin-du-cuir/omninettoyant-saphir,/products/omninettoyant-saphir,produit,
+/en/shop/accessories/gloves/yellow-rascal-deerskin-and-kevlar-gloves,/en/products/gants-rascal-cuir-de-cerf-et-kevlar-noir-2,produit,
+/shop/accessoires/gants/gants-rascal-cuir-de-cerf-et-kevlar-noir-2,/products/gants-rascal-cuir-de-cerf-et-kevlar-noir-2,produit,
+/en/shop/loafers/penny-loafer-vauban-ultra-light-vibram-4,/en/collections/loafers,produit retire,vers collection
+/en/shop/loafers/round-loafers/penny-loafer-vauban-ultra-light-vibram-5,/en/collections/loafers,produit retire,vers collection
+/en/shop/loafers/round-loafers/penny-loafer-vauban-ultra-light-vibram-2,/en/collections/loafers,produit retire,vers collection
+/shop/loafers-mocassins/penny-loafer-vauban-ultra-light-vibram-graine-olive,/collections/souliers,produit retire,vers collection
+/en/shop/shoe-care/shoe-trees/shoetrees-shoemaker,/en/products/embauchoirs-bottier,produit,
+/en/shop/malfroid-women/pre-order-womens-collection-boots-berriere-ii-5,/en/products/collection-femme-bottine-berriere-ii-5,produit,
+/en/shop/accessories/socks/mercerised-cotton-socks-blue,/en/products/chaussettes-en-fil-decosse-marine,produit,
+/en/shop/loafers/round-loafers/passy-ultra-light-2,/en/products/mocassin-passy-ultra-light,produit,
+/en/shop/shoe-care/shoe-trees/shoe-trees,/en/products/embauchoirs-classiques,produit,
+/en/shop/accessories/belts/coffee-brown-leather-belt,/en/products/ceinture-cuir-marron-cafe-2,produit,
+/en/shop/accessories/socks/mercerised-cotton-sock-black,/en/products/chaussettes-en-fil-decosse-noires,produit,
+/shop/entretien/embauchoirs/embauchoirs-classiques,/products/embauchoirs-classiques,produit,
+/en/shop/loafers/round-loafers/tilsitt-chocolate,/en/products/tilsitt-chocolat,produit,
+/en/shop/accessories/belts/black-leather-belt,/en/products/ceinture-cuir-noir-2,produit,
+/shop/accessoires/gants/gants-rascal-cuir-de-cerf-et-kevlar-noir,/products/gants-rascal-cuir-de-cerf-et-kevlar-noir,produit,
+/en/shop/shoe-care/leather-care/the-esthete-kit,/en/products/coffret-esthete-saphir,produit,
+/en/shop/shoe-care/leather-care/the-ecrin-gift-set,/en/products/coffret-ecrin-saphir,produit,
+/en/shop/accessories/gloves/gloves-harris-tweed-wool-and-leather-2,/en/products/gants-harris-tweed-of-scotland-2,produit,
+/en/shop/accessories/belts/belt-furka-2,/en/collections/belts,produit retire,vers collection
+/en/shop/malfroid-women/pre-order-womens-collection-boots-berriere-ii-4,/en/products/collection-femme-bottine-berriere-ii-2,produit,
+/en/shop/malfroid-women/pre-order-womens-collection-boots-berriere-ii,/en/products/collection-femme-bottine-berriere-ii,produit,
+/en/shop/malfroid-women/pre-order-womens-collection-boots-berriere-ii-2,/en/products/collection-femme-bottine-berriere-ii-4,produit,
+/en/shop/malfroid-women/pre-order-womens-collection-boots-berriere-ii-3,/en/products/collection-femme-bottine-berriere-ii-3,produit,
+/shop/accessoires/chaussettes/chaussettes-en-fil-decosse-beige,/products/chaussettes-en-fil-decosse-beige,produit,
+/en/shop/boots-en/round-boots/boots-explorer,/en/collections/boots,produit retire,vers collection
+/shop/accessoires/petite-maroquinerie/porte-carte-cuir-racing-green,/products/porte-carte-cuir-racing-green,produit,
+/shop/accessoires/petite-maroquinerie/porte-carte-cuir-bleu-marine,/products/porte-carte-cuir-bleu-marine,produit,
+/shop/accessoires/petite-maroquinerie/porte-carte-en-cuir-noir,/products/porte-carte-en-cuir-noir,produit,
+/en/shop/accessories/gloves/gloves-harris-tweed-wool-and-leather-3,/en/products/gants-harris-tweed-of-scotland-3,produit,
+/en/shop/richelieu-en/for-patina-richelieu/oxford-bristol,/en/products/richelieu-bristol-a-patiner-patiner-forme-361,produit,
+/shop/accessoires/chaussettes/chaussettes-en-fil-decosse-gris,/products/chaussettes-en-fil-decosse-gris,produit,
+/en/shop/accessories/socks/mercerised-cotton-socks-black,/en/products/chaussettes-en-fil-decosse-gris,produit,
+/en/shop/shoe-care/leather-care/oil-for-cordovan-leather,/en/collections/leather-care,produit retire,vers collection
+/en/shop/loafers/round-loafers/loafer-vauban-3-2,/en/products/mocassin-vauban-3,produit,
+/shop/accessoires/chaussettes/chaussettes-en-fil-decosse-noires,/products/chaussettes-en-fil-decosse-noires,produit,
+/shop/accessoires/sacs/cabas-le-m,/products/cabas-le-m,produit,
+/en/shop/loafers/round-loafers/loafer-vauban-commando,/en/products/mocassin-vauban-commando,produit,
+/en/shop/loafers/round-loafers/loafer-vauban-commando-2,/en/products/mocassin-vauban-commando-2,produit,
+/en/shop/richelieu-en/round-richelieu/rosewood-ii-2,/en/products/richelieu-rosewood-ii-3,produit,
+/en/shop/loafers/round-loafers/loafer-vauban-3,/en/products/mocassin-vauban-4,produit,
+/en/shop/richelieu-en/round-richelieu/loafer-villalys-superleggera-3,/en/products/mocassin-villalys-superleggera-3,produit,
+/shop/accessoires/ceintures/ceinture-cuir-a-patiner,/products/ceinture-cuir-a-patiner,produit,
+/shop/accessoires/sacs/cabas-austin,/products/cabas-austin,produit,
+/en/shop/accessories/carrier-bag-austin,/en/products/cabas-austin,produit,
+/shop/accessoires/ceintures/ceinture-junot-2,/products/ceinture-junot-2,produit,
+/shop/accessoires/ceintures/ceinture-junot,/products/ceinture-junot,produit,
+/shop/entretien/cordonnerie/ressemelage-complet,/products/ressemelage-complet,produit,
+/shop/accessoires/ceintures/ceinture-cuir-marron-cafe-2,/products/ceinture-cuir-marron-cafe-2,produit,
+/en/shop/loafers/round-loafers/driver-loafer-2,/en/products/mocassin-a-picots-driver,produit,
+/en/shop/loafers/round-loafers/driver-loafer-3,/en/products/mocassin-a-picots-driver-2,produit,
+/en/shop/loafers/round-loafers/driver-loafer,/en/products/mocassin-a-picots-driver-3,produit,
+/en/shop/loafers/round-loafers/penny-loafer-vauban-ultra-light-vibram,/en/products/mocassin-vauban-ultra-light-vibram-2,produit,
+/en/shop/loafers/round-loafers/passy-ultra-light,/en/products/mocassin-passy-mk2-2,produit,
+/shop/accessoires/petite-maroquinerie/porte-cles-defender,/products/porte-cles-defender,produit,
+/en/shop/shoe-care/leather-care/the-groom-box-saphir,/en/products/coffret-groom-saphir,produit,
+/en/shop/accessories/carrier-bag-the-m,/en/products/cabas-le-m,produit,
+/en/shop/shoe-care/leather-care/saphir-omnicleaner,/en/products/omninettoyant-saphir,produit,
+/shop/entretien/embauchoirs/embauchoirs-bottier,/products/embauchoirs-bottier,produit,
+/en/shop/accessories/gloves/gloves-harris-tweed-wool-and-leather,/en/products/gants-harris-tweed-of-scotland,produit,
+/shop/accessoires/gants/gants-harris-tweed-of-scotland,/products/gants-harris-tweed-of-scotland,produit,
+/shop/accessoires/gants/gants-harris-tweed-of-scotland-3,/products/gants-harris-tweed-of-scotland-3,produit,
+/shop/accessoires/chaussettes/chaussettes-en-fil-decosse-marine,/products/chaussettes-en-fil-decosse-marine,produit,
+/en/shop/accessories/small-leather-goods/cart-holder-racing-green,/en/products/porte-carte-cuir-racing-green,produit,
+/en/shop/accessories/small-leather-goods/cart-holder-black,/en/products/porte-carte-en-cuir-noir,produit,
+/en/shop/accessories/gloves/black-rascal-deerskin-and-kevlar-gloves-2,/en/products/gants-rascal-cuir-de-cerf-et-kevlar-noir,produit,
+/shop/accessoires/gants/gants-harris-tweed-of-scotland-2,/products/gants-harris-tweed-of-scotland-2,produit,
+/en/shop/shoe-care/shoe-repair/patina,/en/products/patine,produit,
+/shop/entretien/cordonnerie/patine,/products/patine,produit,
+/en/shop/shoe-care/leather-care/caring-pack-for-smooth-and-grained-leather,/en/products/pack-dentretien-cuir-lisse-cuir-graine,produit,
+/en/shop/shoe-care/leather-care/the-intendant-valet-box,/en/products/coffret-cirage-saphir-bois-de-rose,produit,
+/shop/entretien/soin-du-cuir/pack-dentretien-cuir-lisse-cuir-graine,/products/pack-dentretien-cuir-lisse-cuir-graine,produit,
+/en/shop/accessories/small-leather-goods/cart-holder-navy-blue,/en/products/porte-carte-cuir-bleu-marine,produit,
+/en/shop/accessories/gloves/green-rascal-deerskin-and-kevlar-gloves,/en/collections/gloves,produit retire,vers collection
+/en/shop/loafers/round-loafers/special-order,/en/collections/loafers,produit retire,vers collection
+/en/shop/shoe-care/leather-care/polish,/en/products/cirage,produit,
+/en/shop/accessories/belts/leather-belt-for-patina,/en/products/ceinture-cuir-a-patiner,produit,
+/shop/entretien/cordonnerie/glacage,/products/glacage,produit,
+/en/shop/shoe-care/leather-care/caring-pack-for-suede-leather,/en/products/pack-dentretien-pour-veau-velours,produit,
+/en/shop/shoe-care/shoe-repair/traditional-shoe-sole,/en/products/patin-seul,produit,
+/en/shop/shoe-care/shoe-repair/joker-shoe-sole-and-irons,/en/products/pose-de-patin-et-fer-facon-bottier-joker,produit,
+/en/shop/shoe-care/shoe-repair/classical-shoe-sole-and-iron,/en/products/pose-de-patins-et-fers-classique,produit,
+/en/shop/shoe-care/shoe-repair/installation-of-vibram-commando-sole,/en/products/pose-de-semelle-commando-vibram,produit,
+/en/shop/shoe-care/shoe-repair/classical-shoe-sole-vibram-and-brass-toe-cap,/en/products/pose-de-vibram-et-fer-triumph-laiton,produit,
+/en/shop/shoe-care/leather-care/horsehair-brush,/en/products/brosse-en-crin-de-cheval,produit,
+/en/shop/shoe-care/leather-care/velvet-calf-brush,/en/products/brosse-a-veau-velours,produit,
+/en/shop/shoe-care/shoe-repair/shoes-shine,/en/products/glacage,produit,
+/shop/entretien/frange-golf-pour-double-boucle,/collections/entretien,produit retire,vers collection
+/en/shop/shoe-care/leather-care/lace-dark-brown-medaille-dor,/en/collections/leather-care,produit retire,vers collection
+/en/shop/shoe-care/leather-care/lace-tan-brown-medaille-dor,/en/collections/leather-care,produit retire,vers collection
+/en/shop/accessories/knives/traditional-laguiole-knife-blue-carbon-fibre-finish,/en/collections/accessories,produit retire,vers collection
+/react-dazzle-build-a-custom-drag-and-drop-dashboard-guide,/blogs/journal,post,article non repris ; variante sans /en
+/sonner-react-toasts-setup-hooks-advanced-customization,/blogs/journal,post,article non repris ; variante sans /en
+/portrait-of-charly-martin-the-trunk-expert,/blogs/journal/portrait-of-charly-martin-the-trunk-expert,post,variante sans /en
+/loafers-2,/collections/loafers,page,variante sans /en
+/boots-2,/collections/boots,page,variante sans /en
+/derbies-2,/collections/derby,page,variante sans /en
+/oxfords,/collections/oxfords,page,variante sans /en
+/sneakers-4,/collections/sneakers,page,variante sans /en
+/manifesto,/pages/manifesto,page,variante sans /en
+/blog-2,/blogs/journal,page,variante sans /en
+/our-stores,/pages/our-stores,page,variante sans /en
+/contact-us,/pages/contact,page,variante sans /en
+/my-account,/account,page,variante sans /en
+/monk-straps,/collections/monk-straps,page,variante sans /en
+/size-guide-4,/pages/guide-de-pointures,page,variante sans /en
+/terms-of-sale,/policies/terms-of-service,page,variante sans /en
+/richelieu-2,/collections/oxfords,page,variante sans /en
+/womens-collection,/collections/malfroid-women,page,variante sans /en
+/care-for-your-malfroid-shoes,/pages/guide-dentretien-de-vos-souliers,page,variante sans /en
+/shoes,/collections/shoes,page,variante sans /en
+/caps,/collections/accessories,page,variante sans /en
+/shoecare,/collections/shoe-care,page,variante sans /en
+/accessories,/collections/accessories,page,variante sans /en
+/fabrication-en,/pages/craftsmanship,page,variante sans /en
+/boots,/collections/boots,page,variante sans /en
+/new-models,/collections/new-arrivals,page,variante sans /en
+/sneakers-en,/collections/sneakers,page,variante sans /en
+/clasps,/collections/monk-straps,page,variante sans /en
+/all-products,/collections/shoes,page,variante sans /en
+/checkout-2,/cart,page,variante sans /en
+/accessories/wallets,/collections/small-leather-goods,page,variante sans /en
+/for-patina,/collections/for-patina,page,variante sans /en
+/the-collection,/collections/shoes,page,variante sans /en
+/gloves,/collections/gloves,page,variante sans /en
+/derby-2,/collections/derby,page,variante sans /en
+/belts,/collections/belts,page,variante sans /en
+/watch-straps,/collections/accessories,page,variante sans /en
+/category/news,/blogs/journal,categorie blog,variante sans /en
+/product-category/boots-en,/collections/boots,categorie produit,variante sans /en
+/product-category/accessories,/collections/accessories,categorie produit,variante sans /en
+/product-category/shoe-care,/collections/shoe-care,categorie produit,variante sans /en
+/product-category/accessories/belts,/collections/belts,categorie produit,variante sans /en
+/product-category/accessories/gloves,/collections/gloves,categorie produit,variante sans /en
+/product-category/accessories/small-leather-goods,/collections/small-leather-goods,categorie produit,variante sans /en
+/product-category/boots-en/for-patina-boots,/collections/for-patina,categorie produit,variante sans /en
+/product-category/boots-en/round-boots,/collections/boots,categorie produit,variante sans /en
+/product-category/clasps,/collections/monk-straps,categorie produit,variante sans /en
+/product-category/clasps/for-patina-clasps,/collections/for-patina,categorie produit,variante sans /en
+/product-category/clasps/thin-clasp,/collections/monk-straps,categorie produit,variante sans /en
+/product-category/clasps/round-clasp,/collections/monk-straps,categorie produit,variante sans /en
+/product-category/derby-en,/collections/derby,categorie produit,variante sans /en
+/product-category/derby-en/round-derby-en,/collections/derby,categorie produit,variante sans /en
+/product-category/richelieu-en/for-patina-richelieu,/collections/for-patina,categorie produit,variante sans /en
+/product-category/loafers,/collections/loafers,categorie produit,variante sans /en
+/product-category/loafers/for-patina-loafers,/collections/for-patina,categorie produit,variante sans /en
+/product-category/for-patina-en,/collections/for-patina,categorie produit,variante sans /en
+/product-category/loafers/round-loafers,/collections/loafers,categorie produit,variante sans /en
+/product-category/new-models,/collections/new-arrivals,categorie produit,variante sans /en
+/product-category/discounts,/collections/archives,categorie produit,variante sans /en
+/product-category/richelieu-en,/collections/oxfords,categorie produit,variante sans /en
+/product-category/richelieu-en/round-richelieu,/collections/oxfords,categorie produit,variante sans /en
+/product-category/sneakers-en,/collections/sneakers,categorie produit,variante sans /en
+/product-category/accessories/socks,/collections/socks,categorie produit,variante sans /en
+/product-category/accessories/knives,/collections/accessories,categorie produit,variante sans /en
+/product-category/malfroid-reserve-en,/collections/malfroid-reserve,categorie produit,variante sans /en
+/product-category/shoe-care/shoe-trees,/collections/shoe-trees,categorie produit,variante sans /en
+/product-category/shoe-care/shoe-repair,/collections/shoe-repair,categorie produit,variante sans /en
+/product-category/shoe-care/leather-care,/collections/leather-care,categorie produit,variante sans /en
+/product-category/malfroid-women,/collections/malfroid-women,categorie produit,variante sans /en
+/product-category/offer-en,/collections/archives,categorie produit,variante sans /en
+/product-category/outlet-en,/collections/archives,categorie produit,variante sans /en
+/product-category/malfroid-loft-en,/collections/malfroid-loft,categorie produit,variante sans /en
+/product-category/wedding,/collections/wedding,categorie produit,variante sans /en
+/product-tag/cuir,/collections/shoes,etiquette,variante sans /en
+/couleur/mahogany,/collections/shoes,attribut,variante sans /en
+/couleur/cognac-en,/collections/shoes,attribut,variante sans /en
+/couleur/dark-brown,/collections/shoes,attribut,variante sans /en
+/couleur/medium-brown,/collections/shoes,attribut,variante sans /en
+/couleur/black,/collections/shoes,attribut,variante sans /en
+/shop/boots-en/round-boots/boots-defender-highland-2,/collections/boots,produit retire,vers collection ; variante sans /en
+/shop/shoe-care/leather-care/suede-protector-spray,/products/impermeabilisant-veau-velours-saphir,produit,variante sans /en
+/shop/loafers/round-loafers/penny-loafer-newport-3,/products/mocassin-newport-3,produit,variante sans /en
+/shop/shoe-care/leather-care/leather-lotion,/products/lotion,produit,variante sans /en
+/shop/boots-en/round-boots/boots-berriere-ii-black,/products/bottine-berriere-ii-noir,produit,variante sans /en
+/shop/clasps/round-clasp/double-clasp-scapin-box-black-form-361,/products/double-boucle-scapin-box-noir-forme-361,produit,variante sans /en
+/shop/boots-en/round-boots/boots-berriere-ii-grained-black-last-333,/products/bottines-berriere-ii-graine-noir-forme-333,produit,variante sans /en
+/shop/boots-en/round-boots/boots-berriere-dark-brown-last-369,/products/bottines-berriere-marron-chocolat-forme-369,produit,variante sans /en
+/shop/derby-en/round-derby-en/derby-brogue-master-2,/products/derby-brogue-master,produit,variante sans /en
+/shop/boots-en/round-boots/boots-explorer-ii-black-grained-leather,/products/bottine-explorer-ii-graine-noir,produit,variante sans /en
+/shop/boots-en/round-boots/boots-explorer-ii-chocolate-grained-leather,/products/bottine-explorer-ii-graine-chocolat,produit,variante sans /en
+/shop/loafers/round-loafers/penny-loafer-newport-superleggera-3,/products/mocassin-newport-superleggera-2,produit,variante sans /en
+/shop/loafers/round-loafers/penny-loafer-newport-superleggera-chocolate-last-275,/collections/loafers,produit retire,vers collection ; variante sans /en
+/shop/loafers/round-loafers/penny-loafer-newport-black-box-calf-last-275,/products/new-mocassin-newport-veau-noir-forme-275,produit,variante sans /en
+/shop/loafers/round-loafers/penny-loafer-newport-grained-calf-last-275,/products/new-mocassin-newport-en-cuir-graine-forme-275,produit,variante sans /en
+/shop/loafers/round-loafers/penny-loafer-tilsitt-2,/products/mocassin-tilsitt-3,produit,variante sans /en
+/shop/loafers/round-loafers/tassel-loafer-goodwood-superleggera,/products/mocassin-goodwood-superleggera,produit,variante sans /en
+/shop/boots-en/round-boots/desert-boots-izoard-loft-2,/products/desert-boots-izoard-loft,produit,variante sans /en
+/shop/boots-en/round-boots/boots-explorer-ii-oliva,/products/bottine-explorer-ii-4,produit,variante sans /en
+/shop/richelieu-en/round-richelieu/richelieu-lannistair-box-leather-black-form-361,/products/richelieu-lannistair-box-noir-forme-361,produit,variante sans /en
+/shop/derby-en/round-derby-en/derby-defender-norwegian-welt-dark-brown-grained-calf-last-333,/products/derby-defender-cousu-norvegien-en-cuir-graine-forme-333,produit,variante sans /en
+/shop/loafers/round-loafers/penny-loafer-newport-4,/products/mocassin-newport-4,produit,variante sans /en
+/shop/derby-en/derby-defender-2,/products/derby-defender-city,produit,variante sans /en
+/shop/derby-en/round-derby-en/derby-explorer-ii-low-chocolate-grained-leather,/products/derby-explorer-ii-low-graine-chocolat,produit,variante sans /en
+/shop/derby-en/round-derby-en/derby-defender-city-ii-black,/collections/derby,produit retire,vers collection ; variante sans /en
+/shop/loafers/round-loafers/penny-loafer-tilsitt,/products/mocassin-tilsitt,produit,variante sans /en
+/shop/boots-en/round-boots/boots-berriere-ii-2,/products/bottine-berriere-ii-2,produit,variante sans /en
+/shop/boots-en/round-boots/boots-berriere-black-last-361,/products/bottines-berriere-veau-noir-forme-369,produit,variante sans /en
+/shop/derby-en/round-derby-en/derby-explorer-ii-low-5,/products/derby-explorer-ii-low-4,produit,variante sans /en
+/shop/loafers/round-loafers/penny-loafer-newport,/products/mocassin-newport-2,produit,variante sans /en
+/shop/clasps/for-patina-clasps/double-clasp-scapin-for-patina-form-361,/products/double-boucle-scapin-a-patiner-forme-361,produit,variante sans /en
+/shop/boots-en/round-boots/boots-explorer-ii-2,/products/bottine-explorer-ii-3,produit,variante sans /en
+/shop/loafers/round-loafers/penny-loafer-newport-brown-box-calf-last-275,/products/new-mocassin-newport-veau-marron-forme-275,produit,variante sans /en
+/shop/boots-en/round-boots/boots-berriere,/products/bottine-berriere,produit,variante sans /en
+/shop/derby-en/derby-defender-city-3,/products/derby-defender-city-2,produit,variante sans /en
+/shop/boots-en/round-boots/boots-explorer-ii,/products/bottine-explorer-ii-2,produit,variante sans /en
+/shop/loafers/round-loafers/penny-loafer-newport-5,/products/mocassin-newport-5,produit,variante sans /en
+/shop/clasps/round-clasp/scapin-double-clasp-coffee-brown-form-361,/products/double-boucle-scapin-marron-cafe,produit,variante sans /en
+/shop/boots-en/round-boots/boots-berriere-ii-sage-waxed-leather,/products/bottine-berriere-ii-cuir-gras-sauge,produit,variante sans /en
+/shop/derby-en/round-derby-en/derby-defender-city-ii-brown-suede,/collections/derby,produit retire,vers collection ; variante sans /en
+/shop/derby-en/round-derby-en/defender-selvedge-reserve-series-x-cesure-2,/products/defender-selvedge-reserve-series-x-cesure,produit,variante sans /en
+/shop/shoe-care/leather-care/special-leathers-shoe-cream,/products/creme-saphir-medaille-dor-cuirs-speciaux,produit,variante sans /en
+/shop/loafers/round-loafers/loafer-goodwood-chocolate-grained-leather-rubber-sole,/products/goodwood-graine-chocolat-semelle-gomme,produit,variante sans /en
+/shop/derby-en/round-derby-en/derby-defender-black-last-333,/products/derby-defender-marron-cafe-forme-333,produit,variante sans /en
+/shop/boots-en/round-boots/boots-defender-highland-black-waxed-leather,/products/bottine-defender-highland-cuir-gras-noir,produit,variante sans /en
+/shop/derby-en/round-derby-en/derby-defender-2023-version,/products/derby-defender,produit,variante sans /en
+/shop/clasps/round-clasp/double-monk-strap-scapin-cooper,/products/double-boucle-scapin-cooper,produit,variante sans /en
+/shop/loafers/round-loafers/loafer-goodwood-black-grained-leather-rubber-sole,/products/goodwood-graine-noir-semelle-gomme,produit,variante sans /en
+/shop/richelieu-en/round-richelieu/oxford-lannistair-cooper-black,/products/richelieu-lannistair-cooper-noir,produit,variante sans /en
+/shop/derby-en/round-derby-en/derby-explorer-ii-oliva,/products/derby-explorer-ii-low-oliva,produit,variante sans /en
+/shop/sneakers-en/triple-black-n510,/collections/sneakers,produit retire,vers collection ; variante sans /en
+/shop/richelieu-en/richelieu-one-cut-mareuil-box-leather-black-form-533,/products/richelieu-one-cut-mareuil-box-noir-forme-533,produit,variante sans /en
+/shop/loafers/round-loafers/goodwood-black-tassel-loafer-form-275,/products/mocassin-a-pampilles-goodwood-noir-forme-275,produit,variante sans /en
+/shop/derby-en/round-derby-en/derby-brogue-master-chocolate-brown,/products/derby-brogue-master-marron-chocolat,produit,variante sans /en
+/shop/accessories/belts/belt-aston-2,/products/ceinture-aston,produit,variante sans /en
+/shop/loafers/round-loafers/goodwood-brown-velvet-tassel-loafer-last-275,/products/mocassin-a-pampilles-goodwood-velours-marron-forme-275-2,produit,variante sans /en
+/shop/accessories/belts/belt-aston,/products/ceinture-aston-2,produit,variante sans /en
+/shop/loafers/round-loafers/penny-loafer-newport-2,/products/mocassin-newport,produit,variante sans /en
+/shop/boots-en/round-boots/desert-boots-izoadr-loft,/collections/malfroid-loft,produit retire,vers collection ; variante sans /en
+/shop/derby-en/round-derby-en/derby-brogue-master-black,/products/derby-brogue-master-noir,produit,variante sans /en
+/shop/clasps/round-clasp/double-clasp-scapin-burgundy-form-361,/products/double-boucle-scapin-bordeaux-forme-361,produit,variante sans /en
+/shop/boots-en/for-patina-boots/berriere-boots-for-patina-form-369,/products/bottine-berriere-a-patiner-forme-369,produit,variante sans /en
+/shop/sneakers-en/pre-order-sneakers-n421-khaki-suede,/collections/sneakers,produit retire,vers collection ; variante sans /en
+/shop/richelieu-en/richelieu-one-cut-mareuil-coffee-brown-form-533,/products/richelieu-one-cut-mareuil-marron-cafe-forme-533,produit,variante sans /en
+/shop/boots-en/round-boots/boots-berriere-ii-3,/products/bottine-berriere-ii-3,produit,variante sans /en
+/shop/loafers/for-patina-loafers/penny-loafer-newport-superleggera-for-patina-last-275-2,/collections/loafers,produit retire,vers collection ; variante sans /en
+/shop/boots-en/round-boots/desert-boots-izoard-loft-6,/products/desert-boots-izoard-loft-5,produit,variante sans /en
+/shop/richelieu-en/for-patina-richelieu/richelieu-mareuil-for-patina-form-533,/products/richelieu-mareuil-a-patiner-forme-533,produit,variante sans /en
+/shop/sneakers-en/sneakers-n610-club-2,/products/sneakers-n610-court-blanc,produit,variante sans /en
+/shop/loafers/round-loafers/penny-loafer-tilsitt-3,/products/mocassin-tilsitt-2,produit,variante sans /en
+/shop/loafers/round-loafers/horsebit-loafer-passy-2,/collections/loafers,produit retire,vers collection ; variante sans /en
+/shop/loafers/round-loafers/horsebit-loafer-passy,/collections/loafers,produit retire,vers collection ; variante sans /en
+/shop/richelieu-en/round-richelieu/richelieu-bristol-box-leather-black-form-361,/products/richelieu-bristol-box-noir-forme-361,produit,variante sans /en
+/shop/richelieu-en/round-richelieu/richelieu-astoria-black-grained-calf-form-361,/products/richelieu-astoria-graine-noir-forme-361,produit,variante sans /en
+/shop/accessories/belts/belt-furka,/products/ceinture-furka,produit,variante sans /en
+/shop/boots-en/round-boots/boots-explorer-ii-in-waxed-buffalo-ebony,/collections/boots,produit retire,vers collection ; variante sans /en
+/shop/clasps/for-patina-clasps/jacques-reserve-series-for-patina,/products/jacques-reserve-series-a-patiner,produit,variante sans /en
+/shop/richelieu-en/round-richelieu/1930-reserve-series-3,/products/1930-reserve-series,produit,variante sans /en
+/shop/richelieu-en/for-patina-richelieu/1930-reserve-series-for-patina,/products/1930-reserve-series-2,produit,variante sans /en
+/shop/loafers/round-loafers/loafer-tilsitt-loft-3,/collections/malfroid-loft,produit retire,vers collection ; variante sans /en
+/shop/loafers/round-loafers/loafer-tilsitt-loft-2,/collections/malfroid-loft,produit retire,vers collection ; variante sans /en
+/shop/richelieu-en/round-richelieu/oxford-rosewood-last-cooper-suede,/collections/oxfords,produit retire,vers collection ; variante sans /en
+/shop/derby-en/round-derby-en/derby-defender-blacklast-333,/products/derby-defender-noir-forme-333,produit,variante sans /en
+/shop/loafers/round-loafers/penny-loafer-tilsitt-praline-suede-commando-sole-last-444,/collections/loafers,produit retire,vers collection ; variante sans /en
+/shop/sneakers-en/sneakers-n320-kaki-suede,/collections/sneakers,produit retire,vers collection ; variante sans /en
+/shop/loafers/round-loafers/tassel-loafer-goodwood,/collections/loafers,produit retire,vers collection ; variante sans /en
+/shop/loafers/round-loafers/loafer-villalys-superleggera,/products/mocassin-villalys-superleggera,produit,variante sans /en
+/shop/loafers/round-loafers/chocolate-brown-goodwood-tassel-loafer-form-275,/products/mocassin-a-pampilles-goodwood-marron-chocolat-forme-275,produit,variante sans /en
+/shop/for-patina-en/sneakers-n320-for-patina-on-demand,/collections/sneakers,produit retire,vers collection ; variante sans /en
+/shop/richelieu-en/round-richelieu/richelieu-bristol-coffee-brown-form-361,/products/richelieu-bristol-marron-cafe-forme-361,produit,variante sans /en
+/shop/sneakers-en/sneakers-n320-navy-suede,/collections/sneakers,produit retire,vers collection ; variante sans /en
+/shop/loafers/for-patina-loafers/goodwood-tassel-loafer-with-patina-shape-275,/products/mocassin-a-pampilles-goodwood-a-patiner-forme-275,produit,variante sans /en
+/shop/sneakers-en/sneakers-n320-dark-grey-suede,/collections/sneakers,produit retire,vers collection ; variante sans /en
+/shop/loafers/round-loafers/penny-loafer-tilsitt-black-suede-commando-sole-last-444-2,/collections/loafers,produit retire,vers collection ; variante sans /en
+/shop/loafers/for-patina-loafers/penny-loafer-villalys-superleggera-grained-calf-for-patina-last-275,/collections/loafers,produit retire,vers collection ; variante sans /en
+/shop/for-patina-en/sneakers-n310-for-patina,/collections/for-patina,produit retire,vers collection ; variante sans /en
+/shop/boots-en/round-boots/desert-boots-izoard-loft-4,/products/desert-boots-izoard-loft-3,produit,variante sans /en
+/shop/loafers/round-loafers/tassel-loafer-goodwood-2,/collections/loafers,produit retire,vers collection ; variante sans /en
+/shop/loafers/round-loafers/penny-loafer-tilsitt-black-suede-commando-sole-last-444,/collections/loafers,produit retire,vers collection ; variante sans /en
+/shop/loafers/round-loafers/penny-loafer-tilsitt-dark-brown-suede-commando-sole-last-444,/collections/loafers,produit retire,vers collection ; variante sans /en
+/shop/clasps/round-clasp/double-monk-strap-scapin-cooper-version-black-calf-last-333,/products/new-double-boucle-scapin-version-cooper-graine-noir-et-semelle-gomme-forme-333,produit,variante sans /en
+/shop/clasps/round-clasp/double-monk-strap-scapin-cooper-version-dark-brown-calf-last-333,/products/new-double-boucle-scapin-version-cooper-graine-marron-fonce-et-semelle-gomme-forme-333,produit,variante sans /en
+/shop/boots-en/round-boots/boots-stelvio-dark-brown-grained-calf-last-361,/products/bottines-stelvio-veau-graine-marron-fonce-forme-361,produit,variante sans /en
+/shop/sneakers-en/__trashed-4,/collections/sneakers,produit retire,vers collection ; variante sans /en
+/shop/clasps/thin-clasp/single-clasp-jacques-chocolate-velvet-form-533,/collections/monk-straps,produit retire,vers collection ; variante sans /en
+/shop/boots-en/round-boots/boots-berriere-ii-chcolate-brown,/products/bottine-berriere-ii-marron-chocolat,produit,variante sans /en
+/shop/richelieu-en/for-patina-richelieu/richelieu-lannistair-for-patina-form-361,/products/richelieu-lannistair-a-patiner-forme-361,produit,variante sans /en
+/shop/richelieu-en/for-patina-richelieu/richelieu-astoria-nut-suede-form-361,/collections/oxfords,produit retire,vers collection ; variante sans /en
+/shop/derby-en/derby-explorer-ii-low-2-2,/products/derby-explorer-ii-low-3,produit,variante sans /en
+/shop/derby-en/explorer-ii-low,/products/derby-explorer-ii-low-2,produit,variante sans /en
+/shop/derby-en/round-derby-en/derby-brogue-master-4,/products/derby-brogue-master-3,produit,variante sans /en
+/shop/sneakers-en/sneakers-n610-court-2,/products/sneakers-n610-court,produit,variante sans /en
+/shop/loafers/round-loafers/loafer-villalys-superleggera-2,/products/mocassin-villalys-superleggera-2,produit,variante sans /en
+/shop/richelieu-en/round-richelieu/oxford-lannistair-dark-brown-suede-last-533,/products/new-richelieu-lannistair-version-cooper-veau-velours-marron-fonce-forme-333,produit,variante sans /en
+/shop/boots-en/round-boots/boots-berriere-ii,/collections/boots,produit retire,vers collection ; variante sans /en
+/shop/richelieu-en/round-richelieu/rosewood-ii,/products/richelieu-rosewood-ii,produit,variante sans /en
+/shop/loafers/round-loafers/penny-loafer-newport-6,/products/mocassin-newport-6,produit,variante sans /en
+/shop/loafers/round-loafers/penny-loafer-newport-superleggera-2,/products/mocassin-newport-superleggera,produit,variante sans /en
+/shop/loafers/round-loafers/penny-loafer-newport-superleggera-for-patina-last-275,/collections/loafers,produit retire,vers collection ; variante sans /en
+/shop/sneakers-en/pre-order-sneakers-n421-grained-navy,/collections/sneakers,produit retire,vers collection ; variante sans /en
+/shop/boots-en/round-boots/boots-stelvio-cooper,/products/bottine-stelvio-cooper-last,produit,variante sans /en
+/shop/boots-en/round-boots/boots-brogue-master,/products/bottine-brogue-master-boot,produit,variante sans /en
+/shop/loafers/round-loafers/penny-loafer-newport-shell-cordovan-last-275-copy,/collections/malfroid-reserve,produit retire,vers collection ; variante sans /en
+/shop/loafers/round-loafers/loafer-tilsitt-loft,/collections/malfroid-loft,produit retire,vers collection ; variante sans /en
+/shop/loafers/round-loafers/penny-loafer-villalys-superleggera-chocolate-last-275,/products/mocassin-villalys-superleggera-velours-chocolat-forme-275,produit,variante sans /en
+/shop/accessories/socks/vintage-socks-m,/collections/socks,produit retire,vers collection ; variante sans /en
+/shop/shoe-care/leather-care/creme-1925-pommadier-cream,/products/creme-pommadier-saphir-medaille-dor,produit,variante sans /en
+/shop/richelieu-en/round-richelieu/richelieu-astoria-black-grained-calf-form-361-copy,/products/new-richelieu-astoria-graine-marron-forme-361,produit,variante sans /en
+/shop/derby-en/boots-explorer-ii-low,/products/derby-explorer-ii-low,produit,variante sans /en
+/shop/boots-en/round-boots/boots-brogue-master-2,/products/bottine-brogue-master-boot-2,produit,variante sans /en
+/shop/sneakers-en/pre-order-sneakers-n421-grained-white,/collections/sneakers,produit retire,vers collection ; variante sans /en
+/shop/loafers/round-loafers/penny-loafer-newport-superleggera-last-275-2,/collections/loafers,produit retire,vers collection ; variante sans /en
+/shop/clasps/for-patina-clasps/simple-clasp-jacques-to-skate-form-533,/collections/monk-straps,produit retire,vers collection ; variante sans /en
+/shop/shoe-care/shoe-trees/shoes-horn,/collections/shoe-trees,produit retire,vers collection ; variante sans /en
+/shop/shoe-care/shoe-trees/the-real-shoehorn,/collections/shoe-trees,produit retire,vers collection ; variante sans /en
+/shop/loafers/round-loafers/penny-loafer-newport-shell-cordovan-last-275,/collections/malfroid-reserve,produit retire,vers collection ; variante sans /en
+/shop/discounts/desert-boots-izoard-dark-brown-velvet-form-361-2,/collections/archives,produit retire,vers collection ; variante sans /en
+/shop/richelieu-en/for-patina-richelieu/richelieu-bristol-for-patina-form-361,/collections/oxfords,produit retire,vers collection ; variante sans /en
+/shop/discounts/penny-loafer-newport-unlined-sage-suede-last-275,/collections/archives,produit retire,vers collection ; variante sans /en
+/shop/loafers/round-loafers/penny-loafer-villalys-superleggera-last-275,/collections/loafers,produit retire,vers collection ; variante sans /en
+/shop/derby-en/round-derby-en/brogue-master-grained-chocolate-calf-last-437,/collections/derby,produit retire,vers collection ; variante sans /en
+/shop/richelieu-en/round-richelieu/richelieu-astoria-navy-grained-calf-form-361,/collections/oxfords,produit retire,vers collection ; variante sans /en
+/shop/loafers/round-loafers/loafer-vauban-2,/collections/loafers,produit retire,vers collection ; variante sans /en
+/shop/richelieu-en/round-richelieu/oxford-lannistair-brown-last-361,/products/richelieu-lannistair-veau-marron-fonce-forme-361,produit,variante sans /en
+/shop/accessories/gloves/yellow-rascal-deerskin-and-kevlar-gloves,/products/gants-rascal-cuir-de-cerf-et-kevlar-noir-2,produit,variante sans /en
+/shop/loafers/penny-loafer-vauban-ultra-light-vibram-4,/collections/loafers,produit retire,vers collection ; variante sans /en
+/shop/loafers/round-loafers/penny-loafer-vauban-ultra-light-vibram-5,/collections/loafers,produit retire,vers collection ; variante sans /en
+/shop/loafers/round-loafers/penny-loafer-vauban-ultra-light-vibram-2,/collections/loafers,produit retire,vers collection ; variante sans /en
+/shop/shoe-care/shoe-trees/shoetrees-shoemaker,/products/embauchoirs-bottier,produit,variante sans /en
+/shop/malfroid-women/pre-order-womens-collection-boots-berriere-ii-5,/products/collection-femme-bottine-berriere-ii-5,produit,variante sans /en
+/shop/accessories/socks/mercerised-cotton-socks-blue,/products/chaussettes-en-fil-decosse-marine,produit,variante sans /en
+/shop/loafers/round-loafers/passy-ultra-light-2,/products/mocassin-passy-ultra-light,produit,variante sans /en
+/shop/shoe-care/shoe-trees/shoe-trees,/products/embauchoirs-classiques,produit,variante sans /en
+/shop/accessories/belts/coffee-brown-leather-belt,/products/ceinture-cuir-marron-cafe-2,produit,variante sans /en
+/shop/accessories/socks/mercerised-cotton-sock-black,/products/chaussettes-en-fil-decosse-noires,produit,variante sans /en
+/shop/loafers/round-loafers/tilsitt-chocolate,/products/tilsitt-chocolat,produit,variante sans /en
+/shop/accessories/belts/black-leather-belt,/products/ceinture-cuir-noir-2,produit,variante sans /en
+/shop/shoe-care/leather-care/the-esthete-kit,/products/coffret-esthete-saphir,produit,variante sans /en
+/shop/shoe-care/leather-care/the-ecrin-gift-set,/products/coffret-ecrin-saphir,produit,variante sans /en
+/shop/accessories/gloves/gloves-harris-tweed-wool-and-leather-2,/products/gants-harris-tweed-of-scotland-2,produit,variante sans /en
+/shop/accessories/belts/belt-furka-2,/collections/belts,produit retire,vers collection ; variante sans /en
+/shop/malfroid-women/pre-order-womens-collection-boots-berriere-ii-4,/products/collection-femme-bottine-berriere-ii-2,produit,variante sans /en
+/shop/malfroid-women/pre-order-womens-collection-boots-berriere-ii,/products/collection-femme-bottine-berriere-ii,produit,variante sans /en
+/shop/malfroid-women/pre-order-womens-collection-boots-berriere-ii-2,/products/collection-femme-bottine-berriere-ii-4,produit,variante sans /en
+/shop/malfroid-women/pre-order-womens-collection-boots-berriere-ii-3,/products/collection-femme-bottine-berriere-ii-3,produit,variante sans /en
+/shop/boots-en/round-boots/boots-explorer,/collections/boots,produit retire,vers collection ; variante sans /en
+/shop/accessories/gloves/gloves-harris-tweed-wool-and-leather-3,/products/gants-harris-tweed-of-scotland-3,produit,variante sans /en
+/shop/richelieu-en/for-patina-richelieu/oxford-bristol,/products/richelieu-bristol-a-patiner-patiner-forme-361,produit,variante sans /en
+/shop/accessories/socks/mercerised-cotton-socks-black,/products/chaussettes-en-fil-decosse-gris,produit,variante sans /en
+/shop/shoe-care/leather-care/oil-for-cordovan-leather,/collections/leather-care,produit retire,vers collection ; variante sans /en
+/shop/loafers/round-loafers/loafer-vauban-3-2,/products/mocassin-vauban-3,produit,variante sans /en
+/shop/loafers/round-loafers/loafer-vauban-commando,/products/mocassin-vauban-commando,produit,variante sans /en
+/shop/loafers/round-loafers/loafer-vauban-commando-2,/products/mocassin-vauban-commando-2,produit,variante sans /en
+/shop/richelieu-en/round-richelieu/rosewood-ii-2,/products/richelieu-rosewood-ii-3,produit,variante sans /en
+/shop/loafers/round-loafers/loafer-vauban-3,/products/mocassin-vauban-4,produit,variante sans /en
+/shop/richelieu-en/round-richelieu/loafer-villalys-superleggera-3,/products/mocassin-villalys-superleggera-3,produit,variante sans /en
+/shop/accessories/carrier-bag-austin,/products/cabas-austin,produit,variante sans /en
+/shop/loafers/round-loafers/driver-loafer-2,/products/mocassin-a-picots-driver,produit,variante sans /en
+/shop/loafers/round-loafers/driver-loafer-3,/products/mocassin-a-picots-driver-2,produit,variante sans /en
+/shop/loafers/round-loafers/driver-loafer,/products/mocassin-a-picots-driver-3,produit,variante sans /en
+/shop/loafers/round-loafers/penny-loafer-vauban-ultra-light-vibram,/products/mocassin-vauban-ultra-light-vibram-2,produit,variante sans /en
+/shop/loafers/round-loafers/passy-ultra-light,/products/mocassin-passy-mk2-2,produit,variante sans /en
+/shop/shoe-care/leather-care/the-groom-box-saphir,/products/coffret-groom-saphir,produit,variante sans /en
+/shop/accessories/carrier-bag-the-m,/products/cabas-le-m,produit,variante sans /en
+/shop/shoe-care/leather-care/saphir-omnicleaner,/products/omninettoyant-saphir,produit,variante sans /en
+/shop/accessories/gloves/gloves-harris-tweed-wool-and-leather,/products/gants-harris-tweed-of-scotland,produit,variante sans /en
+/shop/accessories/small-leather-goods/cart-holder-racing-green,/products/porte-carte-cuir-racing-green,produit,variante sans /en
+/shop/accessories/small-leather-goods/cart-holder-black,/products/porte-carte-en-cuir-noir,produit,variante sans /en
+/shop/accessories/gloves/black-rascal-deerskin-and-kevlar-gloves-2,/products/gants-rascal-cuir-de-cerf-et-kevlar-noir,produit,variante sans /en
+/shop/shoe-care/shoe-repair/patina,/products/patine,produit,variante sans /en
+/shop/shoe-care/leather-care/caring-pack-for-smooth-and-grained-leather,/products/pack-dentretien-cuir-lisse-cuir-graine,produit,variante sans /en
+/shop/shoe-care/leather-care/the-intendant-valet-box,/products/coffret-cirage-saphir-bois-de-rose,produit,variante sans /en
+/shop/accessories/small-leather-goods/cart-holder-navy-blue,/products/porte-carte-cuir-bleu-marine,produit,variante sans /en
+/shop/accessories/gloves/green-rascal-deerskin-and-kevlar-gloves,/collections/gloves,produit retire,vers collection ; variante sans /en
+/shop/loafers/round-loafers/special-order,/collections/loafers,produit retire,vers collection ; variante sans /en
+/shop/shoe-care/leather-care/polish,/products/cirage,produit,variante sans /en
+/shop/accessories/belts/leather-belt-for-patina,/products/ceinture-cuir-a-patiner,produit,variante sans /en
+/shop/shoe-care/leather-care/caring-pack-for-suede-leather,/products/pack-dentretien-pour-veau-velours,produit,variante sans /en
+/shop/shoe-care/shoe-repair/traditional-shoe-sole,/products/patin-seul,produit,variante sans /en
+/shop/shoe-care/shoe-repair/joker-shoe-sole-and-irons,/products/pose-de-patin-et-fer-facon-bottier-joker,produit,variante sans /en
+/shop/shoe-care/shoe-repair/classical-shoe-sole-and-iron,/products/pose-de-patins-et-fers-classique,produit,variante sans /en
+/shop/shoe-care/shoe-repair/installation-of-vibram-commando-sole,/products/pose-de-semelle-commando-vibram,produit,variante sans /en
+/shop/shoe-care/shoe-repair/classical-shoe-sole-vibram-and-brass-toe-cap,/products/pose-de-vibram-et-fer-triumph-laiton,produit,variante sans /en
+/shop/shoe-care/leather-care/horsehair-brush,/products/brosse-en-crin-de-cheval,produit,variante sans /en
+/shop/shoe-care/leather-care/velvet-calf-brush,/products/brosse-a-veau-velours,produit,variante sans /en
+/shop/shoe-care/shoe-repair/shoes-shine,/products/glacage,produit,variante sans /en
+/shop/shoe-care/leather-care/lace-dark-brown-medaille-dor,/collections/leather-care,produit retire,vers collection ; variante sans /en
+/shop/shoe-care/leather-care/lace-tan-brown-medaille-dor,/collections/leather-care,produit retire,vers collection ; variante sans /en
+/shop/accessories/knives/traditional-laguiole-knife-blue-carbon-fibre-finish,/collections/accessories,produit retire,vers collection ; variante sans /en
