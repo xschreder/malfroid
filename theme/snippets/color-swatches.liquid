@@ -1,0 +1,118 @@
+{% comment %}
+  Color Swatches — reads content.colorReference (metaobject → color_hex)
+  and content.colorSwatchFamily (product refs)
+  Include this snippet inside product-information.liquid, e.g.:
+    {% render 'color-swatches', product: product %}
+{% endcomment %}
+
+{%- liquid
+  assign current_color = product.metafields.content.colorReference.value.color_hex
+  assign current_color_label = product.metafields.content.colorReference.value.color_name.value | default: product.title
+  assign related_products = product.metafields.content.colorSwatchFamily.value
+  assign swatch_alignment_value = swatch_alignment | default: 'flex-start'
+  assign swatch_size_value = swatch_size | default: 28
+  assign swatch_border_thickness_value = swatch_border_thickness | default: 2
+  assign swatch_gap_value = swatch_gap | default: 'var(--gap-sm, 8px)'
+  assign swatch_radius_value = swatch_radius | default: '50%'
+  assign swatch_margin_block_value = swatch_margin_block | default: 'var(--margin-sm, 12px)'
+-%}
+
+{%- if current_color != blank or related_products != blank -%}
+  <div
+    class="color-swatches"
+    aria-label="{{ 'products.product.color_options' | t }}"
+    style="
+      --color-swatches-alignment: {{ swatch_alignment_value }};
+      --color-swatch-size: {{ swatch_size_value }}px;
+      --color-swatch-border-thickness: {{ swatch_border_thickness_value }}px;
+      --color-swatch-gap: {{ swatch_gap_value }};
+      --color-swatch-radius: {{ swatch_radius_value }};
+      --color-swatches-margin-block: {{ swatch_margin_block_value }};
+    "
+  >
+
+    {%- if current_color != blank -%}
+      {%- comment -%} Current product swatch — active/selected state {%- endcomment -%}
+      <a
+        href="{{ product.url }}"
+        class="color-swatch color-swatch--active"
+        aria-label="{{ current_color_label | escape }}"
+        aria-current="true"
+        title="{{ current_color_label | escape }}"
+        style="--swatch-color: {{ current_color }};"
+      >
+        <span class="visually-hidden">{{ current_color_label | escape }}</span>
+      </a>
+    {%- endif -%}
+
+    {%- if related_products != blank -%}
+      {%- for related_product in related_products -%}
+        {%- if related_product.id == product.id -%}
+          {% continue %}
+        {%- endif -%}
+        {%- assign related_color = related_product.metafields.content.colorReference.value.color_hex -%}
+        {%- assign related_swatch_color = related_color | default: '#ffffff' -%}
+        {%- assign related_color_label = related_product.metafields.content.colorReference.value.color_name.value | default: related_product.title -%}
+        <a
+          href="{{ related_product.url }}"
+          class="color-swatch"
+          aria-label="{{ related_color_label | escape }}"
+          title="{{ related_color_label | escape }}"
+          style="--swatch-color: {{ related_swatch_color }};"
+        >
+          <span class="visually-hidden">{{ related_color_label | escape }}</span>
+        </a>
+      {%- endfor -%}
+    {%- endif -%}
+
+  </div>
+{%- endif -%}
+
+{% stylesheet %}
+  .color-swatches {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: var(--color-swatches-alignment);
+    gap: var(--color-swatch-gap, var(--gap-sm, 8px));
+    margin-block: var(--color-swatches-margin-block, var(--margin-sm, 12px));
+  }
+
+  .color-swatch {
+    display: block;
+    width: var(--color-swatch-size);
+    height: var(--color-swatch-size);
+    border-radius: var(--color-swatch-radius, 50%);
+    background-color: var(--swatch-color);
+    border: var(--color-swatch-border-thickness) solid transparent;
+    outline: var(--color-swatch-border-thickness) solid transparent;
+    outline-offset: 2px;
+    transition: outline-color 0.15s ease, border-color 0.15s ease;
+    text-decoration: none;
+    flex-shrink: 0;
+    position: relative;
+  }
+
+  /* Checkered fallback for very light / white swatches */
+  .color-swatch::after {
+    content: '';
+    position: absolute;
+    inset: 0;
+    border-radius: inherit;
+    box-shadow: inset 0 0 0 1px rgb(0 0 0 / 0.10);
+    pointer-events: none;
+  }
+
+  .color-swatch:hover {
+    outline-color: rgb(var(--color-foreground-rgb) / 0.4);
+  }
+
+  .color-swatch--active,
+  .color-swatch:focus-visible {
+    outline-color: rgb(var(--color-foreground-rgb));
+    border-color: var(--color-background, #fff);
+  }
+
+  .color-swatch:focus-visible {
+    outline-style: solid;
+  }
+{% endstylesheet %}

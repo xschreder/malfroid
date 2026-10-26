@@ -1,0 +1,182 @@
+
+{% liquid
+  assign product = closest.product
+  case block.settings.content_source
+    when 'product_description'
+      assign tab_content = product.description
+    when 'metafield'
+      assign mf_ns = block.settings.metafield_namespace
+      assign mf_key = block.settings.metafield_key
+      if mf_ns != blank and mf_key != blank
+        assign tab_content = product.metafields[mf_ns][mf_key].value
+      else
+        assign tab_content = blank
+      endif
+    else
+      assign tab_content = block.settings.tab_content
+  endcase
+
+  if block.settings.hide_if_fit_blank and product.metafields.custom.fit == blank
+    assign tab_content = blank
+  endif
+
+  if request.visual_preview_mode and tab_content == blank
+    assign tab_content = '<p>Add content in the editor sidebar.</p>'
+  endif
+%}
+
+{% unless tab_content == blank %}
+  <div
+    class="product-tab-item__panel rte"
+    data-tab-title="{{ block.settings.tab_title | escape }}"
+    {{ block.shopify_attributes }}
+  >
+    {% if block.settings.enable_read_more %}
+      <description-read-more
+        data-enabled
+        data-lines="{{ block.settings.read_more_lines | default: 4 }}"
+      >
+        <div class="text-block">{{ tab_content }}</div>
+        <button class="description-read-more__btn" hidden type="button">
+          <span class="description-read-more__read-more">
+            {{- block.settings.read_more_label | default: 'Read more' -}}
+          </span>
+          <span class="description-read-more__read-less" hidden>
+            {{- block.settings.read_less_label | default: 'Read less' -}}
+          </span>
+        </button>
+      </description-read-more>
+    {% else %}
+      {{ tab_content }}
+    {% endif %}
+  </div>
+{% endunless %}
+
+{% stylesheet %}
+  description-read-more {
+    display: block;
+  }
+
+  description-read-more.description-read-more--collapsed .text-block {
+    max-height: var(--description-max-height);
+    overflow: hidden;
+    -webkit-mask-image: linear-gradient(to bottom, black 50%, transparent 100%);
+    mask-image: linear-gradient(to bottom, black 50%, transparent 100%);
+  }
+
+  .description-read-more__btn {
+    appearance: none;
+    background: none;
+    border: none;
+    padding: 0;
+    cursor: pointer;
+    color: var(--color-primary);
+    font-family: var(--font-body--family);
+    font-size: inherit;
+    margin-block-start: var(--margin-sm, 12px);
+    text-underline-offset: 2px;
+    display: block;
+  }
+
+  .description-read-more__btn:hover {
+    text-decoration: underline;
+  }
+{% endstylesheet %}
+
+{% schema %}
+{
+  "name": "Tab Item",
+  "tag": null,
+  "settings": [
+    {
+      "type": "text",
+      "id": "tab_title",
+      "label": "Tab title",
+      "default": "Tab"
+    },
+    {
+      "type": "select",
+      "id": "content_source",
+      "label": "Content source",
+      "options": [
+        { "value": "text", "label": "Text (richtext editor)" },
+        { "value": "product_description", "label": "Product description" },
+        { "value": "metafield", "label": "Metafield" }
+      ],
+      "default": "text",
+      "info": "Choose where the tab content comes from"
+    },
+    {
+      "type": "richtext",
+      "id": "tab_content",
+      "label": "Content",
+      "visible_if": "{{ block.settings.content_source == 'text' }}"
+    },
+    {
+      "type": "text",
+      "id": "metafield_namespace",
+      "label": "Metafield namespace",
+      "placeholder": "custom",
+      "info": "The namespace of your metafield, e.g. 'custom'",
+      "visible_if": "{{ block.settings.content_source == 'metafield' }}"
+    },
+    {
+      "type": "text",
+      "id": "metafield_key",
+      "label": "Metafield key",
+      "placeholder": "care_instructions",
+      "info": "The key of your metafield, e.g. 'care_instructions'",
+      "visible_if": "{{ block.settings.content_source == 'metafield' }}"
+    },
+    {
+      "type": "checkbox",
+      "id": "hide_if_fit_blank",
+      "label": "Masquer l'onglet si le métachamp Fit (custom.fit) est vide",
+      "default": false
+    },
+    {
+      "type": "header",
+      "content": "Read more"
+    },
+    {
+      "type": "checkbox",
+      "id": "enable_read_more",
+      "label": "Enable read more / read less",
+      "default": false
+    },
+    {
+      "type": "range",
+      "id": "read_more_lines",
+      "label": "Lines visible before truncation",
+      "min": 2,
+      "max": 15,
+      "step": 1,
+      "default": 4,
+      "visible_if": "{{ block.settings.enable_read_more }}"
+    },
+    {
+      "type": "text",
+      "id": "read_more_label",
+      "label": "Read more label",
+      "default": "Read more",
+      "visible_if": "{{ block.settings.enable_read_more }}"
+    },
+    {
+      "type": "text",
+      "id": "read_less_label",
+      "label": "Read less label",
+      "default": "Read less",
+      "visible_if": "{{ block.settings.enable_read_more }}"
+    }
+  ],
+  "presets": [
+    {
+      "name": "Tab Item",
+      "settings": {
+        "tab_title": "Tab",
+        "content_source": "text"
+      }
+    }
+  ]
+}
+{% endschema %}
