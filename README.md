@@ -231,3 +231,21 @@ dans `theme/`. Envoi par l'API depuis l'URL brute GitHub du commit, checksums re
 Cirage, porte-cartes et autres produits d'entretien ou accessoires utilisent des gabarits sans
 onglet Fit ; le masquage concerne les produits du gabarit par défaut sans Fit (gants, collection
 femme).
+
+## Redirections 301 de l'ancien site (26/10/2026)
+
+Plan complet dans `content/redirections/redirections-301-2026-10-26.csv` (à transmettre à
+Arnaud), créé dans Shopify par l'API : 1 079 redirections, 1 085 au total avec les 6 existantes.
+
+- Source : les 12 sitemaps de l'ancien site WordPress (799 adresses FR et EN).
+- Produits : 306 anciennes fiches vers leur produit Shopify (correspondance par handle, puis
+  SKU ou lien hreflang pour l'anglais) ; 90 fiches retirées vers leur collection.
+- Pages, catégories produits, attributs, articles de blog et catégories de blog vers la page,
+  la collection ou l'article équivalent ; les 210 pages de patines (portfolio) vers la page Patines.
+- Anglais : chaque adresse /en/ existe deux fois, avec et sans le préfixe /en/, pour couvrir
+  la façon dont Shopify résout le préfixe de langue (non testable tant que la boutique est sous
+  mot de passe). Cibles anglaises en /en/… avec les handles traduits des collections et pages.
+
+À tester le jour de la mise en ligne, une fois le domaine malfroid.com branché : une dizaine
+d'anciennes adresses FR et EN (fiche produit, catégorie, page, article), via un navigateur
+privé ou `curl -I`.
