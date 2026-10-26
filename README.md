@@ -206,3 +206,28 @@ Table de contrôle : `content/translations/import-anglais-2026-10-23.tsv`.
 Reste à traduire à la main dans Translate & Adapt : les compléments FR ajoutés par Paul après
 l'ancien site (blocs « Caractéristiques techniques » et « Le mot du chausseur » sur quelques
 fiches), visibles comme traductions « obsolètes » si le FR change à nouveau.
+
+## Thème 1.1 — corrections du 26/10
+
+Appliquées sur la copie **« Malfroid x NFBS - 1.1 (validations 23/10) »** (non publiée), fichiers
+dans `theme/`. Envoi par l'API depuis l'URL brute GitHub du commit, checksums relus identiques.
+
+| Point de recette | Fichier | Changement |
+|---|---|---|
+| Resynchro thème publié | `locales/en.default.json`, `templates/cart.json` | Reprise des modifications faites sur le thème publié après la copie (clés checkout Shopify du 23/10, « À découvrir également » et réglages du 26/10 sur le panier) |
+| Site n°23, textes anglais | `templates/cart.json` | « Cart » → « Panier », « View all » → « Tout voir » |
+| Site n°23 | `templates/404.json` | « Page not found » → « Page introuvable », « Discover something new » → « À découvrir », « SHOP ALL » → « TOUT VOIR » |
+| Site n°23 | `templates/product.json`, `templates/product.entretien-et-cordo.json` | Libellés « Read more / Read less » restants → « Lire plus / Lire moins » |
+| Site n°23 | traductions du thème | Valeurs anglaises réenregistrées pour ces 20 textes (Cart, View all, Page not found, Read more…) afin que /en/ reste en anglais |
+| Site n°29 / 42 | `templates/page.json` | Suppression du bloc « Select the preferred style below and follow the measuring guide. » du gabarit de page générique |
+| Site n°50 | `snippets/variant-main-picker.liquid` | L'option « Pointure » est traduite « Shoe size » en anglais : ajout de ce nom pour garder le titre et le sélecteur UK / EU / US |
+| Site n°19 | `snippets/color-swatches.liquid` | Infobulle et libellé accessible des pastilles = nom du coloris (métaobjet `color_name`), titre produit en repli |
+| Site n°20 | `blocks/email-signup.liquid` | Message « Merci de vous être abonné(e) » affiché aussi au retour `?customer_posted=true`, en filet de sécurité |
+| Site n°47 | `blocks/_product-tab-item.liquid`, `templates/product.json` | Nouveau réglage « Masquer l'onglet si le métachamp Fit est vide », activé sur l'onglet Fit ; lien du guide corrigé vers `/pages/guide-de-pointures` |
+| Site n°51 | `templates/cart.json` | Récapitulatif de la page panier : le jeu de couleurs inexistant (boutons noirs par défaut) est remplacé par l'héritage du jeu de la page, comme le panier tiroir |
+| NF3 | `assets/size-conversions.json` | Rien à faire : la ligne UK 4,5 est déjà présente sur le thème publié et la copie |
+| NF5 | contenu de l'article | Rien à faire dans le thème : l'extrait du portrait Thierry Bigaignon contient déjà le saut de ligne |
+
+Cirage, porte-cartes et autres produits d'entretien ou accessoires utilisent des gabarits sans
+onglet Fit ; le masquage concerne les produits du gabarit par défaut sans Fit (gants, collection
+femme).
