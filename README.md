@@ -232,6 +232,25 @@ Cirage, porte-cartes et autres produits d'entretien ou accessoires utilisent des
 onglet Fit ; le masquage concerne les produits du gabarit par défaut sans Fit (gants, collection
 femme).
 
+### Complément du 27/10 : page 404 et suggestions panier (recette Site n°35)
+
+- `templates/404.json` : reprend la version modifiée à la main sur le thème publié le 26/10
+  à 20:49 (textes en français, barre de pointures sur les cartes produit), avec « TOUT VOIR »
+  à la place de « SHOP ALL ».
+- `templates/cart.json` : la liste « À découvrir également » de la page panier affiche la
+  collection `accessoires-indispensables` (4 produits).
+- Tiroir panier : bloc « Pour accompagner vos souliers » (EN « To go with your shoes ») sous
+  les articles, dans `snippets/cart-drawer-upsell.liquid`, rendu par
+  `snippets/header-actions.liquid`. Chaque produit a une image, un titre, un prix, un menu de
+  variante (pointure présélectionnée pour les embauchoirs si une chaussure du panier a la même)
+  et un bouton « Ajouter ». `assets/cart-drawer-upsell.js` poste sur `/cart/add` puis envoie
+  l'événement panier du thème, qui rafraîchit le tiroir. Les produits déjà dans le panier ou
+  épuisés sont exclus ; le bloc disparaît s'il ne reste rien à proposer.
+- Réglages dans Paramètres du thème > Panier > « Suggestions dans le tiroir panier » :
+  activer ou non, collection (vide = `accessoires-indispensables`), nombre maximum (4).
+- Textes : clés `content.cart_upsell_title` et `content.cart_upsell_add` dans
+  `locales/fr.json` et `locales/en.default.json`.
+
 ## Redirections 301 de l'ancien site (26/10/2026)
 
 Plan complet dans `content/redirections/redirections-301-2026-10-26.csv` (à transmettre à
