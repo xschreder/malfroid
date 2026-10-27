@@ -1,0 +1,239 @@
+{%- comment -%}
+  Suggestions de produits dans le tiroir panier (recette Site n°35).
+  Réglages : Paramètres du thème > Panier > « Suggestions dans le tiroir panier ».
+  Les produits déjà présents dans le panier ou indisponibles sont exclus ;
+  le bloc ne s'affiche pas s'il ne reste aucun produit à proposer.
+  L'ajout est géré par assets/cart-drawer-upsell.js (CartAddEvent du thème).
+{%- endcomment -%}
+{%- liquid
+  if settings.cart_upsell_enable == false or cart.empty?
+    assign upsell_collection = nil
+  else
+    assign upsell_collection = settings.cart_upsell_collection
+    if upsell_collection == blank
+      assign upsell_collection = collections['accessoires-indispensables']
+    endif
+  endif
+
+  assign upsell_max = settings.cart_upsell_max | default: 4
+  assign upsell_count = 0
+
+  assign cart_product_ids = cart.items | map: 'product_id' | join: ','
+  assign cart_product_ids = ',' | append: cart_product_ids | append: ','
+
+  assign cart_shoe_size = ''
+  for item in cart.items
+    for option in item.options_with_values
+      assign option_name = option.name | downcase
+      if option_name == 'pointure' or option_name == 'shoe size'
+        assign cart_shoe_size = option.value
+      endif
+    endfor
+  endfor
+-%}
+
+{%- if upsell_collection != blank -%}
+  {%- capture upsell_items -%}
+    {%- for upsell_product in upsell_collection.products -%}
+      {%- liquid
+        if upsell_count >= upsell_max
+          break
+        endif
+        assign needle = ',' | append: upsell_product.id | append: ','
+        if cart_product_ids contains needle or upsell_product.available == false
+          continue
+        endif
+        assign upsell_count = upsell_count | plus: 1
+
+        assign preselected_variant = null
+        if cart_shoe_size != ''
+          for variant in upsell_product.variants
+            if variant.available and variant.title == cart_shoe_size
+              assign preselected_variant = variant
+              break
+            endif
+          endfor
+        endif
+        assign price_variant = preselected_variant | default: upsell_product.selected_or_first_available_variant
+      -%}
+      <li class="cart-upsell__item">
+        <a
+          href="{{ upsell_product.url }}"
+          class="cart-upsell__media"
+          tabindex="-1"
+          aria-hidden="true"
+        >
+          {%- if upsell_product.featured_media -%}
+            {{ upsell_product.featured_media | image_url: width: 160 | image_tag: class: 'cart-upsell__image', loading: 'lazy', alt: '' }}
+          {%- endif -%}
+        </a>
+        <form
+          action="{{ routes.cart_add_url }}"
+          method="post"
+          class="cart-upsell__form"
+          data-product-id="{{ upsell_product.id }}"
+        >
+          <a
+            href="{{ upsell_product.url }}"
+            class="cart-upsell__title"
+          >
+            {{- upsell_product.title -}}
+          </a>
+          <span class="cart-upsell__price">{{ price_variant.price | money }}</span>
+          <input
+            type="hidden"
+            name="quantity"
+            value="1"
+          >
+          <div class="cart-upsell__actions">
+            {%- if upsell_product.has_only_default_variant -%}
+              <input
+                type="hidden"
+                name="id"
+                value="{{ upsell_product.selected_or_first_available_variant.id }}"
+              >
+            {%- else -%}
+              <select
+                name="id"
+                class="cart-upsell__select"
+                required
+                aria-label="{{ upsell_product.options | join: ' / ' | escape }} – {{ upsell_product.title | escape }}"
+              >
+                {%- if preselected_variant == null -%}
+                  <option
+                    value=""
+                    disabled
+                    selected
+                  >
+                    {{- upsell_product.options | join: ' / ' -}}
+                  </option>
+                {%- endif -%}
+                {%- for variant in upsell_product.variants -%}
+                  {%- if variant.available -%}
+                    <option
+                      value="{{ variant.id }}"
+                      {% if preselected_variant.id == variant.id %}
+                        selected
+                      {% endif %}
+                    >
+                      {{- variant.title -}}
+                    </option>
+                  {%- endif -%}
+                {%- endfor -%}
+              </select>
+            {%- endif -%}
+            <button
+              type="submit"
+              class="button-secondary cart-upsell__button"
+            >
+              {{- 'content.cart_upsell_add' | t -}}
+            </button>
+          </div>
+          <p
+            class="cart-upsell__error"
+            role="alert"
+            hidden
+          ></p>
+        </form>
+      </li>
+    {%- endfor -%}
+  {%- endcapture -%}
+
+  {%- if upsell_count > 0 -%}
+    <cart-drawer-upsell class="cart-upsell">
+      <h3 class="cart-upsell__heading h5">{{ 'content.cart_upsell_title' | t }}</h3>
+      <ul
+        class="cart-upsell__list list-unstyled"
+        role="list"
+      >
+        {{ upsell_items }}
+      </ul>
+    </cart-drawer-upsell>
+  {%- endif -%}
+{%- endif -%}
+
+{% stylesheet %}
+  .cart-upsell {
+    display: block;
+    padding-block: var(--padding-xl);
+    border-top: var(--style-border-width) solid var(--color-border);
+  }
+
+  .cart-upsell__heading {
+    margin-block: 0 var(--margin-md);
+  }
+
+  .cart-upsell__list {
+    display: flex;
+    flex-direction: column;
+    gap: var(--gap-lg);
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+
+  .cart-upsell__item {
+    display: grid;
+    grid-template-columns: 64px 1fr;
+    gap: var(--gap-md);
+    align-items: start;
+  }
+
+  .cart-upsell__media {
+    display: block;
+    aspect-ratio: 1;
+    overflow: hidden;
+  }
+
+  .cart-upsell__image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+  .cart-upsell__form {
+    display: flex;
+    flex-direction: column;
+    gap: var(--gap-2xs);
+    min-width: 0;
+    font-size: var(--font-size--sm);
+  }
+
+  .cart-upsell__title {
+    color: inherit;
+    text-decoration: none;
+  }
+
+  .cart-upsell__actions {
+    display: flex;
+    flex-wrap: wrap;
+    gap: var(--gap-xs);
+    margin-top: var(--margin-2xs);
+  }
+
+  .cart-upsell__select {
+    flex: 1 1 6rem;
+    min-width: 0;
+    padding: var(--padding-2xs) var(--padding-xs);
+    border: var(--style-border-width-inputs, 1px) solid var(--color-input-border, var(--color-border));
+    font-size: var(--font-size--sm);
+  }
+
+  .cart-upsell__button {
+    --button-padding-block: var(--padding-xs);
+    --button-padding-inline: var(--padding-md);
+
+    font-size: var(--font-size--sm);
+  }
+
+  .cart-upsell__button[aria-busy='true'] {
+    opacity: 0.5;
+    cursor: progress;
+  }
+
+  .cart-upsell__error {
+    margin: 0;
+    color: var(--color-error, currentcolor);
+    font-size: var(--font-size--xs);
+  }
+{% endstylesheet %}

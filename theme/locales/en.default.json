@@ -140,6 +140,8 @@
     }
   },
   "content": {
+    "cart_upsell_title": "To go with your shoes",
+    "cart_upsell_add": "Add",
     "cancel": "Cancel",
     "discount": "Discount",
     "account_title": "Account",
