@@ -69,7 +69,12 @@
     aspect-ratio: 5 / 3;
   }
 
-  /* Malfroid : vidéo mobile distincte */
+  /* Malfroid : vidéo mobile distincte. Les enveloppes sont en display: contents pour que la vidéo
+     reste l'élément flex de la section (sinon l'enveloppe se réduit à son contenu et la vidéo rétrécit). */
+  .video-block--desktop {
+    display: contents;
+  }
+
   .video-block--mobile {
     display: none;
   }
@@ -80,7 +85,7 @@
     }
 
     .video-block--mobile {
-      display: block;
+      display: contents;
     }
   }
 {% endstylesheet %}
