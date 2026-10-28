@@ -61,6 +61,13 @@ source visible, car la balise masquée reçoit `preload="none"`.
 - Reste à fournir par Malfroid : le film court en version portrait, puis le sélectionner dans
   le bloc vidéo de l'accueil.
 
+## Correctif du 28/10
+
+Avec une vidéo mobile choisie, la vidéo de la section rétrécissait : les enveloppes
+`.video-block--desktop` / `--mobile` (en `display: block`) devenaient l'élément flex de la section et
+se réduisaient à leur contenu. Elles passent en `display: contents` ; envoyé sur la copie 1.1
+(checksum `bb8e80d72d31255d5a565ef9c215cc0f`).
+
 ## Mise en place
 
 1. Modifier la section sur une copie du thème principal (l'API refuse l'écriture sur le thème
