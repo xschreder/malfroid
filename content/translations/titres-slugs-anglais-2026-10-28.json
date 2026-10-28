@@ -1,0 +1,902 @@
+[
+ {
+  "id": "gid://shopify/Product/15670148530508",
+  "handle": "richelieu-rosewood-ii-3",
+  "title_en": "Oxford Rosewood II",
+  "handle_en": "rosewood-ii-2"
+ },
+ {
+  "id": "gid://shopify/Product/15670209085772",
+  "handle": "coffret-ecrin-saphir",
+  "title_en": "The Ecrin Gift Set",
+  "handle_en": "the-ecrin-gift-set"
+ },
+ {
+  "id": "gid://shopify/Product/15670209118540",
+  "handle": "cabas-austin",
+  "title_en": "Carrier Bag « Austin »",
+  "handle_en": "carrier-bag-austin"
+ },
+ {
+  "id": "gid://shopify/Product/15670209151308",
+  "handle": "coffret-esthete-saphir",
+  "title_en": "The Saphir Esthete Kit",
+  "handle_en": "the-esthete-kit"
+ },
+ {
+  "id": "gid://shopify/Product/15670209184076",
+  "handle": "omninettoyant-saphir",
+  "title_en": "Saphir Omni’cleaner",
+  "handle_en": "saphir-omnicleaner"
+ },
+ {
+  "id": "gid://shopify/Product/15670209249612",
+  "handle": "mocassin-vauban-commando-2",
+  "title_en": "Penny loafer Vauban Ultra Light Vibram",
+  "handle_en": "loafer-vauban-commando-2"
+ },
+ {
+  "id": "gid://shopify/Product/15670209282380",
+  "handle": "mocassin-vauban-commando",
+  "title_en": "Penny loafer Vauban Ultra Light Vibram",
+  "handle_en": "loafer-vauban-commando"
+ },
+ {
+  "id": "gid://shopify/Product/15670209315148",
+  "handle": "bottine-stelvio-cooper-last",
+  "title_en": "Boots Stelvio Cooper",
+  "handle_en": "boots-stelvio-cooper"
+ },
+ {
+  "id": "gid://shopify/Product/15670209380684",
+  "handle": "mocassin-newport-6",
+  "title_en": "Penny loafer Newport",
+  "handle_en": "penny-loafer-newport-6"
+ },
+ {
+  "id": "gid://shopify/Product/15670209610060",
+  "handle": "gants-harris-tweed-of-scotland-2",
+  "title_en": "Gloves Harris Tweed wool and leather",
+  "handle_en": "gloves-harris-tweed-wool-and-leather-2"
+ },
+ {
+  "id": "gid://shopify/Product/15670209642828",
+  "handle": "gants-harris-tweed-of-scotland",
+  "title_en": "Gloves Harris Tweed wool and leather",
+  "handle_en": "gloves-harris-tweed-wool-and-leather"
+ },
+ {
+  "id": "gid://shopify/Product/15670209741132",
+  "handle": "derby-explorer-ii-low-3",
+  "title_en": "Derby Explorer II low",
+  "handle_en": "derby-explorer-ii-low-2-2"
+ },
+ {
+  "id": "gid://shopify/Product/15670209773900",
+  "handle": "derby-explorer-ii-low-2",
+  "title_en": "Derby Explorer II Low",
+  "handle_en": "explorer-ii-low"
+ },
+ {
+  "id": "gid://shopify/Product/15670209839436",
+  "handle": "mocassin-tilsitt-3",
+  "title_en": "Penny loafer Tilsitt",
+  "handle_en": "penny-loafer-tilsitt-2"
+ },
+ {
+  "id": "gid://shopify/Product/15670210003276",
+  "handle": "mocassin-tilsitt-2",
+  "title_en": "Penny loafer Tilsitt",
+  "handle_en": "penny-loafer-tilsitt-3"
+ },
+ {
+  "id": "gid://shopify/Product/15670210167116",
+  "handle": "sneakers-n610-court",
+  "title_en": "Sneakers n°610 – COURT",
+  "handle_en": "sneakers-n610-court-2"
+ },
+ {
+  "id": "gid://shopify/Product/15670210199884",
+  "handle": "sneakers-n610-court-blanc",
+  "title_en": "Sneakers n°610 – COURT",
+  "handle_en": "sneakers-n610-club-2"
+ },
+ {
+  "id": "gid://shopify/Product/15670210330956",
+  "handle": "mocassin-newport-superleggera-2",
+  "title_en": "Penny loafer Newport Superleggera",
+  "handle_en": "penny-loafer-newport-superleggera-3"
+ },
+ {
+  "id": "gid://shopify/Product/15670210429260",
+  "handle": "mocassin-goodwood-superleggera",
+  "title_en": "Tassel loafer Goodwood Superleggera",
+  "handle_en": "tassel-loafer-goodwood-superleggera"
+ },
+ {
+  "id": "gid://shopify/Product/15670210494796",
+  "handle": "mocassin-villalys-superleggera-2",
+  "title_en": "Loafer Villalys Superleggera",
+  "handle_en": "loafer-villalys-superleggera-2"
+ },
+ {
+  "id": "gid://shopify/Product/15670210691404",
+  "handle": "mocassin-newport-5",
+  "title_en": "Penny loafer Newport",
+  "handle_en": "penny-loafer-newport-5"
+ },
+ {
+  "id": "gid://shopify/Product/15670210724172",
+  "handle": "ceinture-aston-2",
+  "title_en": "Belt « Aston »",
+  "handle_en": "belt-aston"
+ },
+ {
+  "id": "gid://shopify/Product/15670210756940",
+  "handle": "ceinture-aston",
+  "title_en": "Belt « Aston »",
+  "handle_en": "belt-aston-2"
+ },
+ {
+  "id": "gid://shopify/Product/15670210822476",
+  "handle": "ceinture-furka",
+  "title_en": "Belt « FURKA »",
+  "handle_en": "belt-furka"
+ },
+ {
+  "id": "gid://shopify/Product/15670210953548",
+  "handle": "double-boucle-scapin-cooper",
+  "title_en": "Double monk strap Scapin Cooper",
+  "handle_en": "double-monk-strap-scapin-cooper"
+ },
+ {
+  "id": "gid://shopify/Product/15670211019084",
+  "handle": "mocassin-newport-4",
+  "title_en": "Penny loafer Newport",
+  "handle_en": "penny-loafer-newport-4"
+ },
+ {
+  "id": "gid://shopify/Product/15670211084620",
+  "handle": "mocassin-newport-3",
+  "title_en": "Penny loafer Newport",
+  "handle_en": "penny-loafer-newport-3"
+ },
+ {
+  "id": "gid://shopify/Product/15670211281228",
+  "handle": "derby-defender-city-2",
+  "title_en": "Derby Defender City",
+  "handle_en": "derby-defender-city-3"
+ },
+ {
+  "id": "gid://shopify/Product/15670211346764",
+  "handle": "derby-defender-city",
+  "title_en": "Derby Defender City",
+  "handle_en": "derby-defender-2"
+ },
+ {
+  "id": "gid://shopify/Product/15670211379532",
+  "handle": "bottine-berriere-ii-2",
+  "title_en": "Boots Berrière II",
+  "handle_en": "boots-berriere-ii-2"
+ },
+ {
+  "id": "gid://shopify/Product/15670211608908",
+  "handle": "mocassin-newport-2",
+  "title_en": "Penny loafer Newport",
+  "handle_en": "penny-loafer-newport"
+ },
+ {
+  "id": "gid://shopify/Product/15670211641676",
+  "handle": "mocassin-newport",
+  "title_en": "Penny loafer Newport",
+  "handle_en": "penny-loafer-newport-2"
+ },
+ {
+  "id": "gid://shopify/Product/15670211739980",
+  "handle": "collection-femme-bottine-berriere-ii-5",
+  "title_en": "Women’s collection – Boots Berriere II",
+  "handle_en": "pre-order-womens-collection-boots-berriere-ii-5"
+ },
+ {
+  "id": "gid://shopify/Product/15670211772748",
+  "handle": "derby-brogue-master",
+  "title_en": "Derby Brogue-Master",
+  "handle_en": "derby-brogue-master-2"
+ },
+ {
+  "id": "gid://shopify/Product/15670211871052",
+  "handle": "collection-femme-bottine-berriere-ii-4",
+  "title_en": "Women’s collection – Boots Berrière II",
+  "handle_en": "pre-order-womens-collection-boots-berriere-ii-2"
+ },
+ {
+  "id": "gid://shopify/Product/15670211969356",
+  "handle": "collection-femme-bottine-berriere-ii-2",
+  "title_en": "Women’s collection – Boots Berriere II",
+  "handle_en": "pre-order-womens-collection-boots-berriere-ii-4"
+ },
+ {
+  "id": "gid://shopify/Product/15670212002124",
+  "handle": "collection-femme-bottine-berriere-ii-3",
+  "title_en": "Women’s collection – Boots Berriere II",
+  "handle_en": "pre-order-womens-collection-boots-berriere-ii-3"
+ },
+ {
+  "id": "gid://shopify/Product/15670212067660",
+  "handle": "1930-reserve-series-2",
+  "title_en": "“1930” – RESERVE SERIES – For patina",
+  "handle_en": "1930-reserve-series-for-patina"
+ },
+ {
+  "id": "gid://shopify/Product/15670212165964",
+  "handle": "desert-boots-izoard-loft-3",
+  "title_en": "Desert boots Izoard « Loft »",
+  "handle_en": "desert-boots-izoard-loft-4"
+ },
+ {
+  "id": "gid://shopify/Product/15670212231500",
+  "handle": "desert-boots-izoard-loft",
+  "title_en": "Desert boots Izoard « Loft »",
+  "handle_en": "desert-boots-izoard-loft-2"
+ },
+ {
+  "id": "gid://shopify/Product/15670213378380",
+  "handle": "mocassin-villalys-superleggera",
+  "title_en": "Loafer Villalys Superleggera",
+  "handle_en": "loafer-villalys-superleggera"
+ },
+ {
+  "id": "gid://shopify/Product/15670213443916",
+  "handle": "derby-defender",
+  "title_en": "Derby Defender",
+  "handle_en": "derby-defender-2023-version"
+ },
+ {
+  "id": "gid://shopify/Product/15670213869900",
+  "handle": "derby-defender-marron-cafe-forme-333",
+  "title_en": "Derby Defender",
+  "handle_en": "derby-defender-black-last-333"
+ },
+ {
+  "id": "gid://shopify/Product/15670213968204",
+  "handle": "bottines-berriere-ii-graine-noir-forme-333",
+  "title_en": "Boots Berrière II",
+  "handle_en": "boots-berriere-ii-grained-black-last-333"
+ },
+ {
+  "id": "gid://shopify/Product/15670214394188",
+  "handle": "creme-pommadier-saphir-medaille-dor",
+  "title_en": "Crème 1925 Pommadier Cream",
+  "handle_en": "creme-1925-pommadier-cream"
+ },
+ {
+  "id": "gid://shopify/Product/15670214623564",
+  "handle": "creme-saphir-medaille-dor-cuirs-speciaux",
+  "title_en": "Saphir Médaille d’Or Creams for Special Leathers",
+  "handle_en": "special-leathers-shoe-cream"
+ },
+ {
+  "id": "gid://shopify/Product/15670214787404",
+  "handle": "coffret-cirage-saphir-bois-de-rose",
+  "title_en": "The Intendant Valet Box",
+  "handle_en": "the-intendant-valet-box"
+ },
+ {
+  "id": "gid://shopify/Product/15670215180620",
+  "handle": "pack-dentretien-cuir-lisse-cuir-graine",
+  "title_en": "Caring PACK for smooth and grained leather",
+  "handle_en": "caring-pack-for-smooth-and-grained-leather"
+ },
+ {
+  "id": "gid://shopify/Product/15670215213388",
+  "handle": "pack-dentretien-pour-veau-velours",
+  "title_en": "Caring PACK for suede leather",
+  "handle_en": "caring-pack-for-suede-leather"
+ },
+ {
+  "id": "gid://shopify/Product/15670215901516",
+  "handle": "richelieu-lannistair-veau-marron-fonce-forme-361",
+  "title_en": "Oxford « Lannistair »",
+  "handle_en": "oxford-lannistair-brown-last-361"
+ },
+ {
+  "id": "gid://shopify/Product/15670216655180",
+  "handle": "patine",
+  "title_en": "Patina",
+  "handle_en": "patina"
+ },
+ {
+  "id": "gid://shopify/Product/15670217113932",
+  "handle": "porte-carte-en-cuir-noir",
+  "title_en": "Card holder black",
+  "handle_en": "cart-holder-black"
+ },
+ {
+  "id": "gid://shopify/Product/15670217179468",
+  "handle": "porte-carte-cuir-racing-green",
+  "title_en": "Card holder racing green",
+  "handle_en": "cart-holder-racing-green"
+ },
+ {
+  "id": "gid://shopify/Product/15670217769292",
+  "handle": "gants-rascal-cuir-de-cerf-et-kevlar-noir-2",
+  "title_en": "Gloves « Rascal » deerskin and Kevlar®",
+  "handle_en": "yellow-rascal-deerskin-and-kevlar-gloves"
+ },
+ {
+  "id": "gid://shopify/Product/15670218785100",
+  "handle": "gants-rascal-cuir-de-cerf-et-kevlar-noir",
+  "title_en": "Gloves « Rascal » deerskin and Kevlar®",
+  "handle_en": "black-rascal-deerskin-and-kevlar-gloves-2"
+ },
+ {
+  "id": "gid://shopify/Product/15670218948940",
+  "handle": "chaussettes-en-fil-decosse-gris",
+  "title_en": "Mercerised cotton socks in grey",
+  "handle_en": "mercerised-cotton-socks-black"
+ },
+ {
+  "id": "gid://shopify/Product/15670218981708",
+  "handle": "chaussettes-en-fil-decosse-marine",
+  "title_en": "Mercerised cotton socks in blue",
+  "handle_en": "mercerised-cotton-socks-blue"
+ },
+ {
+  "id": "gid://shopify/Product/15670219047244",
+  "handle": "chaussettes-en-fil-decosse-noires",
+  "title_en": "Mercerised cotton socks in black",
+  "handle_en": "mercerised-cotton-sock-black"
+ },
+ {
+  "id": "gid://shopify/Product/15670219243852",
+  "handle": "new-richelieu-lannistair-version-cooper-veau-velours-marron-fonce-forme-333",
+  "title_en": "Oxford Lannistair Cooper",
+  "handle_en": "oxford-lannistair-dark-brown-suede-last-533"
+ },
+ {
+  "id": "gid://shopify/Product/15670219276620",
+  "handle": "bottines-stelvio-veau-graine-marron-fonce-forme-361",
+  "title_en": "Boots Stelvio",
+  "handle_en": "boots-stelvio-dark-brown-grained-calf-last-361"
+ },
+ {
+  "id": "gid://shopify/Product/15670219309388",
+  "handle": "bottines-berriere-marron-chocolat-forme-369",
+  "title_en": "Boots Berrière",
+  "handle_en": "boots-berriere-dark-brown-last-369"
+ },
+ {
+  "id": "gid://shopify/Product/15670219342156",
+  "handle": "bottines-berriere-veau-noir-forme-369",
+  "title_en": "Boots Berrière",
+  "handle_en": "boots-berriere-black-last-361"
+ },
+ {
+  "id": "gid://shopify/Product/15670219505996",
+  "handle": "new-double-boucle-scapin-version-cooper-graine-marron-fonce-et-semelle-gomme-forme-333",
+  "title_en": "Double monk strap Scapin Cooper",
+  "handle_en": "double-monk-strap-scapin-cooper-version-dark-brown-calf-last-333"
+ },
+ {
+  "id": "gid://shopify/Product/15670219538764",
+  "handle": "new-double-boucle-scapin-version-cooper-graine-noir-et-semelle-gomme-forme-333",
+  "title_en": "Double monk strap Scapin Cooper",
+  "handle_en": "double-monk-strap-scapin-cooper-version-black-calf-last-333"
+ },
+ {
+  "id": "gid://shopify/Product/15670219571532",
+  "handle": "new-mocassin-newport-veau-marron-forme-275",
+  "title_en": "Penny loafer Newport",
+  "handle_en": "penny-loafer-newport-brown-box-calf-last-275"
+ },
+ {
+  "id": "gid://shopify/Product/15670219669836",
+  "handle": "new-mocassin-newport-veau-noir-forme-275",
+  "title_en": "Penny loafer Newport",
+  "handle_en": "penny-loafer-newport-black-box-calf-last-275"
+ },
+ {
+  "id": "gid://shopify/Product/15670219735372",
+  "handle": "mocassin-a-pampilles-goodwood-velours-marron-forme-275-2",
+  "title_en": "Tassel loafer Goodwood",
+  "handle_en": "goodwood-brown-velvet-tassel-loafer-last-275"
+ },
+ {
+  "id": "gid://shopify/Product/15670219800908",
+  "handle": "new-mocassin-newport-en-cuir-graine-forme-275",
+  "title_en": "Penny loafer Newport",
+  "handle_en": "penny-loafer-newport-grained-calf-last-275"
+ },
+ {
+  "id": "gid://shopify/Product/15670219899212",
+  "handle": "derby-defender-cousu-norvegien-en-cuir-graine-forme-333",
+  "title_en": "Derby Defender",
+  "handle_en": "derby-defender-norwegian-welt-dark-brown-grained-calf-last-333"
+ },
+ {
+  "id": "gid://shopify/Product/15670219964748",
+  "handle": "pose-de-vibram-et-fer-triumph-laiton",
+  "title_en": "Classical shoe sole Vibram and brass toe cap",
+  "handle_en": "classical-shoe-sole-vibram-and-brass-toe-cap"
+ },
+ {
+  "id": "gid://shopify/Product/15670220063052",
+  "handle": "new-richelieu-astoria-graine-marron-forme-361",
+  "title_en": "Oxford Astoria",
+  "handle_en": "richelieu-astoria-black-grained-calf-form-361-copy"
+ },
+ {
+  "id": "gid://shopify/Product/15670220161356",
+  "handle": "double-boucle-scapin-bordeaux-forme-361",
+  "title_en": "Double monk strap Scapin",
+  "handle_en": "double-clasp-scapin-burgundy-form-361"
+ },
+ {
+  "id": "gid://shopify/Product/15670220226892",
+  "handle": "embauchoirs-bottier",
+  "title_en": "Shoe trees « made to our lasts »",
+  "handle_en": "shoetrees-shoemaker"
+ },
+ {
+  "id": "gid://shopify/Product/15670220259660",
+  "handle": "richelieu-astoria-graine-noir-forme-361",
+  "title_en": "Oxford Astoria",
+  "handle_en": "richelieu-astoria-black-grained-calf-form-361"
+ },
+ {
+  "id": "gid://shopify/Product/15670220423500",
+  "handle": "glacage",
+  "title_en": "Glazing",
+  "handle_en": "shoes-shine"
+ },
+ {
+  "id": "gid://shopify/Product/15670220489036",
+  "handle": "pose-de-semelle-commando-vibram",
+  "title_en": "Vibram Commando Sole fitting",
+  "handle_en": "installation-of-vibram-commando-sole"
+ },
+ {
+  "id": "gid://shopify/Product/15670220554572",
+  "handle": "richelieu-one-cut-mareuil-box-noir-forme-533",
+  "title_en": "Oxford Mareuil",
+  "handle_en": "richelieu-one-cut-mareuil-box-leather-black-form-533"
+ },
+ {
+  "id": "gid://shopify/Product/15670220652876",
+  "handle": "richelieu-bristol-marron-cafe-forme-361",
+  "title_en": "Oxford Bristol",
+  "handle_en": "richelieu-bristol-coffee-brown-form-361"
+ },
+ {
+  "id": "gid://shopify/Product/15670220751180",
+  "handle": "richelieu-bristol-box-noir-forme-361",
+  "title_en": "Oxford Bristol",
+  "handle_en": "richelieu-bristol-box-leather-black-form-361"
+ },
+ {
+  "id": "gid://shopify/Product/15670220783948",
+  "handle": "richelieu-lannistair-box-noir-forme-361",
+  "title_en": "Oxford Lannistair",
+  "handle_en": "richelieu-lannistair-box-leather-black-form-361"
+ },
+ {
+  "id": "gid://shopify/Product/15670220882252",
+  "handle": "richelieu-lannistair-a-patiner-forme-361",
+  "title_en": "Oxford Lannistair",
+  "handle_en": "richelieu-lannistair-for-patina-form-361"
+ },
+ {
+  "id": "gid://shopify/Product/15670220947788",
+  "handle": "richelieu-one-cut-mareuil-marron-cafe-forme-533",
+  "title_en": "Oxford Mareuil",
+  "handle_en": "richelieu-one-cut-mareuil-coffee-brown-form-533"
+ },
+ {
+  "id": "gid://shopify/Product/15670221144396",
+  "handle": "richelieu-mareuil-a-patiner-forme-533",
+  "title_en": "Oxford Mareuil",
+  "handle_en": "richelieu-mareuil-for-patina-form-533"
+ },
+ {
+  "id": "gid://shopify/Product/15670221406540",
+  "handle": "bottine-berriere-a-patiner-forme-369",
+  "title_en": "Boots Berrière",
+  "handle_en": "berriere-boots-for-patina-form-369"
+ },
+ {
+  "id": "gid://shopify/Product/15670222586188",
+  "handle": "lotion",
+  "title_en": "Leather lotion",
+  "handle_en": "leather-lotion"
+ },
+ {
+  "id": "gid://shopify/Product/15670222651724",
+  "handle": "cirage",
+  "title_en": "Shoe polish",
+  "handle_en": "polish"
+ },
+ {
+  "id": "gid://shopify/Product/15670222717260",
+  "handle": "brosse-a-veau-velours",
+  "title_en": "Suede leather brush",
+  "handle_en": "velvet-calf-brush"
+ },
+ {
+  "id": "gid://shopify/Product/15670222782796",
+  "handle": "brosse-en-crin-de-cheval",
+  "title_en": "Horsehair brush",
+  "handle_en": "horsehair-brush"
+ },
+ {
+  "id": "gid://shopify/Product/15670222815564",
+  "handle": "embauchoirs-classiques",
+  "title_en": "Traditional shoe trees",
+  "handle_en": "shoe-trees"
+ },
+ {
+  "id": "gid://shopify/Product/15670222848332",
+  "handle": "double-boucle-scapin-marron-cafe",
+  "title_en": "Double monk strap Scapin",
+  "handle_en": "scapin-double-clasp-coffee-brown-form-361"
+ },
+ {
+  "id": "gid://shopify/Product/15670222913868",
+  "handle": "double-boucle-scapin-a-patiner-forme-361",
+  "title_en": "Double monk strap Scapin",
+  "handle_en": "double-clasp-scapin-for-patina-form-361"
+ },
+ {
+  "id": "gid://shopify/Product/15670223012172",
+  "handle": "double-boucle-scapin-box-noir-forme-361",
+  "title_en": "Double monk strap Scapin",
+  "handle_en": "double-clasp-scapin-box-black-form-361"
+ },
+ {
+  "id": "gid://shopify/Product/15670223372620",
+  "handle": "pose-de-patins-et-fers-classique",
+  "title_en": "Traditional shoe sole and iron toe plate",
+  "handle_en": "classical-shoe-sole-and-iron"
+ },
+ {
+  "id": "gid://shopify/Product/15670223405388",
+  "handle": "pose-de-patin-et-fer-facon-bottier-joker",
+  "title_en": "Shoe sole and iron cap plate & handmade « joker » finish",
+  "handle_en": "joker-shoe-sole-and-irons"
+ },
+ {
+  "id": "gid://shopify/Product/15670223470924",
+  "handle": "mocassin-a-pampilles-goodwood-a-patiner-forme-275",
+  "title_en": "Tassel loafer Goodwood",
+  "handle_en": "goodwood-tassel-loafer-with-patina-shape-275"
+ },
+ {
+  "id": "gid://shopify/Product/15670223503692",
+  "handle": "mocassin-a-pampilles-goodwood-noir-forme-275",
+  "title_en": "Tassel loafer Goodwood",
+  "handle_en": "goodwood-black-tassel-loafer-form-275"
+ },
+ {
+  "id": "gid://shopify/Product/15670223634764",
+  "handle": "mocassin-a-pampilles-goodwood-marron-chocolat-forme-275",
+  "title_en": "Tassel loafer Goodwood",
+  "handle_en": "chocolate-brown-goodwood-tassel-loafer-form-275"
+ },
+ {
+  "id": "gid://shopify/Product/15670223700300",
+  "handle": "ceinture-cuir-marron-cafe-2",
+  "title_en": "Belt « Junot »",
+  "handle_en": "coffee-brown-leather-belt"
+ },
+ {
+  "id": "gid://shopify/Product/15670223765836",
+  "handle": "ceinture-cuir-noir-2",
+  "title_en": "Belt « Junot »",
+  "handle_en": "black-leather-belt"
+ },
+ {
+  "id": "gid://shopify/Product/15670223798604",
+  "handle": "ceinture-cuir-a-patiner",
+  "title_en": "Leather belt & our handmade patina",
+  "handle_en": "leather-belt-for-patina"
+ },
+ {
+  "id": "gid://shopify/Product/15727714500940",
+  "handle": "bottine-berriere-ii-3",
+  "title_en": "Boots Berrière II",
+  "handle_en": "boots-berriere-ii-3"
+ },
+ {
+  "id": "gid://shopify/Product/15727714533708",
+  "handle": "bottine-berriere",
+  "title_en": "Boots Berrière",
+  "handle_en": "boots-berriere"
+ },
+ {
+  "id": "gid://shopify/Product/15727714566476",
+  "handle": "bottine-explorer-ii-3",
+  "title_en": "Boots Explorer II",
+  "handle_en": "boots-explorer-ii-2"
+ },
+ {
+  "id": "gid://shopify/Product/15727714599244",
+  "handle": "bottine-brogue-master-boot",
+  "title_en": "Boots Brogue-Master",
+  "handle_en": "boots-brogue-master"
+ },
+ {
+  "id": "gid://shopify/Product/15727715057996",
+  "handle": "bottine-explorer-ii-2",
+  "title_en": "Boots Explorer II",
+  "handle_en": "boots-explorer-ii"
+ },
+ {
+  "id": "gid://shopify/Product/15727715123532",
+  "handle": "desert-boots-izoard-loft-5",
+  "title_en": "Desert boots Izoard « Loft »",
+  "handle_en": "desert-boots-izoard-loft-6"
+ },
+ {
+  "id": "gid://shopify/Product/15727715156300",
+  "handle": "derby-brogue-master-3",
+  "title_en": "Derby Brogue-Master",
+  "handle_en": "derby-brogue-master-4"
+ },
+ {
+  "id": "gid://shopify/Product/15727715615052",
+  "handle": "derby-defender-noir-forme-333",
+  "title_en": "Derby Defender",
+  "handle_en": "derby-defender-blacklast-333"
+ },
+ {
+  "id": "gid://shopify/Product/15727715647820",
+  "handle": "derby-explorer-ii-low",
+  "title_en": "Derby Explorer II Low",
+  "handle_en": "boots-explorer-ii-low"
+ },
+ {
+  "id": "gid://shopify/Product/15727715713356",
+  "handle": "mocassin-passy-ultra-light",
+  "title_en": "Horsebit loafer Passy Ultra Light",
+  "handle_en": "passy-ultra-light-2"
+ },
+ {
+  "id": "gid://shopify/Product/15727715746124",
+  "handle": "mocassin-passy-mk2-2",
+  "title_en": "Horsebit loafer Passy Ultra Light",
+  "handle_en": "passy-ultra-light"
+ },
+ {
+  "id": "gid://shopify/Product/15727716270412",
+  "handle": "tilsitt-chocolat",
+  "title_en": "Penny loafer Tilsitt",
+  "handle_en": "tilsitt-chocolate"
+ },
+ {
+  "id": "gid://shopify/Product/15727716335948",
+  "handle": "mocassin-tilsitt",
+  "title_en": "Penny loafer Tilsitt",
+  "handle_en": "penny-loafer-tilsitt"
+ },
+ {
+  "id": "gid://shopify/Product/15727716663628",
+  "handle": "mocassin-vauban-ultra-light-vibram-2",
+  "title_en": "Penny loafer Vauban Ultra Light Vibram",
+  "handle_en": "penny-loafer-vauban-ultra-light-vibram"
+ },
+ {
+  "id": "gid://shopify/Product/15727716729164",
+  "handle": "mocassin-vauban-4",
+  "title_en": "Loafer Vauban",
+  "handle_en": "loafer-vauban-3"
+ },
+ {
+  "id": "gid://shopify/Product/15727716761932",
+  "handle": "mocassin-vauban-3",
+  "title_en": "Loafer Vauban",
+  "handle_en": "loafer-vauban-3-2"
+ },
+ {
+  "id": "gid://shopify/Product/15727716893004",
+  "handle": "mocassin-villalys-superleggera-3",
+  "title_en": "Loafer Villalys Superleggera",
+  "handle_en": "loafer-villalys-superleggera-3"
+ },
+ {
+  "id": "gid://shopify/Product/15727717187916",
+  "handle": "mocassin-villalys-superleggera-velours-chocolat-forme-275",
+  "title_en": "Loafer Villalys Superleggera",
+  "handle_en": "penny-loafer-villalys-superleggera-chocolate-last-275"
+ },
+ {
+  "id": "gid://shopify/Product/15727717253452",
+  "handle": "mocassin-a-picots-driver-3",
+  "title_en": "Driver loafer",
+  "handle_en": "driver-loafer"
+ },
+ {
+  "id": "gid://shopify/Product/15727717417292",
+  "handle": "mocassin-a-picots-driver-2",
+  "title_en": "Driver loafer",
+  "handle_en": "driver-loafer-3"
+ },
+ {
+  "id": "gid://shopify/Product/15727717613900",
+  "handle": "mocassin-a-picots-driver",
+  "title_en": "Driver loafer",
+  "handle_en": "driver-loafer-2"
+ },
+ {
+  "id": "gid://shopify/Product/15727717646668",
+  "handle": "richelieu-bristol-a-patiner-patiner-forme-361",
+  "title_en": "Oxford Bristol",
+  "handle_en": "oxford-bristol"
+ },
+ {
+  "id": "gid://shopify/Product/15727717712204",
+  "handle": "richelieu-lannistair-cooper-noir",
+  "title_en": "Oxford Lannistair Cooper",
+  "handle_en": "oxford-lannistair-cooper-black"
+ },
+ {
+  "id": "gid://shopify/Product/15727717744972",
+  "handle": "richelieu-rosewood-ii",
+  "title_en": "Oxford Rosewood II",
+  "handle_en": "rosewood-ii"
+ },
+ {
+  "id": "gid://shopify/Product/15727718105420",
+  "handle": "1930-reserve-series",
+  "title_en": "“1930” – RESERVE SERIES",
+  "handle_en": "1930-reserve-series-3"
+ },
+ {
+  "id": "gid://shopify/Product/16187655553356",
+  "handle": "bottine-explorer-ii-graine-noir",
+  "title_en": "Boots Explorer II",
+  "handle_en": "boots-explorer-ii-black-grained-leather"
+ },
+ {
+  "id": "gid://shopify/Product/16187655586124",
+  "handle": "bottine-explorer-ii-graine-chocolat",
+  "title_en": "Boots Explorer II",
+  "handle_en": "boots-explorer-ii-chocolate-grained-leather"
+ },
+ {
+  "id": "gid://shopify/Product/16187655618892",
+  "handle": "bottine-explorer-ii-4",
+  "title_en": "Boots Explorer II",
+  "handle_en": "boots-explorer-ii-oliva"
+ },
+ {
+  "id": "gid://shopify/Product/16187655651660",
+  "handle": "derby-explorer-ii-low-oliva",
+  "title_en": "Derby Explorer II Low",
+  "handle_en": "derby-explorer-ii-oliva"
+ },
+ {
+  "id": "gid://shopify/Product/16187655782732",
+  "handle": "derby-explorer-ii-low-graine-chocolat",
+  "title_en": "Derby Explorer II Low",
+  "handle_en": "derby-explorer-ii-low-chocolate-grained-leather"
+ },
+ {
+  "id": "gid://shopify/Product/16187655815500",
+  "handle": "derby-explorer-ii-low-4",
+  "title_en": "Derby Explorer II Low",
+  "handle_en": "derby-explorer-ii-low-5"
+ },
+ {
+  "id": "gid://shopify/Product/16187655848268",
+  "handle": "derby-brogue-master-marron-chocolat",
+  "title_en": "Derby Brogue-Master",
+  "handle_en": "derby-brogue-master-chocolate-brown"
+ },
+ {
+  "id": "gid://shopify/Product/16187655881036",
+  "handle": "derby-brogue-master-noir",
+  "title_en": "Derby Brogue-Master",
+  "handle_en": "derby-brogue-master-black"
+ },
+ {
+  "id": "gid://shopify/Product/16187656044876",
+  "handle": "bottine-defender-highland-cuir-gras-noir",
+  "title_en": "Boots Defender Highland",
+  "handle_en": "boots-defender-highland-black-waxed-leather"
+ },
+ {
+  "id": "gid://shopify/Product/16187656077644",
+  "handle": "bottine-berriere-ii-cuir-gras-sauge",
+  "title_en": "Boots Berrière II",
+  "handle_en": "boots-berriere-ii-sage-waxed-leather"
+ },
+ {
+  "id": "gid://shopify/Product/16187656110412",
+  "handle": "bottine-berriere-ii-marron-chocolat",
+  "title_en": "Boots Berrière II",
+  "handle_en": "boots-berriere-ii-chcolate-brown"
+ },
+ {
+  "id": "gid://shopify/Product/16187656143180",
+  "handle": "bottine-berriere-ii-noir",
+  "title_en": "Boots Berrière II",
+  "handle_en": "boots-berriere-ii-black"
+ },
+ {
+  "id": "gid://shopify/Product/16187656208716",
+  "handle": "goodwood-graine-noir-semelle-gomme",
+  "title_en": "Loafer Goodwood",
+  "handle_en": "loafer-goodwood-black-grained-leather-rubber-sole"
+ },
+ {
+  "id": "gid://shopify/Product/16187656307020",
+  "handle": "goodwood-graine-chocolat-semelle-gomme",
+  "title_en": "Loafer Goodwood",
+  "handle_en": "loafer-goodwood-chocolate-grained-leather-rubber-sole"
+ },
+ {
+  "id": "gid://shopify/Product/16187656372556",
+  "handle": "cabas-le-m",
+  "title_en": "Carrier Bag « the M »",
+  "handle_en": "carrier-bag-the-m"
+ },
+ {
+  "id": "gid://shopify/Product/16187656536396",
+  "handle": "defender-selvedge-reserve-series-x-cesure",
+  "title_en": "« Defender selvedge » – Reserve series X Césure",
+  "handle_en": "defender-selvedge-reserve-series-x-cesure-2"
+ },
+ {
+  "id": "gid://shopify/Product/16187656569164",
+  "handle": "coffret-groom-saphir",
+  "title_en": "The Groom Box Saphir",
+  "handle_en": "the-groom-box-saphir"
+ },
+ {
+  "id": "gid://shopify/Product/16187656601932",
+  "handle": "bottine-brogue-master-boot-2",
+  "title_en": "Boots Brogue-Master",
+  "handle_en": "boots-brogue-master-2"
+ },
+ {
+  "id": "gid://shopify/Product/16187656765772",
+  "handle": "gants-harris-tweed-of-scotland-3",
+  "title_en": "Gloves Harris Tweed wool and leather",
+  "handle_en": "gloves-harris-tweed-wool-and-leather-3"
+ },
+ {
+  "id": "gid://shopify/Product/16187657060684",
+  "handle": "mocassin-newport-superleggera",
+  "title_en": "Penny loafer Newport Superleggera",
+  "handle_en": "penny-loafer-newport-superleggera-2"
+ },
+ {
+  "id": "gid://shopify/Product/16187657257292",
+  "handle": "jacques-reserve-series-a-patiner",
+  "title_en": "JACQUES – RESERVE SERIES",
+  "handle_en": "jacques-reserve-series-for-patina"
+ },
+ {
+  "id": "gid://shopify/Product/16187657355596",
+  "handle": "collection-femme-bottine-berriere-ii",
+  "title_en": "Women’s collection – Boots Berrière II",
+  "handle_en": "pre-order-womens-collection-boots-berriere-ii"
+ },
+ {
+  "id": "gid://shopify/Product/16187658240332",
+  "handle": "impermeabilisant-veau-velours-saphir",
+  "title_en": "Suede protector spray",
+  "handle_en": "suede-protector-spray"
+ },
+ {
+  "id": "gid://shopify/Product/16187658699084",
+  "handle": "patin-seul",
+  "title_en": "Traditional shoe sole",
+  "handle_en": "traditional-shoe-sole"
+ },
+ {
+  "id": "gid://shopify/Product/16187659157836",
+  "handle": "porte-carte-cuir-bleu-marine",
+  "title_en": "Card holder navy blue",
+  "handle_en": "cart-holder-navy-blue"
+ }
+]

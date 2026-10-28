@@ -264,6 +264,9 @@ Arnaud), créé dans Shopify par l'API : 1 079 redirections, 1 085 au total avec
 - Anglais : chaque adresse /en/ existe deux fois, avec et sans le préfixe /en/, pour couvrir
   la façon dont Shopify résout le préfixe de langue (non testable tant que la boutique est sous
   mot de passe). Cibles anglaises en /en/… avec les handles traduits des collections et pages.
+- 28/10 : les 150 fiches produit anglaises pointent dans le CSV vers `/en/products/<slug de l'ancien
+  site>`, handle anglais à enregistrer dans Shopify avec les titres anglais WooCommerce, puis
+  redirections à repointer : `docs/reprise-upsell-404.md` (parties B et C), `scripts/anglais/lots.py`.
 
 À tester le jour de la mise en ligne, une fois le domaine malfroid.com branché : une dizaine
 d'anciennes adresses FR et EN (fiche produit, catégorie, page, article), via un navigateur

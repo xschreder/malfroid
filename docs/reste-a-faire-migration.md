@@ -13,7 +13,7 @@ Règles pour le connecteur :
 
 | # | Action | Comment | Sheet |
 |---|---|---|---|
-| 1.1 | Envoyer l'upsell du tiroir panier et la page 404 sur la copie 1.1 | connecteur, pas à pas dans `docs/reprise-upsell-404.md` | Site 35 |
+| 1.1 | Envoyer l'upsell du tiroir panier et la page 404 sur la copie 1.1, puis les titres et handles anglais des produits et les redirections anglaises | connecteur, pas à pas dans `docs/reprise-upsell-404.md` (parties A, B, C) | Site 35, 38, Technique 1 |
 | 1.2 | Trancher la table des pointures du thème : UK 5 = EU 38,5 (thème) ou 39,5 (guide Malfroid) | décision Malfroid, puis corriger `assets/size-conversions.json` sur la copie | NF3 |
 | 1.3 | Page « Se connecter » aux couleurs Malfroid | encore à faire sur la copie | Site 3 |
 | 1.4 | Aperçu de la copie 1.1 sur mobile et ordinateur, en FR et en /en/ | vérifier en-tête des fiches produit (4), infobulle coloris (19), textes anglais traduits (23), onglet Fit (47), titre des tailles en EN (50), boutons de la page panier (51), vidéo mobile (2), upsell (35) | Technique 24 |
