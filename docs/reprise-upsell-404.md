@@ -1,5 +1,17 @@
 # Reprise depuis le connecteur Malfroid (état au 28/10)
 
+## Fait le 28/10 (fin d'après-midi)
+
+- **A** : 8 fichiers envoyés sur la copie 1.1 (checksums identiques au tableau ci-dessous), textes
+  anglais de la 404 enregistrés. Le panier de la copie avait été réenregistré le 27/10 à 22:03
+  sans changement de contenu : rien d'écrasé. Bloc vidéo corrigé (`display: contents`).
+- **B** : 150 handles anglais et 85 titres anglais enregistrés. **Les 65 titres corrigés à la main
+  le 22/10 ne sont pas touchés**, en attente de décision (colonne `titre_en_avant` du TSV). Trois
+  titres FR avaient changé depuis le 23/10 (Jacques, imperméabilisant, porte-carte bleu marine) :
+  titres anglais enregistrés sur le nouveau texte FR, « JACQUES – RESERVE SERIES – For patina » complété.
+- **C** : les 150 redirections `/en/products/<handle FR>` repointées vers le handle anglais ;
+  il n'en reste aucune vers un handle FR. CSV à envoyer à Arnaud.
+
 Trois envois restent à faire dans Shopify. Notre connecteur ne répond plus depuis le 27/10 après-midi. Tout est prêt dans ce dépôt :
 
 - **A.** Upsell du tiroir panier et page 404 sur la copie de thème 1.1.
