@@ -1,5 +1,11 @@
 # Pages à nettoyer avant lancement (Site n° 49) — proposition du 26/10
 
+**Fait le 28/10** (accord de Xavier) : lien CGV du menu « Nous » remplacé par la politique Shopify
+(`/policies/terms-of-sale`, la page CGV ; `terms-of-service` correspond aux conditions
+d'utilisation), 10 pages dépubliées (la 11e était déjà en brouillon), 11 redirections créées, titre
+« Nos boutiques » corrigé. Les 3 anciennes adresses CGV de WordPress pointent aussi vers
+`/policies/terms-of-sale`. « Suivi de commande » pointe toujours vers Contact.
+
 Aucune de ces pages n'est dans un menu, sauf l'ancienne page CGV (menu de pied de page « Nous »).
 Proposition : dépublier, puis rediriger l'adresse vers la page à jour (les redirections Shopify
 ne s'appliquent qu'aux adresses qui ne répondent plus).

@@ -33,7 +33,7 @@ Redirect from,Redirect to,Type,Note
 /boucles,/collections/boucles,page,
 /tarifs-cordonnerie,/collections/cordonnerie,page,
 /en/oxfords,/en/collections/oxfords,page,
-/conditions-generales-de-vente,/policies/terms-of-service,page,
+/conditions-generales-de-vente,/policies/terms-of-sale,page,
 /en/sneakers-4,/en/collections/sneakers,page,
 /sneakers-3,/collections/sneakers,page,
 /guide-dentretien-de-vos-souliers,/pages/guide-dentretien-de-vos-souliers,page,
@@ -47,7 +47,7 @@ Redirect from,Redirect to,Type,Note
 /en/monk-straps,/en/collections/monk-straps,page,
 /travaillons-ensemble,/pages/travaillons-ensemble,page,
 /en/size-guide-4,/en/pages/guide-de-pointures,page,
-/en/terms-of-sale,/en/policies/terms-of-service,page,
+/en/terms-of-sale,/en/policies/terms-of-sale,page,
 /collection-femme,/collections/malfroid-femme,page,
 /sneakers-2,/collections/sneakers,page,
 /en/richelieu-2,/en/collections/oxfords,page,
@@ -807,7 +807,7 @@ Redirect from,Redirect to,Type,Note
 /my-account,/account,page,variante sans /en
 /monk-straps,/collections/monk-straps,page,variante sans /en
 /size-guide-4,/pages/guide-de-pointures,page,variante sans /en
-/terms-of-sale,/policies/terms-of-service,page,variante sans /en
+/terms-of-sale,/policies/terms-of-sale,page,variante sans /en
 /richelieu-2,/collections/oxfords,page,variante sans /en
 /womens-collection,/collections/malfroid-women,page,variante sans /en
 /care-for-your-malfroid-shoes,/pages/guide-dentretien-de-vos-souliers,page,variante sans /en
@@ -1080,3 +1080,14 @@ Redirect from,Redirect to,Type,Note
 /shop/shoe-care/leather-care/lace-dark-brown-medaille-dor,/collections/leather-care,produit retire,vers collection ; variante sans /en
 /shop/shoe-care/leather-care/lace-tan-brown-medaille-dor,/collections/leather-care,produit retire,vers collection ; variante sans /en
 /shop/accessories/knives/traditional-laguiole-knife-blue-carbon-fibre-finish,/collections/accessories,produit retire,vers collection ; variante sans /en
+/pages/mens-size-guide,/pages/guide-de-pointures,page Shopify depubliee,28/10
+/pages/size-guide-men-loafers,/pages/guide-de-pointures,page Shopify depubliee,28/10
+/pages/guide-des-tailles-pour-hommes-chaussures-a-lacets,/pages/guide-de-pointures,page Shopify depubliee,28/10
+/pages/guide-des-tailles-pour-hommes-belgians-opera-pumps,/pages/guide-de-pointures,page Shopify depubliee,28/10
+/pages/guide-des-tailles-pour-hommes-chaussures-bateau-camp-mocs,/pages/guide-de-pointures,page Shopify depubliee,28/10
+/pages/mens-size-guide-sneakers,/pages/guide-de-pointures,page Shopify depubliee,28/10
+/pages/guide-des-tailles-pour-hommes-espadrilles,/pages/guide-de-pointures,page Shopify depubliee,28/10
+/pages/mens-size-guide-boots,/pages/guide-de-pointures,page Shopify depubliee,28/10
+/pages/guide-des-tailles-pour-hommes-ceintures,/collections/ceintures,page Shopify depubliee,28/10
+/pages/guide-des-pointures-nouveau,/pages/guide-de-pointures,page Shopify depubliee,28/10
+/pages/conditions-generales-de-vente-et-conditions-generales-d-utilisation,/policies/terms-of-sale,page Shopify depubliee,28/10
