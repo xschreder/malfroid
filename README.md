@@ -287,3 +287,11 @@ le métachamp est vide, l'aperçu reprend l'image de l'article comme avant.
 
 Utilisation : Contenu > Articles de blog > article > Métachamps > Image bannière (aperçu).
 Format conseillé 3:2 ou 16:9, 2000 px de large ; l'aperçu est recadré au centre.
+
+### Disposition des articles (29/10/2026)
+
+`sections/main-blog.liquid` (copie 1.1) : nouveau réglage « Disposition des articles » dans la
+section de liste des articles : « Un article par ligne, image au-dessus » (par défaut, appliqué à
+tous les blogs sans modifier les templates), « Un article par ligne, image à gauche » ou « Grille
+(Horizon) » pour revenir à la grille d'origine. La hauteur de l'image se règle sur le bloc Image de
+la carte article (petite 280 px, moyenne 340 px, grande 400 px).
