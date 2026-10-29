@@ -326,6 +326,5 @@ sont pas dans la STAGING : resynchroniser avant de la publier.
 `assets/size-conversions.json` (sélecteur UK / EU / US des fiches produit, thème STAGING) aligné
 sur le tableau de la page Guide de pointures : UK 5 = 39,5 FR = 6 US … UK 10,5 = 45 FR = 11,5 US
 (l'ancienne table donnait UK 5 = 38,5). Pointures vendues absentes du tableau de la page, complétées
-sur la même échelle, à valider par Malfroid : UK 4,5 = 39 / 5,5 US, UK 6 = 40,5 / 7 US,
-UK 11 = 45,5 / 12 US, UK 11,5 = 46 / 12,5 US. Valeurs affichées avec une virgule. Ligne UK 12
-retirée (aucune variante).
+sur la même échelle, à valider par Malfroid : UK 6 = 40,5 / 7 US, UK 11 = 45,5 / 12 US. Valeurs
+affichées avec une virgule. Lignes UK 4,5, 11,5 et 12 retirées (variantes supprimées par Malfroid).
