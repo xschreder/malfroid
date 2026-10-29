@@ -38,13 +38,14 @@
     column-gap: var(--columns-gap);
   }
 
+  /* Malfroid : image 1/3, titre et aperçu du texte 2/3 (Horizon : 70 % / 30 %) */
   .blog-post-item--horizontal:has(.blog-post-card__image-container) .blog-post-card {
     & > *:first-child {
-      flex-basis: 70%;
+      flex-basis: calc(100% / 3);
     }
 
     & > *:last-child {
-      flex-basis: 30%;
+      flex-basis: calc(200% / 3);
     }
   }
 
