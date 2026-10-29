@@ -309,3 +309,14 @@ Non copiés : 6 SKU avec suffixe d'import (`2430000007392-1`, `-1-1`, `-1-3`, `2
 `2430100004390-1-1`, `2430000003257-1-1` : cabas Austin et Le M, porte-clés Defender, patine,
 Newport Superleggera 9,5, MTO), qui ne sont pas des EAN valides, et les variantes sans SKU
 (pointures 4,5 / 11,5, services, carte cadeau).
+
+## Thèmes après la mise en ligne (29/10/2026)
+
+| Thème | Rôle |
+|---|---|
+| « Malfroid x NFBS - 1.1 (validations 29/10) - LIVE » (`208707944780`) | publié |
+| « Malfroid x NFBS - 1.1 STAGING » (`209208607052`) | copie de travail, identique au LIVE à sa création (vérifié le 29/10 : config, templates, groupes de sections et fichiers modifiés par NF-BS) |
+
+Les modifications de code passent par la STAGING (l'API n'écrit pas sur le thème publié), puis
+publication ou report dans l'éditeur. Les réglages faits entre-temps dans l'éditeur du LIVE ne
+sont pas dans la STAGING : resynchroniser avant de la publier.
