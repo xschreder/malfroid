@@ -49,6 +49,19 @@
     }
   }
 
+  /* Malfroid : description réduite aux 2/3 de la colonne texte pour un paragraphe plus lisible */
+  .blog-post-item--horizontal .blog-post-card__content-text {
+    max-width: calc(200% / 3);
+
+    .blog-post-card[style*='--text-align: center'] & {
+      margin-inline: auto;
+    }
+
+    @media screen and (max-width: 749px) {
+      max-width: none;
+    }
+  }
+
   .blog-post-card__content {
     padding-block-start: 0.4rem;
     display: flex;
