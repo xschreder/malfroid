@@ -271,3 +271,19 @@ Arnaud), créé dans Shopify par l'API : 1 079 redirections, 1 085 au total avec
 À tester le jour de la mise en ligne, une fois le domaine malfroid.com branché : une dizaine
 d'anciennes adresses FR et EN (fiche produit, catégorie, page, article), via un navigateur
 privé ou `curl -I`.
+
+## Blog : image bannière pour l'aperçu des articles (29/10/2026)
+
+Métachamp article `content.image_banniere` (« Image bannière (aperçu) », fichier image, épinglé) :
+image horizontale affichée dans la liste des articles (Les Portraits, Journal, Films) et dans les
+sections « Articles de blog ». L'image de l'article (portrait) reste celle de la page article ; si
+le métachamp est vide, l'aperçu reprend l'image de l'article comme avant.
+
+| Fichier (copie 1.1) | Changement |
+|---|---|
+| `blocks/_blog-post-image.liquid` | image = bannière si renseignée, sinon image de l'article |
+| `blocks/_blog-post-card.liquid` | la carte affiche l'image aussi quand seule la bannière est renseignée |
+| `blocks/_featured-blog-posts-card.liquid` | même logique pour les sections « Articles de blog » |
+
+Utilisation : Contenu > Articles de blog > article > Métachamps > Image bannière (aperçu).
+Format conseillé 3:2 ou 16:9, 2000 px de large ; l'aperçu est recadré au centre.
