@@ -328,3 +328,10 @@ sur le tableau de la page Guide de pointures : UK 5 = 39,5 FR = 6 US … UK 10,5
 (l'ancienne table donnait UK 5 = 38,5). Pointures vendues absentes du tableau de la page, complétées
 sur la même échelle, à valider par Malfroid : UK 6 = 40,5 / 7 US, UK 11 = 45,5 / 12 US. Valeurs
 affichées avec une virgule. Lignes UK 4,5, 11,5 et 12 retirées (variantes supprimées par Malfroid).
+
+## Variantes UK 4,5 et 11,5 supprimées (29/10/2026)
+
+164 variantes (2 par produit sur 82 chaussures, option « Pointure ») supprimées par
+`productVariantsBulkDelete`, toutes sans stock ; aucun produit vidé. Les valeurs 4,5 et 11,5
+disparaissent aussi des options des produits. Contrôle : 1 742 → 1 578 variantes. Liste
+(id, produit, pointure, SKU, stock) : `content/catalogue/variantes-4-5-11-5-supprimees-2026-10-29.csv`.
