@@ -298,3 +298,14 @@ la carte article (petite 280 px, moyenne 340 px, grande 400 px). En disposition 
 l'image occupe 1/3 de la largeur et le texte 2/3 (`blocks/_blog-post-card.liquid`) ; la description
 est limitée aux 2/3 de la colonne texte. `templates/blog.json` : retour à la ligne de la description
 repassé de « aucun » (`nowrap`, une seule ligne qui débordait) à « harmonieux ».
+
+## Codes-barres = SKU (29/10/2026)
+
+Les 1 517 variantes dont le SKU est un EAN-13 valide (préfixe 243, clé de contrôle vérifiée) ont
+reçu ce SKU en code-barres (type EAN), via `productVariantsBulkUpdate`. Relecture complète après
+envoi : 1 517 / 1 517 identiques, aucun autre code-barres modifié.
+
+Non copiés : 6 SKU avec suffixe d'import (`2430000007392-1`, `-1-1`, `-1-3`, `2430000001819-1`,
+`2430100004390-1-1`, `2430000003257-1-1` : cabas Austin et Le M, porte-clés Defender, patine,
+Newport Superleggera 9,5, MTO), qui ne sont pas des EAN valides, et les variantes sans SKU
+(pointures 4,5 / 11,5, services, carte cadeau).
