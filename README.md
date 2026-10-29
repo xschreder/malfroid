@@ -295,4 +295,6 @@ section de liste des articles : « Un article par ligne, image à gauche » (par
 aperçu du texte à droite, appliqué à tous les blogs sans modifier les templates), « Un article par
 ligne, image au-dessus » ou « Grille (Horizon) » pour revenir à la grille d'origine. La hauteur de l'image se règle sur le bloc Image de
 la carte article (petite 280 px, moyenne 340 px, grande 400 px). En disposition « image à gauche »,
-l'image occupe 1/3 de la largeur et le texte 2/3 (`blocks/_blog-post-card.liquid`).
+l'image occupe 1/3 de la largeur et le texte 2/3 (`blocks/_blog-post-card.liquid`) ; la description
+est limitée aux 2/3 de la colonne texte. `templates/blog.json` : retour à la ligne de la description
+repassé de « aucun » (`nowrap`, une seule ligne qui débordait) à « harmonieux ».
