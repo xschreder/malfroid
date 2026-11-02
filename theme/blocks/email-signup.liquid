@@ -122,6 +122,13 @@
           if (new URLSearchParams(window.location.search).get('customer_posted') !== 'true') return;
           var el = document.getElementById('Email-signup__message-success-js-{{ block.id }}');
           if (el) el.hidden = false;
+          // Retire le paramètre de l'adresse une fois la page lue, pour que le message ne revienne pas au rechargement
+          document.addEventListener('DOMContentLoaded', function () {
+            var url = new URL(window.location.href);
+            if (!url.searchParams.has('customer_posted')) return;
+            url.searchParams.delete('customer_posted');
+            window.history.replaceState(null, '', url.pathname + url.search + url.hash);
+          });
         })();
       </script>
     {%- endif -%}
@@ -387,6 +394,11 @@
     display: flex;
     align-items: center;
     gap: var(--gap-xs);
+  }
+
+  /* Malfroid : le message de secours reste masqué tant que le script ne l'affiche pas */
+  .email-signup__message[hidden] {
+    display: none;
   }
 
   .email-signup__message-text {
